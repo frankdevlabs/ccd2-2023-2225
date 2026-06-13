@@ -3,8 +3,8 @@
 > The authority on what CCD2 changes. **Directive adaptation:** the three lanes are **current NL/CCD1 law
 > → CCD2 (the directive) → Dutch implementation (bill 36924 / AMvB)**, so it is clear what the *directive*
 > requires versus how the *Netherlands* implements it. Each provision cell links to its
-> [`provisions/`](provisions/) page; substantive cells will deep-link into the operative extracts once
-> transcribed ([`directive/`](../extracts/directive/), [`transposition-nl/`](../extracts/transposition-nl/)).
+> [`provisions/`](provisions/) page, which deep-links the operative extracts
+> ([`directive/`](../extracts/directive/) — verbatim CCD2; [`transposition-nl/`](../extracts/transposition-nl/) — verbatim bill 36924).
 > Working analysis from the MvT (36924-3) + draft AMvB, supplemented by law-firm briefings (labelled
 > *secondary*) — verify against the Staatsblad text.
 

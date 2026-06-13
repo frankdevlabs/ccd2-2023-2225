@@ -1,8 +1,8 @@
 # Advertising restrictions
 
-> **Directive:** CCD2 art 8. **Dutch implementation:** Wft + four new BGfo prohibitions (via the AMvB).
-> Operative text (when transcribed):
-> [`extracts/transposition-nl/36924_advertising.md`](../../extracts/transposition-nl/36924_advertising.md).
+> **Directive:** CCD2 arts 7–8 — [`precontractual-information.md#article-8`](../../extracts/directive/precontractual-information.md#article-8).
+> **Dutch implementation:** four new BGfo prohibitions via the AMvB —
+> [`amvb_implementatiebesluit.md#bgfo-advertising`](../../extracts/transposition-nl/amvb_implementatiebesluit.md#bgfo-advertising).
 
 ## How the Netherlands implements it
 - A ban on **misleading advertising** suggesting a credit improves the consumer's financial situation.

@@ -1,8 +1,8 @@
 # Arrears information & forbearance
 
-> **Directive:** CCD2 arts 35-36. **Dutch implementation:** Wft 4:35b + BW 7:68a (and existing Wft 4:35a /
-> BW 70a/128aa from the NPL-Directive). Operative text (when transcribed):
-> [`extracts/transposition-nl/36924_arrears-forbearance.md`](../../extracts/transposition-nl/36924_arrears-forbearance.md).
+> **Directive:** CCD2 arts 35–36 — [`forbearance-intermediaries-authorities.md#article-35`](../../extracts/directive/forbearance-intermediaries-authorities.md#article-35).
+> **Dutch implementation:** Wft **4:35b** ([`#wft-4-35b`](../../extracts/transposition-nl/36924_artikel-I-wft.md#wft-4-35b))
+> + BW **7:68a** ([`#bw-7-68a`](../../extracts/transposition-nl/36924_artikel-II-bw7.md#bw-7-68a)); plus existing Wft 4:35a / BW 70a/128aa (NPL-Directive).
 
 ## How the Netherlands implements it
 - Consumers must be informed of a **registered payment arrears** (linked to BKR registration).

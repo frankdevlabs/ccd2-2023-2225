@@ -2,13 +2,16 @@
 
 This directory holds the **diffable operative text of Directive (EU) 2023/2225 (CCD2)** — the baseline for
 the tracker. One file per `extract_slices` entry in [`tracker.yaml`](../../tracker.yaml):
-`scope-art2`, `creditworthiness`, `minors-ban`, `advertising`, `precontractual`, `arrears-forbearance`,
-`final-provisions`, `recitals`.
+grouped by the directive's own chapters — `general-provisions`, `precontractual-information`,
+`tying-advisory-unsolicited`, `creditworthiness-database`, `agreement-form-modifications`,
+`overdraft-withdrawal-repayment`, `apr-conduct`, `forbearance-intermediaries-authorities`,
+`final-provisions`, `recitals`, `annexes` (all 50 articles covered).
 
-## Status: stubs — not yet transcribed
-The files currently contain a header + anchors only, flagged `TODO`. The analysis layer (`docs/`,
-`STATUS.md`) is already populated from the research dossier; transcribe the operative text when you need
-verbatim article wording or a `git diff` against the Dutch implementing text.
+## Status: transcribed
+The files contain the **verbatim operative text** of all 50 articles + all recitals + the annexes,
+transcribed from the EUR-Lex English text (CELEX 32023L2225). Re-verify against the authoritative source
+before relying on any provision. A `git diff` against a future consolidated version (or the Dutch
+implementing text) is meaningful because the article/recital anchors are stable.
 
 ## Source & method
 - **Source:** EUR-Lex, CELEX **32023L2225** — text at https://eur-lex.europa.eu/eli/dir/2023/2225/oj/eng

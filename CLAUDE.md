@@ -53,18 +53,19 @@ The repo separates three layers so links stay stable as the file evolves:
 | **Operative-text extracts** | `extracts/` | Diffable plain-text transcriptions of the operative articles, one set per version | versioned |
 | **Analysis** | `docs/` | Human-readable analysis linking *down* into the two layers above | living |
 
-`extracts/directive/` is the **base text** (adopted CCD2 — the diff baseline). `extracts/transposition-nl/`
-holds one file-set **per significant version of the Dutch implementing text** (bill as submitted, after a
-nota van wijziging, as enacted), structured identically so `git diff` between versions is meaningful. The
-slices in each set are listed in [`tracker.yaml`](tracker.yaml) (`extract_slices`): `scope-art2`,
-`creditworthiness`, `minors-ban`, `advertising`, `precontractual`, `arrears-forbearance`,
-`final-provisions`, `recitals`. Directive files use directive article/recital anchors; NL files use
-Wft/BW article anchors.
+`extracts/directive/` is the **base text** (adopted CCD2 — the diff baseline), grouped by the directive's
+own **chapters** (Ch I–XV): all 50 articles + all recitals + the annexes. `extracts/transposition-nl/`
+holds the Dutch implementing text grouped by the bill's own **ARTIKEL** structure (`36924_artikel-I-wft`,
+`-II-bw7`, `-III-whc`, `-IV-overgangswet`, `36924_slotbepalingen`, plus the draft `amvb_implementatiebesluit`).
+A later version of the bill (after a nota van wijziging, or the enacted text) gets its own prefixed set so
+`git diff` between versions is meaningful. The two layers' slice lists differ (directive ≠ Dutch numbering);
+both are listed in [`tracker.yaml`](tracker.yaml) (`extract_slices`). Directive files anchor `article-N` /
+`recital-N`; NL files anchor to Wft/BW provisions (`wft-4-34a`, `bw-7-75-4`, …).
 
-> **Status:** operative-text extracts are **not yet transcribed** — the directories ship with transcription
-> guides and TODO stubs. The analysis layer (`docs/`, `STATUS.md`, `TIMELINE.md`) is populated from the
-> research dossier and the primary sources. Transcribe verbatim from EUR-Lex HTML (directive) and the
-> Kamerstukken text (the bill) when filling the stubs.
+> **Status:** operative-text extracts are **transcribed** — the directive verbatim from the EUR-Lex English
+> text (CELEX 32023L2225) and the Dutch bill verbatim from the official Kamerstukken XML
+> (`kst-36924-2`). The AMvB (`amvb_implementatiebesluit.md`) is a **draft summary** flagged `[DRAFT]` —
+> refresh from the Staatsblad once the Implementatiebesluit is published.
 
 ## Single sources of truth (don't hand-edit downstream copies)
 

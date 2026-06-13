@@ -1,9 +1,13 @@
-# Pre-contractual information, withdrawal, early repayment *(stub)*
+# Pre-contractual information, withdrawal, early repayment
 
-> **Directive:** CCD2 arts 10-21. **Dutch implementation:** across Wft / BW Boek 7. Operative text (when
-> transcribed): [`extracts/transposition-nl/36924_precontractual.md`](../../extracts/transposition-nl/36924_precontractual.md).
+> **Directive:** CCD2 Ch II (arts 7–17) & Ch VIII (withdrawal/early repayment) —
+> [`precontractual-information.md`](../../extracts/directive/precontractual-information.md) ·
+> [`overdraft-withdrawal-repayment.md#article-26`](../../extracts/directive/overdraft-withdrawal-repayment.md#article-26).
+> **Dutch implementation:** across Wft / BW Boek 7 (tying: BW 7:77) —
+> [`36924_artikel-II-bw7.md#bw-7-77`](../../extracts/transposition-nl/36924_artikel-II-bw7.md#bw-7-77).
 >
-> **Stub** — fill from the MvT (36924-3) when transcribing the operative text.
+> The directive operative text is fully transcribed; the per-provision NL detail for this theme is lighter
+> than the headline provisions — expand from the MvT (36924-3) as needed.
 
 ## Headline points (from the dossier)
 - **SECCI-style** pre-contractual information modernised.

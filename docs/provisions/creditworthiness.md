@@ -1,8 +1,11 @@
 # Creditworthiness assessment
 
-> **Directive:** CCD2 art 18. **Dutch implementation:** Wft 4:34 / 4:34a + AMvB (BGfo arts 113-114).
-> Operative text (when transcribed):
-> [`extracts/transposition-nl/36924_creditworthiness.md`](../../extracts/transposition-nl/36924_creditworthiness.md).
+> **Directive:** CCD2 **Art 18** — incl. the binding **Art 18(3)** rule that the assessment "shall not
+> include special categories of data referred to in Article 9(1) of [GDPR]" and that "Social networks shall
+> not be considered as an external source" ([`creditworthiness-database.md#article-18`](../../extracts/directive/creditworthiness-database.md#article-18);
+> reinforced by [Recital 55](../../extracts/directive/recitals.md#recital-55) and Art 19(5) on databases).
+> **Dutch implementation:** Wft 4:34 / **4:34a** ([`#wft-4-34a`](../../extracts/transposition-nl/36924_artikel-I-wft.md#wft-4-34a))
+> + AMvB ([BGfo thresholds](../../extracts/transposition-nl/amvb_implementatiebesluit.md#bgfo-creditworthiness)).
 
 ## What CCD2 requires
 - The assessment must be based on information "necessary and proportionate" to the nature, duration, value

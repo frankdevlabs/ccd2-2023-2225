@@ -1,8 +1,7 @@
 # Scope expansion — BNPL, credit cards, authorised overdrafts
 
-> **Directive:** CCD2 arts 2, 4. **Dutch implementation:** Wft 1:1, 1:20, 2:60/2:80/2:81. Operative text
-> (when transcribed): [`extracts/directive/scope-art2.md`](../../extracts/directive/scope-art2.md) ·
-> [`extracts/transposition-nl/36924_scope-art2.md`](../../extracts/transposition-nl/36924_scope-art2.md).
+> **Directive:** CCD2 arts 2–4 — [`general-provisions.md#article-2`](../../extracts/directive/general-provisions.md#article-2).
+> **Dutch implementation:** Wft 1:1, 1:20, 2:81 — [`36924_artikel-I-wft.md#wft-1-20`](../../extracts/transposition-nl/36924_artikel-I-wft.md#wft-1-20).
 
 ## What CCD2 requires
 - Abolishes the CCD1 **€200 lower limit**; raises the ceiling to **€100,000** (art 2(2)(c)); some

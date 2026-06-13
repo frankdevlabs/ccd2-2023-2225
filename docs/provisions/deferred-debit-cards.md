@@ -1,8 +1,9 @@
 # Deferred-debit cards — 6-month-later application
 
 > **Directive:** CCD2 Member-State option to exempt deferred-debit cards. **Dutch implementation:** new
-> Wft 1:20(4). Operative text (when transcribed):
-> [`extracts/transposition-nl/36924_final-provisions.md`](../../extracts/transposition-nl/36924_final-provisions.md).
+> Wft 1:20(4), achieved via differentiated entry into force —
+> [`36924_slotbepalingen.md#inwerkingtreding`](../../extracts/transposition-nl/36924_slotbepalingen.md#inwerkingtreding)
+> (scope: [`#wft-1-20`](../../extracts/transposition-nl/36924_artikel-I-wft.md#wft-1-20)).
 
 ## What CCD2 allows
 CCD2 permits Member States to **exempt deferred-debit cards** (a Member-State option).

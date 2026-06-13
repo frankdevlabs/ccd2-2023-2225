@@ -8,12 +8,14 @@ text gets one file per `extract_slices` entry, prefixed with the document id:
 - A later version (e.g. after a nota van wijziging, or the enacted Staatsblad text) gets its own prefixed
   set (`stb-<nnnn>_<slice>.md`), structured identically so `git diff` shows what moved.
 
-Slices (from [`tracker.yaml`](../../tracker.yaml)): `scope-art2`, `creditworthiness`, `minors-ban`,
-`advertising`, `precontractual`, `arrears-forbearance`, `final-provisions`, `recitals`.
+Slices (from [`tracker.yaml`](../../tracker.yaml)) follow the bill's own ARTIKEL structure:
+`36924_artikel-I-wft`, `36924_artikel-II-bw7`, `36924_artikel-III-whc`, `36924_artikel-IV-overgangswet`,
+`36924_slotbepalingen`, plus the draft `amvb_implementatiebesluit`.
 
-## Status: stubs — not yet transcribed
-Files contain a header + the Wft/BW anchors referenced from `docs/` (flagged `TODO`). Fill from the
-Kamerstukken when verbatim wording is needed.
+## Status: transcribed
+Files contain the **verbatim Dutch text** of the bill's amending articles (ARTIKEL I–V), transcribed from
+the official Kamerstukken XML (`kst-36924-2`). The AMvB file is a **draft summary** (`[DRAFT]`) — refresh
+from the Staatsblad once the Implementatiebesluit is published.
 
 ## Source & method
 - **Source:** the Kamerstukken text (voorstel van wet 36924-2 + MvT 36924-3), hosted by the Tweede Kamer;

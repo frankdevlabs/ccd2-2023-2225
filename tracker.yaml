@@ -95,15 +95,28 @@ infringement:
 # directive article/recital anchors; extracts/transposition-nl/ files use Wft/BW
 # article anchors. (The directive and the Dutch bill renumber differently, so a
 # shared thematic skeleton keeps the analysis links stable across both.)
+# DIRECTIVE adaptation: the two layers follow each instrument's OWN structure (the directive by its
+# chapters; the Dutch bill by its ARTIKEL structure), so the slice lists differ between layers.
 extract_slices:
-  - scope-art2              # thresholds (€200 floor abolished, €100k ceiling); BNPL/cards/overdraft in scope (Wft 1:1, 1:20)
-  - creditworthiness        # CCD2 art 18 -> Wft 4:34 / 4:34a (social-network + special-category data ban)
-  - minors-ban              # Wft 4:34b / BW 7:75(4) — agreements with minors voidable
-  - advertising             # CCD2 art 8 -> new BGfo advertising prohibitions
-  - precontractual          # SECCI, right of withdrawal, early-repayment cost reduction
-  - arrears-forbearance     # Wft 4:35b / BW 7:68a — early detection + referral to debt advice
-  - final-provisions        # transposition / application / repeal (arts 47-49) + deferred-debit-card 6-month delay (Wft 1:20(4))
+  # extracts/directive/ — grouped by the directive's chapters; ALL 50 articles + all recitals + annexes:
+  - general-provisions                       # Ch I (arts 1-6): subject matter, scope, definitions, non-discrimination (art 6 = minors basis)
+  - precontractual-information               # Ch II (arts 7-13): advertising + pre-contractual SECCI
+  - tying-advisory-unsolicited               # Ch III (arts 14-17)
+  - creditworthiness-database                # Ch IV (arts 18-19): incl. art 18(3) special-categories/social-network ban
+  - agreement-form-modifications             # Ch V-VI
+  - overdraft-withdrawal-repayment           # Ch VII-VIII (incl. withdrawal, early repayment)
+  - apr-conduct                              # Ch IX-X (APR & cost caps; conduct & staff)
+  - forbearance-intermediaries-authorities   # Ch XI-XIV (arts 35-36 forbearance/arrears)
+  - final-provisions                         # Ch XV (repeal art 47, transposition 48, entry into force 49)
   - recitals
+  - annexes
+  # extracts/transposition-nl/ — grouped by the bill's own ARTIKEL structure:
+  - 36924_artikel-I-wft                      # Wft (incl. 4:34a special categories, 4:34b minors, 4:35b arrears)
+  - 36924_artikel-II-bw7                     # BW Boek 7 (incl. 7:75(4) minors voidable, 7:68a referral, 7:77 tying)
+  - 36924_artikel-III-whc                    # Wet handhaving consumentenbescherming
+  - 36924_artikel-IV-overgangswet            # Overgangswet NBW (art 211aa)
+  - 36924_slotbepalingen                     # inwerkingtreding (deferred-debit +6m) + citeertitel
+  - amvb_implementatiebesluit                # AMvB [draft]: BGfo advertising + thresholds, Besluit kredietvergoeding
 
 # OLP actor skeleton — N/A for an adopted directive. STATUS.md uses an EU-instrument
 # block (directive + Commission-as-enforcer) and an NL-transposition block instead.

@@ -14,7 +14,8 @@
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). The EU instrument is final;
 > the live tracking is the **Dutch transposition** (bill 36924 + the Implementatiebesluit AMvB) and the
 > **EU infringement** step. Substance is sourced from [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md);
-> operative-text extracts in [`extracts/`](extracts/) are not yet transcribed — verify before relying on it.
+> operative text is transcribed verbatim in [`extracts/`](extracts/) (CCD2 from EUR-Lex; bill 36924 from the
+> Kamerstukken) — working transcriptions, verify against the authoritative source before relying on them.
 
 ## One-line status
 
