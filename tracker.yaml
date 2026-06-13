@@ -1,0 +1,192 @@
+# ============================================================================
+# tracker.yaml — the SINGLE source of truth for this tracker's file identity.
+#
+# This is the one place that says *which* EU file this repo follows. Everything
+# else (CLAUDE.md, README.md, STATUS.md, the skills' scope checks) reads from
+# here or is filled from here by `python3 bootstrap.py`.
+#
+# DIRECTIVE ADAPTATION (first directive in the family) ------------------------
+# The template ships shaped for a REGULATION in the Ordinary Legislative
+# Procedure (proposal -> Council/Parliament compromise -> adoption). This file
+# is a DIRECTIVE whose EU process is already FINISHED (adopted 18 Oct 2023). The
+# live tracking is (a) national TRANSPOSITION in the Netherlands and (b) EU
+# INFRINGEMENT. So:
+#   * `proposal:` is repurposed to identify the ADOPTED directive (keeps the
+#     bootstrap token-fill working).
+#   * new top-level keys `instrument_type`, `directive:`, `transposition:`,
+#     `infringement:` carry the directive-specific facts (bootstrap ignores
+#     keys it doesn't know).
+#   * `extracts/commission/` -> `extracts/directive/` (the adopted text, the
+#     diff baseline) and `extracts/council/` -> `extracts/transposition-nl/`
+#     (the Dutch implementing text, versioned across bill stages).
+# See CLAUDE.md "Directive adaptation" for the full mapping.
+# ============================================================================
+
+# --- Identity ---------------------------------------------------------------
+file_id: "Directive (EU) 2023/2225 (CCD2)"
+short_name: "Consumer Credit Directive II (CCD2) — NL implementation"
+strand: "Consumer credit: BNPL / credit cards / authorised overdrafts into scope, creditworthiness test recast, ban on credit to minors, advertising rules"
+instrument_type: "Directive"              # NEW — marks this as a directive tracker (vs Regulation)
+
+# proposal: repurposed to identify the ADOPTED directive (drives the bootstrap
+# tokens <PROPOSAL-ID>/<DATE>/<EUR-LEX-URL>/<OEIL-URL>).
+proposal:
+  id: "Directive (EU) 2023/2225"
+  date: "2023-10-18"                       # adopted (Strasbourg)
+  celex: "https://eur-lex.europa.eu/eli/dir/2023/2225/oj"
+  oeil: "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225"   # national transposition (NIM) page
+
+# --- The EU instrument (already adopted) ------------------------------------
+directive:
+  celex: "32023L2225"
+  eli: "https://eur-lex.europa.eu/eli/dir/2023/2225/oj"
+  adopted: "2023-10-18"
+  in_force: "2023-11-19"                   # 20th day after OJ publication (Art 49)
+  oj: "OJ L, 2023/2225, 30 October 2023"
+  transposition_deadline: "2025-11-20"     # Art 48
+  application_date: "2026-11-20"           # Art 48
+  repeals: "Directive 2008/48/EC (CCD1) — with effect from 2026-11-20 (Art 47, transitional regime for existing open-end agreements)"
+  nim_page: "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225"
+
+# Sibling file(s) easy to confuse with this one — must NOT be tracked here.
+# Drives the scope-guard text in CLAUDE.md/README and the skills' scope rule.
+keep_apart:
+  - file_id: "Directive 2008/48/EC (CCD1)"
+    note: "CCD1 — the directive CCD2 repeals from 20 Nov 2026; its (closed) legislative process is not tracked here. Also keep apart: the NPL Implementatiewet kredietservicers en kredietkopers (Directive 2021/2167) and the Wetsvoorstel kredietregistratie (WGK025409) — adjacent NL files, not this one."
+
+legal_bases: ["Article 114 TFEU"]          # largely maximum harmonisation (Art 42 lists Member-State options)
+
+# Existing laws this file interfaces with / amends. For a DIRECTIVE the relevant
+# instruments are the repealed predecessor + the NATIONAL laws the transposition
+# amends. Drives docs/instruments/ pages.
+instruments:
+  - { name: "CCD1 — Consumer Credit Directive", celex: "2008/48/EC" }
+  - { name: "Wet op het financieel toezicht (Wft)", celex: "NL" }
+  - { name: "Burgerlijk Wetboek Boek 7 (BW)", celex: "NL" }
+  - { name: "Wet handhaving consumentenbescherming", celex: "NL" }
+  - { name: "Overgangswet nieuw Burgerlijk Wetboek", celex: "NL" }
+
+# --- The live tracking: national transposition ------------------------------
+transposition:
+  jurisdiction: "Netherlands"
+  wet:
+    dossier: "36924"
+    title: "Implementatiewet herziene richtlijn consumentenkrediet"
+    ministry: "Ministerie van Financiën (min. E. (Eelco) Heinen); co-signed by the Staatssecretaris van Justitie en Veiligheid"
+    tk_url: "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails"
+    ek_url: "https://www.eerstekamer.nl/wetsvoorstel/36924_implementatiewet_herziene"
+    wetgevingskalender: "https://wetgevingskalender.overheid.nl/Regeling/WGK026364"
+    consultation: "2025-04-15 .. 2025-05-13"
+  besluit:
+    title: "Implementatiebesluit herziene richtlijn consumentenkrediet (AMvB — wijziging BGfo, Besluit kredietvergoeding, Besluit bestuurlijke boetes financiële sector)"
+    ketenid: "WGK026387"
+    wetgevingskalender: "https://wetgevingskalender.overheid.nl/Regeling/WGK026387"
+    consultation: "2025-12-22 .. 2026-02-02"
+  supervisor: "AFM (Autoriteit Financiële Markten)"
+
+# --- The live tracking: EU enforcement --------------------------------------
+infringement:
+  status: "Letter of formal notice (January infringements package INF/26/115), 2026-01-30 — non-communication of complete transposition; 2-month response window; possible reasoned opinion thereafter"
+  member_states: 23
+  source: "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115"
+
+# The per-version operative-text file set under extracts/. DIRECTIVE ADAPTATION:
+# these are THEMATIC slices shared by both layers — extracts/directive/ files use
+# directive article/recital anchors; extracts/transposition-nl/ files use Wft/BW
+# article anchors. (The directive and the Dutch bill renumber differently, so a
+# shared thematic skeleton keeps the analysis links stable across both.)
+extract_slices:
+  - scope-art2              # thresholds (€200 floor abolished, €100k ceiling); BNPL/cards/overdraft in scope (Wft 1:1, 1:20)
+  - creditworthiness        # CCD2 art 18 -> Wft 4:34 / 4:34a (social-network + special-category data ban)
+  - minors-ban              # Wft 4:34b / BW 7:75(4) — agreements with minors voidable
+  - advertising             # CCD2 art 8 -> new BGfo advertising prohibitions
+  - precontractual          # SECCI, right of withdrawal, early-repayment cost reduction
+  - arrears-forbearance     # Wft 4:35b / BW 7:68a — early detection + referral to debt advice
+  - final-provisions        # transposition / application / repeal (arts 47-49) + deferred-debit-card 6-month delay (Wft 1:20(4))
+  - recitals
+
+# OLP actor skeleton — N/A for an adopted directive. STATUS.md uses an EU-instrument
+# block (directive + Commission-as-enforcer) and an NL-transposition block instead.
+co_legislators: {}
+advisory_bodies: []          # N/A; NL consultation responders are tracked in docs/stakeholders.md
+
+# ============================================================================
+# Watchlist — the sources the daily tracker monitors. Consumed by
+# .claude/skills/resolve-tracker-issue and mirrored in the cron prompt
+# (~/law-tracker/prompt-ccd2.md) — keep the two in sync.
+#   tier        T1 (institutional) | T2 (stakeholder) | T3 (social)
+#   kind        institutional | stakeholder | social
+#   label       human-readable name (matches the issue body "**Source:**")
+#   url         watched URL
+#   affects     downstream files/dirs to review on a substantive hit
+#   notes       fetch quirks / scope rules
+# ============================================================================
+watchlist:
+  sources:
+    # --- Tier 1: institutional (EU + NL) -----------------------------------
+    T1-01:
+      tier: T1
+      kind: institutional
+      label: "EUR-Lex NIM — national transposition measures (CELEX 32023L2225)"
+      url: "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225"
+      affects: [STATUS.md, TIMELINE.md, docs/infringement.md]
+      notes: "Watches which Member States have communicated transposition. A new NL measure here = transposition (partially) complete."
+    T1-02:
+      tier: T1
+      kind: institutional
+      label: "Tweede Kamer — dossier 36924 (Implementatiewet)"
+      url: "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails"
+      affects: [STATUS.md, TIMELINE.md, docs/transposition/nl-pipeline.md, data/positions.csv]
+      notes: "HIGHEST PRIORITY. Next expected doc: nota naar aanleiding van het verslag (36924-7+), then plenary/vote. Bot-sensitive host — curl with a desktop User-Agent."
+    T1-03:
+      tier: T1
+      kind: institutional
+      label: "Eerste Kamer — dossier 36924"
+      url: "https://www.eerstekamer.nl/wetsvoorstel/36924_implementatiewet_herziene"
+      affects: [STATUS.md, TIMELINE.md, docs/transposition/nl-pipeline.md]
+      notes: "Currently 'in behandeling bij de Tweede Kamer'. Watch for EK referral after a TK vote. Bot-sensitive host."
+    T1-04:
+      tier: T1
+      kind: institutional
+      label: "Wetgevingskalender — wet (WGK026364)"
+      url: "https://wetgevingskalender.overheid.nl/Regeling/WGK026364"
+      affects: [STATUS.md, TIMELINE.md]
+    T1-05:
+      tier: T1
+      kind: institutional
+      label: "Wetgevingskalender — Implementatiebesluit (WGK026387)"
+      url: "https://wetgevingskalender.overheid.nl/Regeling/WGK026387"
+      affects: [docs/transposition/implementatiebesluit.md, TIMELINE.md]
+    T1-06:
+      tier: T1
+      kind: institutional
+      label: "internetconsultatie — Implementatiebesluit"
+      url: "https://www.internetconsultatie.nl/implementatiebesluitrichtlijnconsumentenkrediet/b1"
+      affects: [docs/transposition/implementatiebesluit.md, docs/stakeholders.md]
+    T1-07:
+      tier: T1
+      kind: institutional
+      label: "AFM — CCDII sector page"
+      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii"
+      affects: [docs/transposition/supervision-afm.md, STATUS.md]
+    T1-08:
+      tier: T1
+      kind: institutional
+      label: "EU Commission — infringement press corner (CCD2 / NL)"
+      url: "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115"
+      affects: [docs/infringement.md, STATUS.md, TIMELINE.md]
+      notes: "Watch for escalation: a reasoned opinion or referral to the CJEU following the 30 Jan 2026 letter of formal notice."
+    # --- Tier 2: sector / NGO / law firm -----------------------------------
+    T2-01:
+      tier: T2
+      kind: stakeholder
+      label: "VFN — Vereniging van Financieringsondernemingen in Nederland (CCD II updates)"
+      url: "https://www.vfn.nl/algemeen/update-herziene-richtlijn-consumentenkrediet-ccd-ii/"
+      affects: [docs/stakeholders.md, docs/fault-lines.md]
+    T2-02:
+      tier: T2
+      kind: stakeholder
+      label: "Betaalvereniging Nederland — news"
+      url: "https://www.betaalvereniging.nl/actueel/nieuws/"
+      affects: [docs/stakeholders.md, docs/fault-lines.md]
+      notes: "BvN + NVB filed a joint response on deferred-debit cards in the Implementatiebesluit consultation."

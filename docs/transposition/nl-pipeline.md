@@ -1,0 +1,49 @@
+# Netherlands transposition pipeline — Implementatiewet (Kamerstuk 36924)
+
+> The live status of the Dutch implementing **act**. The accompanying AMvB is tracked separately in
+> [`implementatiebesluit.md`](implementatiebesluit.md); supervision in [`supervision-afm.md`](supervision-afm.md).
+
+## Identification
+
+- **Vehicle:** Implementatiewet herziene richtlijn consumentenkrediet — wijziging van de Wet op het
+  financieel toezicht (Wft), Boek 7 BW, de Wet handhaving consumentenbescherming en de Overgangswet nieuw
+  Burgerlijk Wetboek.
+- **Kamerstuk dossier:** **36924** — [Tweede Kamer](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
+  · [Eerste Kamer](https://www.eerstekamer.nl/wetsvoorstel/36924_implementatiewet_herziene)
+  · [wetgevingskalender WGK026364](https://wetgevingskalender.overheid.nl/Regeling/WGK026364)
+- **Responsible ministry:** Ministerie van Financiën; submitting minister **E. (Eelco) Heinen**;
+  co-signed by the Staatssecretaris van Justitie en Veiligheid.
+- **Entry into force:** by koninklijk besluit, and may differ per article/part (enabling the 6-month-later
+  treatment of deferred-debit cards).
+
+## Status table (parliamentary stages)
+
+| Stage | Date | Status (13 Jun 2026) |
+|---|---|---|
+| Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
+| Ministerraad → Raad van State | 31 Oct 2025 | Completed |
+| Raad van State advice (dictum B, positive) + nader rapport (36924-4) | 2 Apr 2026 | Completed |
+| Voorstel van wet + MvT (36924-1/2/3) | 1 Apr 2026 | Submitted |
+| Koninklijke boodschap rondgezonden; referral to vaste commissie Financiën | 8 Apr 2026 | Completed |
+| Technische briefing | 12 May 2026 | Completed |
+| Inbreng verslag (written input) | 19 May 2026 | Completed |
+| **Verslag (36924-6)** | **21 May 2026** | **Published** |
+| Nota naar aanleiding van het verslag | — | **Pending** |
+| Plenary debate / TK vote | — | Not scheduled |
+| Eerste Kamer referral / vote | — | Not started |
+| Staatsblad publication / inwerkingtreding | — | Not done |
+
+**Current stage:** Tweede Kamer, schriftelijke voorbereiding. The committee's verslag was issued 21 May
+2026; the bill awaits the government's **nota naar aanleiding van het verslag**, after which plenary
+treatment can be scheduled. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+
+## Missed deadline / target
+
+The MvT and the draft Implementatiebesluit acknowledge that the **20 Nov 2025** transposition deadline was
+missed, citing the complexity of the matter and the many Member-State options ("Er is echter enige
+vertraging ontstaan bij de implementatie vanwege de complexiteit van de materie en vele lidstaatopties").
+The target is entry into force aligned to the **20 Nov 2026** application date. The sector (VFN) calls the
+preparation time "steeds verder onder druk" — see [`../stakeholders.md`](../stakeholders.md).
+
+> **Dossier note:** the verslag (36924-6, 21 May 2026) places the bill one stage further than an earlier
+> "still at inbreng/verslag" understanding — the next trigger is the nota naar aanleiding van het verslag.

@@ -1,0 +1,21 @@
+# Link-checker config. Internal relative links (incl. the committed PDFs) are checked normally.
+# External hosts that bot-block or that we cite by number rather than assert as live are excluded.
+accept = [200, 202, 206, 403, 429]
+max_retries = 3
+retry_wait_time = 2
+timeout = 30
+# Placeholder templates carry <PLACEHOLDER> link destinations, not real links — don't scan them.
+exclude_path = ["STATUS.template.md"]
+exclude = [
+  "^https://eur-lex\\.europa\\.eu",                   # returns 202 to automated clients
+  "^https://ec\\.europa\\.eu/commission/presscorner", # bot-sensitive
+  "^https://www\\.tweedekamer\\.nl",                  # bot-sensitive (NL parliament)
+  "^https://www\\.eerstekamer\\.nl",                  # bot-sensitive / timeouts (NL senate)
+  "^https://www\\.rijksoverheid\\.nl",                # bot-sensitive
+  "^https://wetgevingskalender\\.overheid\\.nl",      # bot-sensitive
+  "^https://www\\.internetconsultatie\\.nl",          # bot-sensitive
+  "^https://www\\.afm\\.nl",                          # bot-sensitive
+  "^https://www\\.vfn\\.nl",                           # bot-sensitive
+  "^https://www\\.betaalvereniging\\.nl",             # bot-sensitive
+  "^https://www\\.linkedin\\.com",                    # blocks automated access
+]

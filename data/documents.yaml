@@ -1,0 +1,130 @@
+# Document register — the SINGLE source of truth for every official document on the file.
+# sources/README.md is its *rendered* table (edit this YAML, then mirror the table; never the table alone).
+#
+# DIRECTIVE ADAPTATION: documents span two layers — the EU instrument (directive, infringement) and the
+# NL transposition (Kamerstukken 36924, the AMvB, consultation responses, AFM material). `body` is the
+# issuing institution: European Commission | Tweede Kamer | Eerste Kamer | Raad van State |
+# Ministerie van Financiën | AFM | VFN | <stakeholder>.
+#
+# Field reference:
+#   id            stable institutional id (CELEX, 36924-<n>, INF-…, etc.)
+#   title         quoted descriptive title
+#   body          issuing institution
+#   date          ISO YYYY-MM-DD
+#   url           authoritative URL (also: celex)
+#   local         committed file path, if any
+#   access        omit = fully public; else cite-only | not-public | public-via-national-parliament
+#   notes         prose context (a `>-` block)
+
+documents:
+  # --- EU instrument -------------------------------------------------------
+  - id: CELEX-32023L2225
+    title: "Directive (EU) 2023/2225 on credit agreements for consumers and repealing Directive 2008/48/EC (CCD2)"
+    body: "European Parliament & Council"
+    date: 2023-10-18
+    url: https://eur-lex.europa.eu/eli/dir/2023/2225/oj
+    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2225
+    notes: >-
+      The tracked instrument. Adopted 18 Oct 2023; OJ L, 2023/2225, 30 Oct 2023; in force 19 Nov 2023;
+      transposition deadline 20 Nov 2025; application 20 Nov 2026. Base-text extracts in extracts/directive/.
+
+  - id: NIM-32023L2225
+    title: "National transposition measures for Directive (EU) 2023/2225 (EUR-Lex NIM)"
+    body: "European Commission"
+    date: 2026-06-13
+    url: https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225
+    notes: >-
+      Live index of Member-State transposition measures. Denmark (Lov nr. 1322, 20 Nov 2025) and Malta
+      transposed on time; NL had not communicated complete transposition as of the verification date.
+
+  - id: INF-26-115
+    title: "January infringements package — letter of formal notice to NL (non-communication of CCD2 transposition)"
+    body: "European Commission"
+    date: 2026-01-30
+    url: https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115
+    notes: >-
+      Letters of formal notice to 23 Member States (incl. NL) for failing to communicate complete
+      transposition of Directive (EU) 2023/2225. Two-month response window from 30 Jan 2026. Digest:
+      docs/infringement.md.
+
+  # --- NL transposition: the wet (Kamerstuk 36924) -------------------------
+  - id: 36924-2
+    title: "Voorstel van wet — Implementatiewet herziene richtlijn consumentenkrediet"
+    body: "Ministerie van Financiën"
+    date: 2026-04-01
+    url: https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails
+    access: public-via-national-parliament
+    notes: >-
+      The bill amending the Wft, BW Boek 7, Wet handhaving consumentenbescherming and the Overgangswet
+      NBW. Submitted 1 Apr 2026; Koninklijke boodschap rondgezonden 8 Apr 2026. Operative text (when
+      transcribed) in extracts/transposition-nl/.
+
+  - id: 36924-3
+    title: "Memorie van toelichting — Implementatiewet herziene richtlijn consumentenkrediet"
+    body: "Ministerie van Financiën"
+    date: 2026-04-01
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D15852
+    access: public-via-national-parliament
+    notes: >-
+      Explanatory memorandum. Authoritative source for the substantive analysis in docs/provisions/.
+
+  - id: 36924-4
+    title: "Advies Raad van State + nader rapport — Implementatiewet herziene richtlijn consumentenkrediet"
+    body: "Raad van State"
+    date: 2026-04-02
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D15855
+    access: public-via-national-parliament
+    notes: >-
+      RvS advice (dictum B, positive) + nader rapport. RvS advice page:
+      https://www.raadvanstate.nl/adviezen/@154686/w06-25-00331-iii/ . The minors-ban legal basis was
+      changed after RvS criticism (from CCD2 art 18(3) to art 6).
+
+  - id: 36924-6
+    title: "Verslag — vaste commissie voor Financiën (Implementatiewet herziene richtlijn consumentenkrediet)"
+    body: "Tweede Kamer"
+    date: 2026-05-21
+    url: https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails
+    access: public-via-national-parliament
+    notes: >-
+      Committee questions. The current stage as of 13 Jun 2026 — awaiting the government's nota naar
+      aanleiding van het verslag.
+
+  # --- NL transposition: the Implementatiebesluit (AMvB) -------------------
+  - id: AMvB-WGK026387
+    title: "Implementatiebesluit herziene richtlijn consumentenkrediet (AMvB) — internetconsultatie"
+    body: "Ministerie van Financiën"
+    date: 2025-12-22
+    url: https://www.internetconsultatie.nl/implementatiebesluitrichtlijnconsumentenkrediet/b1
+    notes: >-
+      Wijziging BGfo, Besluit kredietvergoeding, Besluit bestuurlijke boetes financiële sector. KetenID
+      WGK026387. Consultation 22 Dec 2025 – 2 Feb 2026. Not yet finalised. Digest:
+      docs/transposition/implementatiebesluit.md.
+
+  # --- Supervisory & sector ------------------------------------------------
+  - id: AFM-BNPL-MARKTUPDATE-2025
+    title: "AFM — Marktupdate BNPL 2025"
+    body: "AFM"
+    date: 2025-06-01
+    url: https://www.afm.nl/~/profmedia/files/rapporten/2025/rapport-marktupdate--bnpl-2025-ned.pdf
+    notes: >-
+      2024: four providers (Billink, in3, Klarna, Riverty) processed 53m BNPL transactions worth €5.1bn.
+      AFM supports lowering the €250 BKR threshold and statutory age verification. Context:
+      docs/transposition/supervision-afm.md.
+
+  - id: VFN-CONSULTATIEREACTIE-2025
+    title: "VFN — consultatiereactie wetsvoorstel CCD II"
+    body: "VFN"
+    date: 2025-05-12
+    url: https://www.vfn.nl/wp-content/uploads/2025/05/VFN_20250512_Consultatiereactie-Wetsvoorstel-CCD-II_Definitief-1.pdf
+    notes: >-
+      Sector response; VFN warns preparation time for providers is "steeds verder onder druk" and calls
+      for speed. Stakeholder analysis: docs/stakeholders.md.
+
+  - id: BNPL-GEDRAGSCODE-2025
+    title: "Government statement — nieuwe regels voor Buy Now Pay Later (relying on Gedragscode BNPL)"
+    body: "Ministerie van Financiën"
+    date: 2025-10-31
+    url: https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later
+    notes: >-
+      Pending the act's application the cabinet relies on sector self-regulation via the Gedragscode
+      BNPL; AFM names four NL signatories: Billink, in3, Klarna, Riverty.
