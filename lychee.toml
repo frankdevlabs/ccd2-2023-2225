@@ -5,7 +5,10 @@ max_retries = 3
 retry_wait_time = 2
 timeout = 30
 # Placeholder templates carry <PLACEHOLDER> link destinations, not real links — don't scan them.
-exclude_path = ["STATUS.template.md"]
+# .claude/ holds the template's skill drivers/docs (tool internals, not published content); their
+# illustrative examples reference the regulation template's `extracts/council/` layout, which this
+# directive repo does not use (it has extracts/directive/ + extracts/transposition-nl/ instead).
+exclude_path = ["STATUS.template.md", ".claude"]
 exclude = [
   "^https://eur-lex\\.europa\\.eu",                   # returns 202 to automated clients
   "^https://ec\\.europa\\.eu/commission/presscorner", # bot-sensitive
