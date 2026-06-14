@@ -9,8 +9,8 @@
 > MvT (36924-3) + draft AMvB, supplemented by law-firm briefings (labelled *secondary*) — verify against
 > the Staatsblad text.
 >
-> This is the full table; [`STATUS.md`](../STATUS.md) carries a high-salience headline subset. Positions
-> data: [`data/positions.csv`](../data/positions.csv).
+> This is the full table; [`STATUS.md`](../STATUS.md) carries a high-salience headline subset, and
+> [`TIMELINE.md`](../TIMELINE.md) the dated chronology. Positions data: [`data/positions.csv`](../data/positions.csv).
 
 ## Chapter I — General provisions & scope
 

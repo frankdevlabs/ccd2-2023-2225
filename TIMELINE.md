@@ -3,6 +3,8 @@
 > Full sourced chronology. Every entry links to a document in [`sources/`](sources/) (via the register)
 > or to an external authoritative copy. Dates ISO; newest events at the bottom of each year. All
 > forward-looking dates are **planned**, not completed (verified 13 June 2026).
+>
+> Current snapshot: [`STATUS.md`](STATUS.md) · provision-by-provision diff: [`docs/what-changed.md`](docs/what-changed.md).
 
 ## 2023 — EU adoption
 

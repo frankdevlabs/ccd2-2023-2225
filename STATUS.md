@@ -11,7 +11,8 @@
 | **NL status** | Bill **36924** in Tweede Kamer written preparation — **verslag (36924-6) published 21 May 2026**; AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
 | **As of** | **13 June 2026** (research-dossier verification date; the daily tracker will set this to `data/tracker-state.yaml` `last_run`) |
 
-> Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). The EU instrument is final;
+> Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)); repo overview & navigation in
+> [`README.md`](README.md). The EU instrument is final;
 > the live tracking is the **Dutch transposition** (bill 36924 + the Implementatiebesluit AMvB) and the
 > **EU infringement** step. Substance is sourced from [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md);
 > operative text is transcribed verbatim in [`extracts/`](extracts/) (CCD2 from EUR-Lex; bill 36924 from the
