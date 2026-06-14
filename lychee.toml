@@ -16,6 +16,7 @@ exclude = [
   "^https://www\\.eerstekamer\\.nl",                  # bot-sensitive / timeouts (NL senate)
   "^https://www\\.rijksoverheid\\.nl",                # bot-sensitive
   "^https://wetgevingskalender\\.overheid\\.nl",      # bot-sensitive
+  "^https://zoek\\.officielebekendmakingen\\.nl",     # bot-sensitive (Kamervragen / Aanhangsel)
   "^https://www\\.internetconsultatie\\.nl",          # bot-sensitive
   "^https://www\\.afm\\.nl",                          # bot-sensitive
   "^https://www\\.vfn\\.nl",                           # bot-sensitive

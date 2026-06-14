@@ -128,3 +128,100 @@ documents:
     notes: >-
       Pending the act's application the cabinet relies on sector self-regulation via the Gedragscode
       BNPL; AFM names four NL signatories: Billink, in3, Klarna, Riverty.
+
+  # --- NL parliamentary scrutiny: Kamervragen (BNPL / achteraf betalen) -----
+  # Tweede Kamer schriftelijke vragen + Aanhangsel-antwoorden on the conduct CCD2 brings into scope
+  # (Buy Now Pay Later / Klarna / achteraf betalen). `id` = the answer document (Aanhangsel, ah-tk-…);
+  # the originating question (kv-tk-…) and any Uitstel-beantwoording are recorded in `notes`. These
+  # pre-date / run alongside the Implementatiewet and show the political pressure behind it; the CCD2
+  # link is thematic unless the answer cites the richtlijn/36924 — verify the answer text before relying
+  # on a specific government position. Now auto-tracked via watchlist source T1-09.
+  - id: ah-tk-20222023-1339
+    title: "Kamervragen (lid Kathmann) over Buy Now, Pay Later-betaaldiensten — antwoord"
+    body: "Tweede Kamer"
+    date: 2023-01-25
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20222023-1339.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2022Z24631 (lid Kathmann, ingezonden 8 Dec 2022); uitstel ah-tk-20222023-1132
+      (27 Dec 2022); antwoord 25 Jan 2023. Early TK scrutiny of BNPL — well before the bill; signals the
+      consumer-protection concern (debt build-up, minors) that CCD2 addresses by bringing BNPL into scope.
+      Scrutiny context: docs/transposition/nl-pipeline.md.
+  - id: ah-tk-20232024-2019
+    title: "Kamervragen (leden Mohandis en Ceder) over verplichte leeftijdscontrole bij BNPL-diensten — antwoord"
+    body: "Tweede Kamer"
+    date: 2024-06-20
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20232024-2019.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2024Z06335 (leden Mohandis en Ceder, 12 Apr 2024); antwoord 20 Jun 2024. On mandatory
+      age verification for BNPL — bears on CCD2's ban on credit to minors and the creditworthiness test.
+  - id: ah-tk-20242025-1089
+    title: "Kamervragen (lid Inge van Dijk) over 'Einde Buy Now Pay Later stap dichterbij' — antwoord"
+    body: "Tweede Kamer"
+    date: 2025-01-21
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1089.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2024Z16548 (lid Inge van Dijk, 22 Oct 2024); antwoord 21 Jan 2025. Directly about BNPL
+      regulation approaching — i.e. CCD2 bringing BNPL into scope of consumer-credit rules.
+  - id: ah-tk-20242025-1088
+    title: "Kamervragen (lid Inge van Dijk) over 'Kan kabinet niet optreden tegen buy now pay later?' — antwoord"
+    body: "Tweede Kamer"
+    date: 2025-01-21
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1088.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2024Z17217 (lid Inge van Dijk, 31 Oct 2024); antwoord 21 Jan 2025. On the current
+      enforcement gap pending CCD2 transposition (the cabinet leans on the Gedragscode BNPL meanwhile —
+      cf. BNPL-GEDRAGSCODE-2025).
+  - id: ah-tk-20242025-1087
+    title: "Kamervragen (leden Kisteman, Van Eijk en Aukje de Vries) over achteraf betalen in fysieke winkels — antwoord"
+    body: "Tweede Kamer"
+    date: 2025-01-21
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1087.html
+    access: public-via-national-parliament
+    notes: >-
+      Antwoord 21 Jan 2025 (leden Kisteman, Van Eijk en Aukje de Vries) over 'Achteraf betalen kan
+      binnenkort ook in fysieke winkels dankzij nieuwe samenwerking' — BNPL spreading from online to
+      point-of-sale, the channel CCD2 captures.
+  - id: ah-tk-20242025-2274
+    title: "Kamervragen (lid Welzijn) over de rechterlijke uitspraak dat Klarna verdient aan incassokosten — antwoord"
+    body: "Tweede Kamer"
+    date: 2025-05-22
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20242025-2274.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2025Z08681 (lid Welzijn, 14 May 2025); antwoord 22 May 2025. On a court ruling that
+      achterafbetaaldienst Klarna profits from collection (incasso) costs — consumer-detriment evidence in
+      the BNPL/CCD2 debate.
+  - id: ah-tk-20252026-1015
+    title: "Kamervragen over 'Koop nu, baal later: Klarna-klanten in dubieuze incassotrajecten' — antwoorden"
+    body: "Tweede Kamer"
+    date: 2026-02-03
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html
+    access: public-via-national-parliament
+    notes: >-
+      Two parallel sets on the same RTL report: vraag kv-tk-2025Z19687 / kv-tk-2025Z19857 (14 Nov 2025);
+      uitstel ah-tk-20252026-538 + 539 (3 Dec 2025); antwoorden ah-tk-20252026-1015 (leden Inge van Dijk
+      en Hamstra) and ah-tk-20252026-1017 (lid Ceder), both 3 Feb 2026. Klarna debt-collection practices —
+      pressure point in the BNPL/CCD2 transposition debate.
+  - id: ah-tk-20252026-1198
+    title: "Kamervragen (leden Inge van Dijk en Hamstra) over financiële risico's van achteraf betalen voor jongeren — antwoord"
+    body: "Tweede Kamer"
+    date: 2026-03-02
+    url: https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2026Z02495 (leden Inge van Dijk en Hamstra, 5 Feb 2026) over 'Van trending schoenen naar
+      structurele schulden: jongeren vast in koopimpuls'; antwoord 2 Mar 2026. Youth-debt / impulse-buying
+      via achteraf betalen — the creditworthiness and minors concerns CCD2 targets.
+  - id: ah-1251487
+    title: "Kamervragen (lid Ceder) over de Kifid-uitspraak inzake de incassodienstverlening van Klarna — antwoord"
+    body: "Tweede Kamer"
+    date: 2026-06-02
+    url: https://zoek.officielebekendmakingen.nl/ah-1251487.html
+    access: public-via-national-parliament
+    notes: >-
+      Vraag kv-tk-2026Z08715 (lid Ceder, 22 Apr 2026); antwoord 2 Jun 2026. On the Kifid ruling about
+      Klarna's incasso services — the most recent BNPL-conduct Kamervraag at the time of writing.
