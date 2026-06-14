@@ -189,6 +189,22 @@ watchlist:
       url: "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115"
       affects: [docs/infringement.md, STATUS.md, TIMELINE.md]
       notes: "Watch for escalation: a reasoned opinion or referral to the CJEU following the 30 Jan 2026 letter of formal notice."
+    T1-09:
+      tier: T1
+      kind: institutional
+      label: "officielebekendmakingen.nl — Kamervragen (vragen + Aanhangsel) BNPL / achteraf betalen"
+      url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(((w.publicatienaam==%22Kamervragen+(Aanhangsel)%22)or(w.publicatienaam==%22Kamervragen+zonder+antwoord%22)))and((cql.textAndIndexes=%22BNPL%22)or(cql.textAndIndexes=%22Klarna%22)or(cql.textAndIndexes=%22achteraf+betalen%22)or(cql.textAndIndexes=%22buy+now+pay+later%22))&svel=Publicatiedatum&svol=Aflopend"
+      affects: [docs/transposition/nl-pipeline.md, TIMELINE.md, STATUS.md]
+      notes: >-
+        RSS, newest-first. Captures Tweede Kamer schriftelijke vragen (kv-tk-…) AND the later answers in
+        the Aanhangsel (ah-tk-…, incl. uitstel-beantwoording postponements) on Buy Now Pay Later / Klarna /
+        achteraf betalen — the conduct CCD2 brings into scope. A kv-tk hit = question filed (NL position
+        not yet stated); an ah-tk hit = government answer (substantive). Broad capture: in-scope even when
+        the item never names 2023/2225 or bill 36924. ~90% of feed items are on-topic; the cron's
+        Dutch-language scope rule filters the rest on the <description> line. Out of scope: the kept-apart
+        NL files (NPL kredietservicers/kredietkopers; kredietregistratie WGK025409) and pure
+        schuldhulpverlening / flitskrediet / woekerrente questions with no BNPL angle. Route substance to
+        the Kamervragen subsection of docs/transposition/nl-pipeline.md + TIMELINE.
     # --- Tier 2: sector / NGO / law firm -----------------------------------
     T2-01:
       tier: T2

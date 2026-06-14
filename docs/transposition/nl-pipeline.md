@@ -45,5 +45,27 @@ vertraging ontstaan bij de implementatie vanwege de complexiteit van de materie 
 The target is entry into force aligned to the **20 Nov 2026** application date. The sector (VFN) calls the
 preparation time "steeds verder onder druk" — see [`../stakeholders.md`](../stakeholders.md).
 
+## Parliamentary scrutiny — Kamervragen (BNPL / achteraf betalen)
+
+Running alongside the bill, MPs have filed a stream of **Kamervragen** (written questions) on the BNPL /
+Klarna / *achteraf betalen* conduct CCD2 brings into scope. These rarely name bill 36924 or the richtlijn,
+but they are the political pressure behind the transposition — on minors, creditworthiness, debt build-up
+and Klarna's collection practices. They are tracked automatically via watchlist source `T1-09`
+(officielebekendmakingen.nl Kamervragen RSS) and registered in
+[`../../sources/README.md`](../../sources/README.md#nl-parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen).
+
+| Answer date | Subject (asker) | Document |
+|---|---|---|
+| 2023-01-25 | Buy Now, Pay Later-betaaldiensten (Kathmann) | [`ah-tk-20222023-1339`](https://zoek.officielebekendmakingen.nl/ah-tk-20222023-1339.html) |
+| 2024-06-20 | Verplichte leeftijdscontrole bij BNPL (Mohandis, Ceder) | [`ah-tk-20232024-2019`](https://zoek.officielebekendmakingen.nl/ah-tk-20232024-2019.html) |
+| 2025-01-21 | BNPL-regulering / optreden / fysieke winkels (Inge van Dijk; Kisteman e.a.) | [`-1089`](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1089.html) · [`-1088`](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1088.html) · [`-1087`](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1087.html) |
+| 2025-05-22 | Klarna verdient aan incassokosten (Welzijn) | [`ah-tk-20242025-2274`](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-2274.html) |
+| 2026-02-03 | 'Koop nu, baal later': Klarna-incassotrajecten (Inge van Dijk, Hamstra; Ceder) | [`ah-tk-20252026-1015`](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html) |
+| 2026-03-02 | Achteraf betalen / impulsaankopen jongeren (Inge van Dijk, Hamstra) | [`ah-tk-20252026-1198`](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html) |
+| 2026-06-02 | Kifid-uitspraak incasso Klarna (Ceder) | [`ah-1251487`](https://zoek.officielebekendmakingen.nl/ah-1251487.html) |
+
+> The CCD2 link is **thematic** — these questions predate/run alongside the bill and the answers do not
+> necessarily cite the richtlijn. Verify the answer text before relying on a specific government position.
+
 > **Dossier note:** the verslag (36924-6, 21 May 2026) places the bill one stage further than an earlier
 > "still at inbreng/verslag" understanding — the next trigger is the nota naar aanleiding van het verslag.

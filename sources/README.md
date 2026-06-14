@@ -36,3 +36,22 @@
 | `AFM-BNPL-MARKTUPDATE-2025` | AFM — Marktupdate BNPL 2025 | 2025-06-01 | AFM | [AFM report (PDF)](https://www.afm.nl/~/profmedia/files/rapporten/2025/rapport-marktupdate--bnpl-2025-ned.pdf) |
 | `VFN-CONSULTATIEREACTIE-2025` | VFN — consultatiereactie CCD II | 2025-05-12 | VFN | [VFN (PDF)](https://www.vfn.nl/wp-content/uploads/2025/05/VFN_20250512_Consultatiereactie-Wetsvoorstel-CCD-II_Definitief-1.pdf) |
 | `BNPL-GEDRAGSCODE-2025` | Government statement — BNPL rules / Gedragscode | 2025-10-31 | Ministerie van Financiën | [rijksoverheid](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later) |
+
+## NL parliamentary scrutiny — Kamervragen (BNPL / achteraf betalen)
+
+> Tweede Kamer written questions + Aanhangsel answers on the BNPL / Klarna / achteraf-betalen conduct CCD2
+> brings into scope. `ID` = the answer document (Aanhangsel); the originating `kv-tk-…` question and any
+> *Uitstel beantwoording* are in the `data/documents.yaml` notes. Auto-tracked via watchlist `T1-09`.
+> CCD2 link is thematic — verify the answer text before citing a specific government position.
+
+| ID | Subject (asker) | Answer date | Body | Provenance |
+|---|---|---|---|---|
+| `ah-tk-20222023-1339` | Buy Now, Pay Later-betaaldiensten (Kathmann) | 2023-01-25 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20222023-1339.html) |
+| `ah-tk-20232024-2019` | Verplichte leeftijdscontrole bij BNPL (Mohandis, Ceder) | 2024-06-20 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20232024-2019.html) |
+| `ah-tk-20242025-1089` | 'Einde Buy Now Pay Later stap dichterbij' (Inge van Dijk) | 2025-01-21 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1089.html) |
+| `ah-tk-20242025-1088` | 'Kan kabinet niet optreden tegen buy now pay later?' (Inge van Dijk) | 2025-01-21 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1088.html) |
+| `ah-tk-20242025-1087` | Achteraf betalen in fysieke winkels (Kisteman, Van Eijk, Aukje de Vries) | 2025-01-21 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-1087.html) |
+| `ah-tk-20242025-2274` | Klarna verdient aan incassokosten (Welzijn) | 2025-05-22 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20242025-2274.html) |
+| `ah-tk-20252026-1015` | 'Koop nu, baal later': Klarna-incassotrajecten (Inge van Dijk, Hamstra; Ceder) | 2026-02-03 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html) |
+| `ah-tk-20252026-1198` | Financiële risico's van achteraf betalen voor jongeren (Inge van Dijk, Hamstra) | 2026-03-02 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html) |
+| `ah-1251487` | Kifid-uitspraak incassodienstverlening Klarna (Ceder) | 2026-06-02 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-1251487.html) |
