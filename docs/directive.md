@@ -44,9 +44,12 @@
 
 ## What it changes (substance)
 
-See [`what-changed.md`](what-changed.md) for the full provision-by-provision table and
-[`provisions/`](provisions/) for per-topic detail: scope, creditworthiness, ban on credit to minors,
-advertising, pre-contractual information, arrears/forbearance, deferred-debit cards.
+See [`what-changed.md`](what-changed.md) for the full provision-by-provision table (25 provisions grouped
+by the directive's chapters I–XV) and [`provisions/`](provisions/) for per-topic detail — including scope,
+creditworthiness, databases, ban on credit to minors, advertising, pre-contractual information, tying &
+bundling, advisory services, the unsolicited-credit ban, overdraft/overrunning, withdrawal & early
+repayment, **caps on rate/APR/total cost (art 31)**, conduct of business, staff competence, arrears &
+forbearance, creditor/intermediary supervision, dispute resolution, and the deferred-debit-card deferral.
 
 ## Status of EU-level transposition
 

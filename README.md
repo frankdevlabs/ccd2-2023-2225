@@ -21,7 +21,7 @@ on credit to minors, and tighter advertising rules.
 > adjacent NL files (NPL Implementatiewet kredietservicers en kredietkopers; Wetsvoorstel
 > kredietregistratie WGK025409). See [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`).
 
-**Current status (high level):** see the full snapshot in **`STATUS.md`**. As of the last update: NL
+**Current status (high level):** see the full snapshot in **[`STATUS.md`](STATUS.md)**. As of the last update: NL
 **missed** the 20 Nov 2025 transposition deadline; the Commission sent a **letter of formal notice** on
 30 Jan 2026; bill 36924 is in Tweede Kamer written preparation (verslag 36924-6, 21 May 2026); the AMvB
 has been consulted but not finalised; application date 20 Nov 2026.
@@ -40,7 +40,7 @@ The repo deliberately separates three layers so that links stay stable over time
 
 ### Navigation
 
-- **`STATUS.md`** — where transposition stands right now (one screen).
+- **[`STATUS.md`](STATUS.md)** — where transposition stands right now (one screen).
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
 - **[`docs/directive.md`](docs/directive.md)** — digest of the adopted CCD2 (identification, key dates, scope).

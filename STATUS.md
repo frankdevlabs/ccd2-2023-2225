@@ -11,7 +11,8 @@
 | **NL status** | Bill **36924** in Tweede Kamer written preparation — **verslag (36924-6) published 21 May 2026**; AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
 | **As of** | **13 June 2026** (research-dossier verification date; the daily tracker will set this to `data/tracker-state.yaml` `last_run`) |
 
-> Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). The EU instrument is final;
+> Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)); repo overview & navigation in
+> [`README.md`](README.md). The EU instrument is final;
 > the live tracking is the **Dutch transposition** (bill 36924 + the Implementatiebesluit AMvB) and the
 > **EU infringement** step. Substance is sourced from [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md);
 > operative text is transcribed verbatim in [`extracts/`](extracts/) (CCD2 from EUR-Lex; bill 36924 from the
@@ -95,20 +96,25 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - [ ] EU: a **reasoned opinion** or escalation after the 30 Jan 2026 letter of formal notice → "EU infringement escalated".
 - [ ] **Entry into force aligned to 20 Nov 2026**, with a separate 6-month-later switch-on for deferred-debit cards.
 
-## What CCD2 changes (headline set)
+## What changed in the latest text vs earlier reporting
 
 <!-- Directive adaptation: three lanes are current NL/CCD1 law → CCD2 directive → Dutch bill (36924/AMvB).
-     This is the headline subset; the full provision-by-provision table is in docs/what-changed.md. -->
+     This is the high-salience headline subset; the full chapter-grouped table is in docs/what-changed.md.
+     Heading kept generic (reporting-standard.md) so it survives a new bill text. -->
 
 Each row traces **current NL/CCD1 law → CCD2 (Directive (EU) 2023/2225) → Dutch implementation (36924/AMvB)**.
-The full provision-by-provision table is in [`docs/what-changed.md`](docs/what-changed.md). Positions:
-[`data/positions.csv`](data/positions.csv).
+This is the **headline subset**; the full provision-by-provision table (25 provisions, by directive chapter)
+is in [`docs/what-changed.md`](docs/what-changed.md). Positions: [`data/positions.csv`](data/positions.csv).
 
 | Provision | Current law → CCD2 directive | Dutch implementation (36924 / AMvB) |
 |---|---|---|
-| [**Scope & thresholds**](docs/provisions/scope-bnpl-cards-overdraft.md) | *CCD1:* €200–€75,000 band; BNPL/short-term credit largely out. **CCD2:** €200 floor abolished, ceiling €100,000; BNPL, cards, authorised overdrafts in scope | "Uitstel van betaling" added to credit (Wft 1:1); BNPL/cards/overdrafts need an AFM licence; narrow ≤50-day BNPL exception (new Wft 1:20) |
-| [**Creditworthiness**](docs/provisions/creditworthiness.md) | *Current:* Wft 4:34 assessment. **CCD2:** "necessary and proportionate"; bans social-network & special-category data | Wft 4:34 recast; **new Wft 4:34a** bans social-network/special-category data in the test |
-| [**Ban on credit to minors**](docs/provisions/minors-ban.md) | *Current:* none specific. **CCD2:** Member-State option (art 6 age differentiation) | **New Wft 4:34b** public-law ban + age verification; **BW 7:75(4)** makes agreements with minors *voidable* |
-| [**Deferred-debit cards**](docs/provisions/deferred-debit-cards.md) | *Current:* out of scope. **CCD2:** Member-State option to exempt | NL applies the rules but **6 months later** (new Wft 1:20(4)) |
+| [**Scope & thresholds**](docs/provisions/scope-bnpl-cards-overdraft.md) | *CCD1:* €200–€75,000 band; BNPL/short-term credit largely out. **CCD2:** €200 floor abolished, ceiling €100,000; BNPL, cards, authorised overdrafts in scope | "Uitstel van betaling" added to credit (Wft 1:1); BNPL/cards/overdrafts need an AFM licence; narrow ≤50-day BNPL exception ([new Wft 1:20](extracts/transposition-nl/36924_artikel-I-wft.md#wft-1-20)) |
+| [**Creditworthiness**](docs/provisions/creditworthiness.md) | *Current:* Wft 4:34 assessment. **CCD2:** "necessary and proportionate"; bans social-network & special-category data | Wft 4:34 recast; **new [Wft 4:34a](extracts/transposition-nl/36924_artikel-I-wft.md#wft-4-34a)** bans social-network/special-category data in the test |
+| [**Ban on credit to minors**](docs/provisions/minors-ban.md) | *Current:* none specific. **CCD2:** Member-State option (art 6 age differentiation) | **New [Wft 4:34b](extracts/transposition-nl/36924_artikel-I-wft.md#wft-4-34b)** public-law ban + age verification; **BW 7:75(4)** makes agreements with minors *voidable* |
+| [**Caps on rate / APR / total cost**](docs/provisions/cost-caps.md) | *Current:* maximale kredietvergoeding (national choice). **CCD2 (art 31):** mandatory measures against excessive cost — "such as caps" | Largely **pre-existing**: the [maximale kredietvergoeding](extracts/transposition-nl/amvb_implementatiebesluit.md#besluit-kredietvergoeding) (Besluit kredietvergoeding, BW 7:76); reported to the Commission |
+| [**Advertising & standard information**](docs/provisions/advertising.md) | *Current:* general standard-information rules. **CCD2 (arts 7–8):** misleading-ad ban; standard information | [BW 7:59](extracts/transposition-nl/36924_artikel-II-bw7.md#bw-7-59) recast ("lenen kost geld" warning); **four new BGfo prohibitions** (AMvB) |
+| [**Arrears & forbearance**](docs/provisions/arrears-forbearance.md) | *Current:* Wft 4:35a + BW 70a/128aa. **CCD2 (arts 35–36):** forbearance; debt-advisory referral | New **[Wft 4:35b](extracts/transposition-nl/36924_artikel-I-wft.md#wft-4-35b)** (early detection + referral) and **BW 7:68a** (referral duty) |
+| [**Ban on unsolicited credit**](docs/provisions/unsolicited-credit-ban.md) | *Current:* no general ban. **CCD2 (art 17):** no credit without prior request + explicit agreement | **[BW 7:58a(1)](extracts/transposition-nl/36924_artikel-II-bw7.md#bw-7-58a)** (only at the consumer's request) + Wft 4:34c borging duty |
+| [**Deferred-debit cards**](docs/provisions/deferred-debit-cards.md) | *Current:* out of scope. **CCD2:** Member-State option to exempt | NL applies the rules but **6 months later** ([inwerkingtreding](extracts/transposition-nl/36924_slotbepalingen.md#inwerkingtreding)) |
 
-**Full diff** (all provisions, deep-linked to the operative text): [`docs/what-changed.md`](docs/what-changed.md).
+**Full diff** (all 25 provisions, by chapter, deep-linked to the operative text): [`docs/what-changed.md`](docs/what-changed.md).
