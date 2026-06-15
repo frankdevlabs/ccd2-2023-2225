@@ -5,5 +5,36 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: null
-sources: {}
+last_run: 2026-06-15T00:00:00Z
+sources:
+  T1-02:
+    last_seen_hash: "sha256:29a49f9cbbbd67c18e11f479641ec694aca6720660f427c338adb904bd076f9f"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-03:
+    last_seen_hash: "sha256:a87fd1fe35b75aa457562eb9fbea2298f7fe3fcee5b6d4339c0d3863f4a8880f"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-04:
+    last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-05:
+    last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-06:
+    last_seen_hash: "sha256:489addc38de3abe11c8f94832246198340fa8f977bcddcc79afd5983881f73cd"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-07:
+    last_seen_hash: "sha256:8fadf4bcfaef39d7614118ff2a81b36e209b27eaab1785d022ee4d9c9d3d0105"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T1-08:
+    last_seen_hash: "sha256:fe1bf09e683a3018c6d8ea55dafa210135c1a208ceafaf175b9b1c20e49996b8"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T2-01:
+    last_seen_hash: "sha256:cb17510180bf2b3be77dd7f028bae6185b5807dff4b13b76b5e37a767357cf45"
+    last_seen_at: 2026-06-15T00:00:00Z
+  T2-02:
+    last_seen_hash: "sha256:26eb12010e3f484e361d529ba80ea33e68b1d6bdd585f62a5fe70fb8d719db5e"
+    last_seen_at: 2026-06-15T00:00:00Z
+  # T1-01 (EUR-Lex NIM) — AWS WAF challenge (HTTP 202); not baselined this run.
+  # T1-09 / T1-10 (officielebekendmakingen Kamervragen RSS) — endpoint returning
+  #   server-side HTTP 500 ("Er is iets mis gegaan") across all queries; transient
+  #   outage, not baselined this run. Will baseline on next successful poll.
