@@ -40,11 +40,14 @@
 | 2026-05-19 | Inbreng verslag (written input) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | 2026-05-21 | **Verslag (36924-6) published** — committee questions | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
 | 2026-06-02 | Latest BNPL Kamervraag answered (lid Ceder) — **Kifid-uitspraak over Klarna-incasso** | [ah-1251487](https://zoek.officielebekendmakingen.nl/ah-1251487.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
+| 2026-06-15 | **Agenda procedurevergadering** vaste commissie Financiën published for **18 June 2026** (dossier 36924 on the agenda) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-06-16 | Committee activities scheduled on the dossier — **inbreng verslag** (14:00) and **technische briefing** (17:00–18:00); no nota n.a.v. het verslag (36924-7) yet | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
 
 ## Expected / forward look (planned, not completed)
 
 | Date | Event | Source |
 |---|---|---|
+| 2026-06-18 | **Procedurevergadering** vaste commissie Financiën — dossier 36924 on the agenda | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | — | **Nota naar aanleiding van het verslag** (36924-7+) — government reply | awaited |
 | — | Tweede Kamer plenary debate + vote | not scheduled |
 | — | Eerste Kamer referral + vote | not started |

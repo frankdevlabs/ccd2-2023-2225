@@ -8,8 +8,8 @@
 | **Transposition deadline** | **20 Nov 2025 — MISSED by the Netherlands** (and 22 other Member States) |
 | **Application date** | **20 Nov 2026** (deferred-debit cards: +6 months) — CCD1 (2008/48/EC) repealed from that date |
 | **EU enforcement** | **Letter of formal notice to NL — 30 Jan 2026** (package [INF/26/115](https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115)); 2-month response window — [details](docs/infringement.md) |
-| **NL status** | Bill **36924** in Tweede Kamer written preparation — **verslag (36924-6) published 21 May 2026**; AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
-| **As of** | **13 June 2026** (research-dossier verification date; the daily tracker will set this to `data/tracker-state.yaml` `last_run`) |
+| **NL status** | Bill **36924** in Tweede Kamer written preparation — **verslag (36924-6) published 21 May 2026**; further committee activity scheduled 16 Jun + procedurevergadering Financiën 18 Jun 2026; AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
+| **As of** | **16 June 2026** (daily tracker `last_run`, `data/tracker-state.yaml`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)); repo overview & navigation in
 > [`README.md`](README.md). The EU instrument is final;
@@ -60,8 +60,8 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - **Stage:** Schriftelijke voorbereiding (written preparation).
 - **Latest act:** **Verslag (36924-6), 21 May 2026** — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
 - **Owner:** Vaste commissie voor Financiën.
-- **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May).
-- **Next:** Plenary debate + vote once the nota is received (not yet scheduled).
+- **Position:** Verslag (36924-6) published 21 May 2026 (after technische briefing 12 May; inbreng 19 May); further committee activity scheduled 16 Jun 2026 (inbreng verslag; technische briefing).
+- **Next:** **Procedurevergadering Financiën 18 Jun 2026** (dossier on the agenda); plenary debate + vote once the nota naar aanleiding van het verslag is received (not yet scheduled).
 
 #### Eerste Kamer
 - **Stage:** Not started ("in behandeling bij de Tweede Kamer").
@@ -88,6 +88,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 <!-- KEEP THIS HEADING VERBATIM — the register-document / resolve-tracker-issue skills route new milestones here. -->
 
+- [ ] **Procedurevergadering vaste commissie Financiën** (18 Jun 2026) → may set the verslag-behandeling / plenary timeline.
 - [ ] **Nota naar aanleiding van het verslag** (36924-7+) → status: "TK plenary preparation".
 - [ ] **Tweede Kamer plenary vote** → status: "Adopted by TK".
 - [ ] **Eerste Kamer** referral, then vote → status: "EK voorbereiding" / "Adopted".

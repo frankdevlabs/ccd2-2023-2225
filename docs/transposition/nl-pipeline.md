@@ -18,7 +18,7 @@
 
 ## Status table (parliamentary stages)
 
-| Stage | Date | Status (13 Jun 2026) |
+| Stage | Date | Status (16 Jun 2026) |
 |---|---|---|
 | Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
 | Ministerraad → Raad van State | 31 Oct 2025 | Completed |
@@ -28,6 +28,8 @@
 | Technische briefing | 12 May 2026 | Completed |
 | Inbreng verslag (written input) | 19 May 2026 | Completed |
 | **Verslag (36924-6)** | **21 May 2026** | **Published** |
+| Committee activity — inbreng verslag; technische briefing | 16 Jun 2026 | Scheduled |
+| Procedurevergadering vaste commissie Financiën (agenda 15 Jun) | 18 Jun 2026 | Scheduled |
 | Nota naar aanleiding van het verslag | — | **Pending** |
 | Plenary debate / TK vote | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
@@ -35,7 +37,9 @@
 
 **Current stage:** Tweede Kamer, schriftelijke voorbereiding. The committee's verslag was issued 21 May
 2026; the bill awaits the government's **nota naar aanleiding van het verslag**, after which plenary
-treatment can be scheduled. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+treatment can be scheduled. Further committee activity is scheduled for 16 Jun 2026 and the vaste
+commissie voor Financiën holds a **procedurevergadering on 18 Jun 2026** (agenda published 15 Jun) with
+the dossier on the agenda. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
 
 ## Missed deadline / target
 
@@ -69,3 +73,8 @@ and Klarna's collection practices. They are tracked automatically via watchlist 
 
 > **Dossier note:** the verslag (36924-6, 21 May 2026) places the bill one stage further than an earlier
 > "still at inbreng/verslag" understanding — the next trigger is the nota naar aanleiding van het verslag.
+>
+> **16 Jun 2026 caveat:** the dossier lists a second *technische briefing* and *inbreng verslag* on
+> 16 Jun 2026, after the verslag (36924-6) was already published 21 May — procedurally unusual. Recorded
+> here as *scheduled committee activities* without asserting an outcome or a new document; verify against
+> the dossier when the procedurevergadering minutes or any 36924-7 land.
