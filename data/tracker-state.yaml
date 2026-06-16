@@ -5,36 +5,45 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-15T00:00:00Z
+last_run: 2026-06-16T14:45:12Z
 sources:
   T1-02:
-    last_seen_hash: "sha256:29a49f9cbbbd67c18e11f479641ec694aca6720660f427c338adb904bd076f9f"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_hash: "sha256:8fbe3513ccec6292738bc1b767481958045ddc02d9a92b1f0081f517b0d00b61"
+    last_seen_at: 2026-06-16T14:45:12Z
   T1-03:
     last_seen_hash: "sha256:a87fd1fe35b75aa457562eb9fbea2298f7fe3fcee5b6d4339c0d3863f4a8880f"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_at: 2026-06-16T14:45:12Z
   T1-04:
     last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_at: 2026-06-16T14:45:12Z
   T1-05:
     last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_at: 2026-06-16T14:45:12Z
+  # T1-06 (internetconsultatie AMvB) — consultation CLOSED (Gesloten, einddatum 02-02-2026,
+  #   25 reacties). Hash rotates per request (featured-reaction sample + reactie UUIDs), so it
+  #   surfaces as a candidate every run but is NOT a substantive change; re-fetch comparison
+  #   confirms rotating noise. Recorded latest hash. Watch for the consultatieverslag.
   T1-06:
-    last_seen_hash: "sha256:489addc38de3abe11c8f94832246198340fa8f977bcddcc79afd5983881f73cd"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_hash: "sha256:dfa159344471c60e3fd2905be8faa03b650b717d83a35c5b94d695c561a50ec2"
+    last_seen_at: 2026-06-16T14:45:12Z
   T1-07:
-    last_seen_hash: "sha256:8fadf4bcfaef39d7614118ff2a81b36e209b27eaab1785d022ee4d9c9d3d0105"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_hash: "sha256:69f6d497f68ff1830bb7bbd7fd04f184327471a2d6800eff309071a8ad2f6281"
+    last_seen_at: 2026-06-16T14:45:12Z
   T1-08:
     last_seen_hash: "sha256:fe1bf09e683a3018c6d8ea55dafa210135c1a208ceafaf175b9b1c20e49996b8"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_at: 2026-06-16T14:45:12Z
+  # T1-10 — first successful poll; baseline stored silently (no issue opened on first poll).
+  T1-10:
+    last_seen_hash: "sha256:30b2a6c22e85f930eab051045afeb07408a04943aecf8ad92bf1492490f46b3f"
+    last_seen_at: 2026-06-16T14:45:12Z
   T2-01:
-    last_seen_hash: "sha256:cb17510180bf2b3be77dd7f028bae6185b5807dff4b13b76b5e37a767357cf45"
-    last_seen_at: 2026-06-15T00:00:00Z
+    last_seen_hash: "sha256:ad799b2bcad6fb7e5d62665c53486526fb4791e3da0e7b9cc50cbe8301db89dc"
+    last_seen_at: 2026-06-16T14:45:12Z
+  # T2-02 (Betaalvereniging nieuws) — news listing hash rotates per request; no headline matched
+  #   the CCD2/BNPL filter this run, so not a hit. Recorded latest hash.
   T2-02:
-    last_seen_hash: "sha256:26eb12010e3f484e361d529ba80ea33e68b1d6bdd585f62a5fe70fb8d719db5e"
-    last_seen_at: 2026-06-15T00:00:00Z
-  # T1-01 (EUR-Lex NIM) — AWS WAF challenge (HTTP 202); not baselined this run.
-  # T1-09 / T1-10 (officielebekendmakingen Kamervragen RSS) — endpoint returning
-  #   server-side HTTP 500 ("Er is iets mis gegaan") across all queries; transient
-  #   outage, not baselined this run. Will baseline on next successful poll.
+    last_seen_hash: "sha256:7de06533a5f0818828b878cacf04df1c142c0800ed42a7c63151374c058d08e0"
+    last_seen_at: 2026-06-16T14:45:12Z
+  # T1-01 (EUR-Lex NIM) — AWS WAF challenge (HTTP 202); still not baselined. Logged to health.
+  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — endpoint HTTP 500 again ("Er is iets
+  #   mis gegaan") after retry; transient outage, not baselined this run. Logged to health.
