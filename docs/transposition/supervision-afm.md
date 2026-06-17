@@ -12,6 +12,19 @@
 - AFM is a non-voting member of the European supervisory college for Klarna.
 - New supervisory tooling in the bill: **product-intervention powers** (art 1:77q Wft).
 
+## AFM CCDII supervisory expectations (sector page)
+
+The AFM's CCDII sector page sets out what it expects of credit providers under the recast rules:
+
+- **Creditworthiness** stays an **open norm** — AFM expects further specification via sector
+  methodology (e.g. the **VFN** code) and says it is discussing the expected standard with the market.
+- **Age verification** must use a **reliable source** ("betrouwbare bron") such as **iDIN**,
+  operationalising the ban on credit to minors.
+- **Early signalling** ("vroegtijdige signalering") of payment problems and referral to debt
+  assistance; AFM will update its **"Consumenten en Incassotrajecten"** guidance.
+- Previously exempt agreements (incl. "uitstel van betaling" / BNPL) come under **Wft** conduct
+  supervision, bringing new providers and intermediaries into scope.
+
 ## BNPL market (AFM Marktupdate 2025, June 2025)
 
 - In 2024 the four providers (**Billink, in3, Klarna, Riverty**) processed "**53 miljoen

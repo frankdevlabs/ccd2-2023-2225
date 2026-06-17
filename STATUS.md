@@ -78,10 +78,10 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - **Next:** Finalisation / Staatsblad publication.
 
 #### AFM — supervisor
-- **Stage:** Preparing supervision; accepting early licence applications ahead of 20 Nov 2026.
-- **Latest act:** BNPL Marktupdate 2025 (Jun 2025) — [AFM context](docs/transposition/supervision-afm.md) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii)
+- **Stage:** Preparing supervision; accepting early licence applications and publishing CCDII conduct expectations ahead of 20 Nov 2026.
+- **Latest act:** Updated CCDII sector-page guidance (Jun 2026) — creditworthiness as an open norm (VFN methodology), age verification via a reliable source (iDIN), early signalling of payment problems — [AFM context](docs/transposition/supervision-afm.md) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii)
 - **Owner:** AFM (conduct supervisor).
-- **Position:** Supports lowering the €250 BKR threshold and statutory age verification; licences cannot be granted before the rules are finalised.
+- **Position:** Supports lowering the €250 BKR threshold and statutory age verification; treats creditworthiness as an open norm to be specified via sector methodology; licences cannot be granted before the rules are finalised.
 - **Next:** Process licence applications so assessments are done before 20 Nov 2026.
 
 ## Next milestones to watch
