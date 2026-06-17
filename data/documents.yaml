@@ -14,6 +14,8 @@
 #   url           authoritative URL (also: celex)
 #   local         committed file path, if any
 #   access        omit = fully public; else cite-only | not-public | public-via-national-parliament
+#   lead_source   credit for a Tier-2/3/external lead that surfaced the doc (name+handle, watchlist
+#                 code, tip URL+date) — set when a register run was triggered by a tip, not the official feed
 #   notes         prose context (a `>-` block)
 
 documents:

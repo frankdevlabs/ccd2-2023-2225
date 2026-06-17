@@ -53,6 +53,19 @@ The entry point is the `/tracker-issue` command (or invoke this skill directly).
    (Watch foreign-language sources especially — check the file number, not just the topic.)
    If it is a `keep_apart` file or otherwise off-topic, the plan's recommendation is to
    **close the issue as not-relevant** — do not edit the repo.
+   - **A low-tier source can carry Tier-1-grade substance — upgrade the playbook.** The flagged
+     source's tier sets *priority*, not the *type* of integration. If a Tier-2/Tier-3 item (NGO/media/
+     law-firm/Bluesky) surfaces a **primary document** (an adopted/amended Kamerstuk, a Staatsblad
+     text, an AFM rule/guidance, a Commission infringement act), do **not** stay on
+     `stakeholder-social` — run the matching `institutional` (or transposition) playbook on the
+     underlying document. A Tier-3 post can be the first signal of a new bill stage.
+   - **Bot-blocked official sources.** Some authoritative hosts IP-block this VPS (the doceo /
+     EUR-Lex AWS-WAF pattern): EUR-Lex returns a WAF challenge / 0 bytes to `curl`/WebFetch from this
+     host. You can confirm a document's **existence + metadata** via a listing page, but obtain the
+     operative text another way — a browser download, or the national-parliament XML
+     (`tweedekamer.nl`/`eerstekamer.nl` Kamerstukken XML). If only metadata/a cover page is confirmed,
+     register **metadata only** and set `pending_operative_text` (below) — do not assert per-provision
+     content from a screenshot or a summary.
 
 3. **Run the matching playbook** (below) to determine the concrete edits.
 
@@ -106,6 +119,20 @@ Not a content change — a fetch problem. For each listed code:
 
 ### `run-summary` / `skip`
 Suppressed-hits summary issues need no integration — the helper already filters them out.
+
+## Follow-up trigger: `pending_operative_text`
+
+When a document is registered **metadata-only** because its operative text could not be retrieved yet
+(a bot-blocked host, no mirror, or the text simply not published at this stage), leave a
+machine-detectable marker so the work re-surfaces instead of being silently lost:
+- In the `data/documents.yaml` entry, set `pending_operative_text: true` and an appropriate `access`
+  (`screenshot-only` / `cite-only`), with a `notes` line stating what is confirmed (cover-page metadata)
+  vs pending (per-provision content).
+- Add one **Next milestones to watch** line in `STATUS.md` naming the document and the retrieval
+  condition (e.g. "<Kamerstuk> operative text — pending Kamerstukken XML").
+- The daily tracker / `--list` treats any `pending_operative_text: true` entry as actionable: when the
+  text becomes retrievable (XML/mirror appears or the file is supplied), build the extract, fill the
+  per-provision cells, and clear the flag.
 
 ## Plan file template
 
