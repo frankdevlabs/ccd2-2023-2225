@@ -61,7 +61,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - **Latest act:** **Verslag (36924-6), 21 May 2026** — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
 - **Owner:** Vaste commissie voor Financiën.
 - **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May).
-- **Next:** Plenary debate + vote once the nota is received (not yet scheduled).
+- **Next:** **Rondetafelgesprek 25 Jun 2026** (committee hearing, *Gepland*); procedurevergadering Financiën 18 Jun. Then the **nota naar aanleiding van het verslag** → plenary debate + vote (not yet scheduled).
 
 #### Eerste Kamer
 - **Stage:** Not started ("in behandeling bij de Tweede Kamer").
@@ -88,6 +88,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 <!-- KEEP THIS HEADING VERBATIM — the register-document / resolve-tracker-issue skills route new milestones here. -->
 
+- [ ] **Rondetafelgesprek (committee hearing) 25 Jun 2026** + procedurevergadering Financiën 18 Jun → committee scrutiny ahead of the nota.
 - [ ] **Nota naar aanleiding van het verslag** (36924-7+) → status: "TK plenary preparation".
 - [ ] **Tweede Kamer plenary vote** → status: "Adopted by TK".
 - [ ] **Eerste Kamer** referral, then vote → status: "EK voorbereiding" / "Adopted".

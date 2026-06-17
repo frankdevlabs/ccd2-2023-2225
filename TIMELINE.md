@@ -45,6 +45,8 @@
 
 | Date | Event | Source |
 |---|---|---|
+| 2026-06-18 | **Procedurevergadering vaste commissie Financiën** (10:00) — 36924 expected on the agenda; confirm from the 15 Jun agenda PDF | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
+| 2026-06-25 | **Rondetafelgesprek** (committee hearing, 19:00–21:00) — *Gepland* | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | — | **Nota naar aanleiding van het verslag** (36924-7+) — government reply | awaited |
 | — | Tweede Kamer plenary debate + vote | not scheduled |
 | — | Eerste Kamer referral + vote | not started |
