@@ -14,6 +14,13 @@
   14-day variant; intermediary regimes 2:80/2:81) is drawn largely from law-firm briefings and should be
   verified against the final text. — [scope](provisions/scope-bnpl-cards-overdraft.md)
 
+- **"Afscheiden" of special-category data.** CCD2 bars special categories from the creditworthiness
+  assessment; the bill (Wft 4:34a(2)) instead requires such data be *segregated* ("afgescheiden") by
+  technical/organisational measures for bijvangst removal. The Raad van State (dictum-B advice) finds this
+  formulation misaligned with the MvT and **possibly in conflict with CCD II**, so amendment looks needed;
+  VFN — which lobbied heavily on the provision — flags the same. — [creditworthiness](provisions/creditworthiness.md)
+  · [VFN](stakeholders.md)
+
 - **Removing the €250 BKR threshold.** AFM backs it ("9 in 10 problem transactions are under €250");
   it raises BKR-consultation volume and cost for high-frequency BNPL. — [creditworthiness](provisions/creditworthiness.md)
 
