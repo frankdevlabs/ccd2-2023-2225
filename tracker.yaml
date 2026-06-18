@@ -180,7 +180,7 @@ watchlist:
       tier: T1
       kind: institutional
       label: "AFM — CCDII sector page"
-      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii"
+      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii"
       affects: [docs/transposition/supervision-afm.md, STATUS.md]
     T1-08:
       tier: T1
