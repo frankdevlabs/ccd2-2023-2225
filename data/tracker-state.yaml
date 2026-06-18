@@ -5,67 +5,66 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-17T14:51:35Z
+last_run: 2026-06-18T14:49:04Z
 sources:
-  # T1-02 — normalized body hash changed vs prior run, but NO substantive change: the
-  #   activity cards inject TODAY's date ("17 juni 2026") into m-card__content, so the body
-  #   rotates daily (suppressed per "single date string" rule). Document list unchanged
-  #   (highest = 36924-6 Verslag, 21 mei; no 36924-7 / nota naar aanleiding van het verslag).
-  #   The "Agenda procedurevergadering Financiën - donderdag 18 juni 2026" doc is dated 15 jun
-  #   2026 — already present at the prior baseline. Recorded new hash; no issue.
+  # T1-02 — normalized body hash changed (daily date rotation persists). Document list
+  #   UNCHANGED (highest still 36924-6 Verslag; no 36924-7 nota n.a.v. het verslag). BUT TK
+  #   OData shows a NEW planned activity: Rondetafelgesprek 25 jun 2026 19:00 (Gepland) on the
+  #   Implementatiewet — commented on open issue #3. Recorded new hash.
   T1-02:
-    last_seen_hash: "sha256:34816b455708214bfc02b0032249c4803372110ff970b5315a54c2e08c60e96c"
-    last_seen_at: 2026-06-17T14:51:35Z
+    last_seen_hash: "sha256:01e83113ff578860bf11e58897f47fafc3aacfa2aaff237199ee5b14c1909410"
+    last_seen_at: 2026-06-18T14:49:04Z
   T1-03:
     last_seen_hash: "sha256:a87fd1fe35b75aa457562eb9fbea2298f7fe3fcee5b6d4339c0d3863f4a8880f"
-    last_seen_at: 2026-06-17T14:51:35Z
+    last_seen_at: 2026-06-18T14:49:04Z
   T1-04:
     last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
-    last_seen_at: 2026-06-17T14:51:35Z
+    last_seen_at: 2026-06-18T14:49:04Z
   T1-05:
     last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
-    last_seen_at: 2026-06-17T14:51:35Z
-  # T1-06 (internetconsultatie AMvB) — consultation CLOSED (Gesloten, einddatum 02-02-2026).
-  #   Hash rotates per request (featured-reaction sample + reactie UUIDs); re-fetch this run
-  #   confirmed rotation (two fetches → two hashes). Not substantive. Watch for consultatieverslag.
+    last_seen_at: 2026-06-18T14:49:04Z
+  # T1-06 (internetconsultatie AMvB) — consultation CLOSED. Hash rotates PER REQUEST (two
+  #   fetches this run → 399fd9b2 vs dd38f83e; reactie UUIDs). Non-substantive. Recorded latest.
   T1-06:
-    last_seen_hash: "sha256:edda3550632589da822acd397321258ca8dfb82c3f109713a0cb8763ea43ab49"
-    last_seen_at: 2026-06-17T14:51:35Z
-  # T1-07 (AFM CCDII) — normalized hash changed vs prior run but rotates PER REQUEST (two
-  #   fetches this run → two hashes; visible-text token diff = 0). Article unchanged (still
-  #   "Op 20 november 2026 treedt de richtlijn in werking"). Non-substantive; recorded new hash.
+    last_seen_hash: "sha256:dd38f83e4c3ad5e87a5c1de19b25fd6be67358a8e7c717a437e2469e23cf4e3e"
+    last_seen_at: 2026-06-18T14:49:04Z
+  # T1-07 (AFM CCDII) — TRACKED URL NOW DEAD. The page .../4-herziene-richtlijn-consumentenkrediet-ccdii
+  #   persistently returns "Pagina niet gevonden" (404 body, HTTP 200; stable across 3 fetches).
+  #   AFM restructured the guidance: page moved to .../herziene-richtlijn-consumentenkrediet-ccdii
+  #   (dropped "4-" prefix) + NEW page .../ccdii--doorlopende-verplichtingen. Opened issue #11
+  #   (refs closed #4) — watchlist URL needs updating in tracker.yaml. Recorded 404-page hash.
   T1-07:
-    last_seen_hash: "sha256:0e5e1f2680aaeacfbf28ffddc5f16c86c45620ac1d880a9c1ebcde6421996617"
-    last_seen_at: 2026-06-17T14:51:35Z
-  # T1-08 (EC presscorner inf_26_115) — JS SPA: no article text server-side, body is only
-  #   scaffolding/asset config that rotates between builds. og:title still "January
-  #   infringements package: key decisions" (the 30 Jan 2026 letter of formal notice) — NO
-  #   escalation (no reasoned opinion / CJEU referral). Recorded new hash; no issue.
+    last_seen_hash: "sha256:6ee313d6f762bf5d01b58bc86b18ddd3130b8f5cf22b7908d86480360d53514d"
+    last_seen_at: 2026-06-18T14:49:04Z
+  # T1-08 (EC presscorner inf_26_115) — JS SPA scaffolding rotated between builds (within-run
+  #   stable). og:title still "January infringements package: key decisions" (the 30 Jan 2026
+  #   letter of formal notice) — NO escalation (no reasoned opinion / CJEU referral). New hash; no issue.
   T1-08:
-    last_seen_hash: "sha256:95463d4daed2830607bdbf40e6ed0813a172ffc4c68de4a525b59dedede90ef4"
-    last_seen_at: 2026-06-17T14:51:35Z
-  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — endpoint back up (HTTP 200, 51
-  #   items) after prior HTTP 500 outages. FIRST successful poll → baseline stored silently,
-  #   no issue opened on first poll.
+    last_seen_hash: "sha256:c38c25fa8e923f61661188f38701f9c25be98e613b1fcdb3e4eedc38be417b61"
+    last_seen_at: 2026-06-18T14:49:04Z
+  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — HTTP 500 (0 items) this run, after
+  #   recovering 2026-06-17. Transient endpoint outage — hash NOT updated, prior baseline retained.
+  #   Logged to health #9.
   T1-09:
     last_seen_hash: "sha256:2e6cc6b9d01b10a3f4c8abfae88e2dbc1e27b0817d843fd951670e922fa93600"
     last_seen_at: 2026-06-17T14:51:35Z
+  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — HTTP 500
+  #   (0 items), same endpoint outage as T1-09. Hash NOT updated, prior baseline retained. Health #9.
   T1-10:
     last_seen_hash: "sha256:30b2a6c22e85f930eab051045afeb07408a04943aecf8ad92bf1492490f46b3f"
     last_seen_at: 2026-06-17T14:51:35Z
-  # T2-01 (VFN CCD II update) — normalized hash changed vs prior run, but article:modified_time
-  #   = 2026-06-09T12:20:34Z (BEFORE the prior 2026-06-16 run) and within-run fetches are
-  #   identical → content unchanged since 9 Jun; day-to-day delta is non-content rotation.
-  #   Article is the months-old Raad van State advies summary. Non-substantive; recorded hash.
+  # T2-01 (VFN CCD II update) — hash changed but article:modified_time = 2026-06-09T12:20:34Z
+  #   (unchanged since 9 Jun; within-run fetches identical). Day-to-day delta is non-content
+  #   rotation. Still the RvS advies summary. Non-substantive; recorded hash.
   T2-01:
-    last_seen_hash: "sha256:59420605bcbbd88d233a57dab39db086b4d136c8adb268e07d7292134a9ba1af"
-    last_seen_at: 2026-06-17T14:51:35Z
+    last_seen_hash: "sha256:ad799b2bcad6fb7e5d62665c53486526fb4791e3da0e7b9cc50cbe8301db89dc"
+    last_seen_at: 2026-06-18T14:49:04Z
   # T2-02 (Betaalvereniging nieuws) — listing hash changed but NO headline matched the
-  #   CCD2/BNPL/creditcard/uitgestelde-betaling filter (titles: reizen, Betaaljournaal, AI,
-  #   Belastingdienst, BIC/SEPA, DNB-symposium, agentic payments, digitale euro, pinstoring,
+  #   CCD2/BNPL/creditcard/uitgestelde-betaling filter (titles: bankzaken, reizen, Betaaljournaal,
+  #   AI, Belastingdienst, BIC/SEPA, DNB-symposium, agentic payments, digitale euro, pinstoring,
   #   fraude, pinpas). Not a hit. Recorded latest hash.
   T2-02:
-    last_seen_hash: "sha256:6a6f6ff39ec53f05b56e4eb0d2de6414976ea0d55cceb4041d22f7c5599e16e7"
-    last_seen_at: 2026-06-17T14:51:35Z
+    last_seen_hash: "sha256:73aacce9add74dea824040dcaa4888247072c2eaa9e34a6e90354f6c56c7cf5a"
+    last_seen_at: 2026-06-18T14:49:04Z
   # T1-01 (EUR-Lex NIM) — AWS WAF challenge again (HTTP 202, JS challenge page); still not
-  #   baselined. Logged to health.
+  #   baselined. Logged to health #9.
