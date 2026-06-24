@@ -150,7 +150,7 @@ watchlist:
       label: "Tweede Kamer — dossier 36924 (Implementatiewet)"
       url: "https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails"
       affects: [STATUS.md, TIMELINE.md, docs/transposition/nl-pipeline.md, data/positions.csv]
-      notes: "HIGHEST PRIORITY. Next expected doc: nota naar aanleiding van het verslag (36924-7+), then plenary/vote. Bot-sensitive host — curl with a desktop User-Agent."
+      notes: "HIGHEST PRIORITY. Next expected doc: nota naar aanleiding van het verslag (36924-8+, as 36924-7 is the 23 Jun brief regering), then plenary/vote. Bot-sensitive host — curl with a desktop User-Agent. Dated committee activities/meetings extracted from the HTML are unreliable (the LLM misdates them) — verify each date against the TK OData Activiteit feed (gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Activiteit, filter Onderwerp contains 'consumentenkrediet') before asserting it."
     T1-03:
       tier: T1
       kind: institutional
@@ -180,7 +180,7 @@ watchlist:
       tier: T1
       kind: institutional
       label: "AFM — CCDII sector page"
-      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii"
+      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii"
       affects: [docs/transposition/supervision-afm.md, STATUS.md]
     T1-08:
       tier: T1

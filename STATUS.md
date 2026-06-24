@@ -54,14 +54,14 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - **Latest act:** Voorstel van wet + MvT (36924-1/2/3), 1 Apr 2026 — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
 - **Owner:** Minister van Financiën **E. (Eelco) Heinen**; co-signed by the Staatssecretaris van J&V.
 - **Position:** Brings BNPL / cards / overdrafts under the Wft; new arts 4:34a/4:34b Wft; deferred-debit cards +6 months. Acknowledges the missed deadline (complexity + many Member-State options).
-- **Next:** **Nota naar aanleiding van het verslag** (36924-7+), then plenary scheduling.
+- **Next:** **Nota naar aanleiding van het verslag** (36924-8+), then plenary scheduling.
 
 #### Tweede Kamer
 - **Stage:** Schriftelijke voorbereiding (written preparation).
 - **Latest act:** Brief regering — reactie op commissieverzoek over de implementatie (**36924-7, 23 Jun 2026**); the verslag (36924-6, 21 May 2026) still awaits the government's *nota n.a.v. het verslag* — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
 - **Owner:** Vaste commissie voor Financiën.
 - **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May).
-- **Next:** Plenary debate + vote once the nota is received (not yet scheduled).
+- **Next:** **Rondetafelgesprek 25 Jun 2026** (committee hearing, *Gepland*); procedurevergadering Financiën 18 Jun. Then the **nota naar aanleiding van het verslag** → plenary debate + vote (not yet scheduled).
 
 #### Eerste Kamer
 - **Stage:** Not started ("in behandeling bij de Tweede Kamer").
@@ -79,7 +79,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 #### AFM — supervisor
 - **Stage:** Preparing supervision; accepting early licence applications and publishing CCDII conduct expectations ahead of 20 Nov 2026.
-- **Latest act:** Updated CCDII sector-page guidance (Jun 2026) — creditworthiness as an open norm (VFN methodology), age verification via a reliable source (iDIN), early signalling of payment problems — [AFM context](docs/transposition/supervision-afm.md) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii)
+- **Latest act:** Updated CCDII sector-page guidance (Jun 2026) — new "drie doorlopende verplichtingen" sub-page (short-term credit ≤3 mths: age + BKR check, passend krediet, update policy for doorlopend krediet; age verification via a reliable source (iDIN); early signalling) alongside creditworthiness as an open norm (VFN methodology) — [AFM context](docs/transposition/supervision-afm.md) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii)
 - **Owner:** AFM (conduct supervisor).
 - **Position:** Supports lowering the €250 BKR threshold and statutory age verification; treats creditworthiness as an open norm to be specified via sector methodology; licences cannot be granted before the rules are finalised.
 - **Next:** Process licence applications so assessments are done before 20 Nov 2026.
@@ -88,7 +88,8 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 <!-- KEEP THIS HEADING VERBATIM — the register-document / resolve-tracker-issue skills route new milestones here. -->
 
-- [ ] **Nota naar aanleiding van het verslag** (36924-7+) → status: "TK plenary preparation".
+- [ ] **Rondetafelgesprek (committee hearing) 25 Jun 2026** + procedurevergadering Financiën 18 Jun → committee scrutiny ahead of the nota.
+- [ ] **Nota naar aanleiding van het verslag** (36924-8+) → status: "TK plenary preparation".
 - [ ] **Tweede Kamer plenary vote** → status: "Adopted by TK".
 - [ ] **Eerste Kamer** referral, then vote → status: "EK voorbereiding" / "Adopted".
 - [ ] **Staatsblad** publication of the wet + inwerkingtredingsbesluit → "Published / awaiting entry into force".

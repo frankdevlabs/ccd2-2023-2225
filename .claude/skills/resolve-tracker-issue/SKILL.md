@@ -66,6 +66,20 @@ The entry point is the `/tracker-issue` command (or invoke this skill directly).
      (`tweedekamer.nl`/`eerstekamer.nl` Kamerstukken XML). If only metadata/a cover page is confirmed,
      register **metadata only** and set `pending_operative_text` (below) — do not assert per-provision
      content from a screenshot or a summary.
+   - **Dated committee activities / meetings — verify against the TK Open-Data feed, not the HTML.**
+     `T1-02` (and any TK dossier source) flags scheduled activities by hashing bot-served HTML, and the
+     issue body's dates are an **LLM extraction** — as is a WebFetch "confirmation" of the same page (both
+     have misdated activities, e.g. issue #3 stamped the 12 May briefing / 19 May inbreng as "16 Jun").
+     Before writing **any** dated activity into STATUS/TIMELINE/pipeline, cross-check each date against the
+     structured `Activiteit` feed (open, not bot-blocked):
+     ```
+     gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Activiteit
+       ?$filter=year(Datum) eq <yr> and contains(tolower(Onderwerp),'consumentenkrediet')
+       &$select=Datum,Aanvangstijd,Eindtijd,Soort,Status&$orderby=Datum
+     ```
+     If a claimed date is not in the feed, **do not assert it** — drop it or record it as "unverified".
+     Procedurevergaderingen carry a generic Onderwerp (won't match the bill title) — confirm those from the
+     agenda PDF or mark the dossier as an "agenda item — unverified".
 
 3. **Run the matching playbook** (below) to determine the concrete edits.
 

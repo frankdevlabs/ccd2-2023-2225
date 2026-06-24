@@ -29,7 +29,9 @@
 | Technische briefing | 12 May 2026 | Completed |
 | Inbreng verslag (written input) | 19 May 2026 | Completed |
 | **Verslag (36924-6)** | **21 May 2026** | **Published** |
+| Procedurevergadering (PV Financiën) | 18 Jun 2026 | Gepland (36924 agenda item — confirm) |
 | Brief regering — reactie op commissieverzoek over implementatie (36924-7) | 23 Jun 2026 | Published |
+| Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Gepland |
 | Nota naar aanleiding van het verslag | — | **Pending** |
 | Plenary debate / TK vote | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |

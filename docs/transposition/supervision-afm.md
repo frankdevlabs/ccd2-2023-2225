@@ -5,7 +5,7 @@
 ## AFM as supervisor
 
 - **AFM** (Autoriteit Financiële Markten) is the conduct supervisor for consumer credit. CCDII page:
-  https://www.afm.nl/nl-nl/sector/kredietaanbieders/4-herziene-richtlijn-consumentenkrediet-ccdii
+  https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii
 - Ahead of the act's adoption, AFM has decided to **accept licence applications** from credit providers so
   assessments can be done in time before **20 Nov 2026** — applicants bear the cost/risk, and licences
   **cannot be granted before the rules are finalised**.
@@ -24,6 +24,20 @@ The AFM's CCDII sector page sets out what it expects of credit providers under t
   assistance; AFM will update its **"Consumenten en Incassotrajecten"** guidance.
 - Previously exempt agreements (incl. "uitstel van betaling" / BNPL) come under **Wft** conduct
   supervision, bringing new providers and intermediaries into scope.
+
+### Three ongoing obligations ("drie doorlopende verplichtingen")
+
+A dedicated AFM sub-page sets out three *doorlopende verplichtingen* under CCDII (page:
+https://www.afm.nl/nl-nl/sector/kredietaanbieders/ccdii--doorlopende-verplichtingen):
+
+1. **Responsible lending / passend krediet** — proportional creditworthiness. For **short-term credit**
+   (repayment within **3 months**) the provider must verify age **and** consult **BKR**, assess the
+   consumer's financial position from verified information, and refuse if not suitable ("de
+   kredietverstrekker verstrekt geen krediet als dat niet passend is"). For **doorlopend krediet** the
+   provider must run an **update policy** to monitor that the credit remains appropriate.
+2. **Age verification** — "aan de hand van een **betrouwbare bron, zoals iDIN**".
+3. **Preventive management / early signalling** — detect consumers in difficulty and refer them to debt
+   assistance; AFM will update its **"Consumenten en Incassotrajecten"** guidance.
 
 ## BNPL market (AFM Marktupdate 2025, June 2025)
 
