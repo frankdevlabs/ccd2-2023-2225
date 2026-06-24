@@ -58,7 +58,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 #### Tweede Kamer
 - **Stage:** Schriftelijke voorbereiding (written preparation).
-- **Latest act:** **Verslag (36924-6), 21 May 2026** — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
+- **Latest act:** Brief regering — reactie op commissieverzoek over de implementatie (**36924-7, 23 Jun 2026**); the verslag (36924-6, 21 May 2026) still awaits the government's *nota n.a.v. het verslag* — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
 - **Owner:** Vaste commissie voor Financiën.
 - **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May).
 - **Next:** Plenary debate + vote once the nota is received (not yet scheduled).

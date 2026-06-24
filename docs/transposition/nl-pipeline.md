@@ -18,24 +18,28 @@
 
 ## Status table (parliamentary stages)
 
-| Stage | Date | Status (13 Jun 2026) |
+| Stage | Date | Status (24 Jun 2026) |
 |---|---|---|
 | Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
 | Ministerraad → Raad van State | 31 Oct 2025 | Completed |
 | Raad van State advice (dictum B, positive) + nader rapport (36924-4) | 2 Apr 2026 | Completed |
 | Voorstel van wet + MvT (36924-1/2/3) | 1 Apr 2026 | Submitted |
+| Brief regering — bescherming consument bij achteraf betalen (36924-5) | 2 Apr 2026 | Published |
 | Koninklijke boodschap rondgezonden; referral to vaste commissie Financiën | 8 Apr 2026 | Completed |
 | Technische briefing | 12 May 2026 | Completed |
 | Inbreng verslag (written input) | 19 May 2026 | Completed |
 | **Verslag (36924-6)** | **21 May 2026** | **Published** |
+| Brief regering — reactie op commissieverzoek over implementatie (36924-7) | 23 Jun 2026 | Published |
 | Nota naar aanleiding van het verslag | — | **Pending** |
 | Plenary debate / TK vote | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
 
 **Current stage:** Tweede Kamer, schriftelijke voorbereiding. The committee's verslag was issued 21 May
-2026; the bill awaits the government's **nota naar aanleiding van het verslag**, after which plenary
-treatment can be scheduled. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+2026; on 23 Jun 2026 the government sent a reply to a committee request on the implementation (36924-7,
+*not* the nota n.a.v. het verslag). The bill still awaits the government's **nota naar aanleiding van het
+verslag**, after which plenary treatment can be scheduled. Not yet voted; not at the Eerste Kamer; not in
+the Staatsblad.
 
 ## Missed deadline / target
 
