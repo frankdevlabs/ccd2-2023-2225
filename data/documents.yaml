@@ -81,6 +81,18 @@ documents:
       https://www.raadvanstate.nl/adviezen/@154686/w06-25-00331-iii/ . The minors-ban legal basis was
       changed after RvS criticism (from CCD2 art 18(3) to art 6).
 
+  - id: 36924-5
+    title: "Brief regering — Bescherming consument bij achteraf betalen (BNPL)"
+    body: "Ministerie van Financiën"
+    date: 2026-04-02
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D15849
+    access: public-via-national-parliament
+    notes: >-
+      Brief van de Minister van Financiën accompanying the bill, on protecting consumers using
+      *achteraf betalen* / BNPL — directly in CCD2 scope (BNPL/Klarna conduct brought into the
+      consumer-credit regime). Also at https://zoek.officielebekendmakingen.nl/kst-36924-5.html .
+      Surfaced by the 2026-06-24 completeness audit (baseline-seeded but never registered).
+
   - id: 36924-6
     title: "Verslag — vaste commissie voor Financiën (Implementatiewet herziene richtlijn consumentenkrediet)"
     body: "Tweede Kamer"
@@ -90,6 +102,19 @@ documents:
     notes: >-
       Committee questions. The current stage as of 13 Jun 2026 — awaiting the government's nota naar
       aanleiding van het verslag.
+
+  - id: 36924-7
+    title: "Brief regering — Reactie op verzoek commissie over de implementatie van de herziene richtlijn consumentenkrediet"
+    body: "Ministerie van Financiën"
+    date: 2026-06-23
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D31983
+    access: public-via-national-parliament
+    notes: >-
+      Government reply (Minister van Financiën) to a committee request on the CCD II implementation.
+      NOT the nota naar aanleiding van het verslag (still pending). The official Staten-Generaal
+      publication (kst-36924-7) had not yet propagated to officielebekendmakingen.nl as of 24 Jun 2026
+      (the site was down 19–24 Jun); the authoritative text is available via the Tweede Kamer
+      gegevensmagazijn (DocumentNr 2026D31983). Surfaced by the 2026-06-24 completeness audit.
 
   # --- NL transposition: the Implementatiebesluit (AMvB) -------------------
   - id: AMvB-WGK026387

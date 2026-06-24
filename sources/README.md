@@ -21,7 +21,9 @@
 | `36924-2` | Voorstel van wet | 2026-04-01 | Ministerie van Financiën | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | `36924-3` | Memorie van toelichting | 2026-04-01 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D15852) |
 | `36924-4` | Advies Raad van State + nader rapport | 2026-04-02 | Raad van State | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D15855) |
+| `36924-5` | Brief regering — Bescherming consument bij achteraf betalen (BNPL) | 2026-04-02 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D15849) |
 | `36924-6` | Verslag (vaste commissie voor Financiën) | 2026-05-21 | Tweede Kamer | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
+| `36924-7` | Brief regering — Reactie op verzoek commissie over de implementatie | 2026-06-23 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31983) |
 
 ## NL transposition — the Implementatiebesluit (AMvB)
 

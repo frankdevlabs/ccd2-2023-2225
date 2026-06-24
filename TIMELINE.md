@@ -35,17 +35,19 @@
 | 2026-02-03 | Kamervragen answered on **'Koop nu, baal later': Klarna dubieuze incassotrajecten** (leden Inge van Dijk, Hamstra; lid Ceder) | [ah-tk-20252026-1015](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 | 2026-03-02 | Kamervragen answered on **financiële risico's van achteraf betalen voor jongeren** (leden Inge van Dijk, Hamstra) | [ah-tk-20252026-1198](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html) |
 | 2026-04-01 | **Voorstel van wet + MvT (36924-1/2/3) submitted** to the Tweede Kamer | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-04-02 | Brief regering — **bescherming consument bij achteraf betalen (36924-5)** | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D15849) · [pipeline](docs/transposition/nl-pipeline.md) |
 | 2026-04-08 | Koninklijke boodschap rondgezonden; referral to the vaste commissie voor Financiën | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | 2026-05-12 | Technische briefing (committee) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | 2026-05-19 | Inbreng verslag (written input) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | 2026-05-21 | **Verslag (36924-6) published** — committee questions | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
 | 2026-06-02 | Latest BNPL Kamervraag answered (lid Ceder) — **Kifid-uitspraak over Klarna-incasso** | [ah-1251487](https://zoek.officielebekendmakingen.nl/ah-1251487.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
+| 2026-06-23 | Brief regering — **reactie op commissieverzoek over de implementatie (36924-7)** (not the nota n.a.v. het verslag) | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31983) · [pipeline](docs/transposition/nl-pipeline.md) |
 
 ## Expected / forward look (planned, not completed)
 
 | Date | Event | Source |
 |---|---|---|
-| — | **Nota naar aanleiding van het verslag** (36924-7+) — government reply | awaited |
+| — | **Nota naar aanleiding van het verslag** (36924-8+) — government reply to the verslag | awaited |
 | — | Tweede Kamer plenary debate + vote | not scheduled |
 | — | Eerste Kamer referral + vote | not started |
 | — | Staatsblad publication of the wet + the Implementatiebesluit (AMvB) | not done |
