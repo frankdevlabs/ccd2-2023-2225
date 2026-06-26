@@ -69,6 +69,7 @@ and Klarna's collection practices. They are tracked automatically via watchlist 
 | 2026-02-03 | 'Koop nu, baal later': Klarna-incassotrajecten (Inge van Dijk, Hamstra; Ceder) | [`ah-tk-20252026-1015`](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html) |
 | 2026-03-02 | Achteraf betalen / impulsaankopen jongeren (Inge van Dijk, Hamstra) | [`ah-tk-20252026-1198`](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html) |
 | 2026-06-02 | Kifid-uitspraak incasso Klarna (Ceder) | [`ah-1251487`](https://zoek.officielebekendmakingen.nl/ah-1251487.html) |
+| 2026-06-26 *(ingezonden; nog niet beantwoord)* | Nibud-rapport 'Geldzaken in de praktijk (2026)' — o.a. creditcard / achteraf betalen-schulden & bescherming jongvolwassenen (Hamstra) | [`kv-1256205`](https://zoek.officielebekendmakingen.nl/kv-1256205.html) (vr. 2026Z14726) |
 
 > The CCD2 link is **thematic** — these questions predate/run alongside the bill and the answers do not
 > necessarily cite the richtlijn. Verify the answer text before relying on a specific government position.
