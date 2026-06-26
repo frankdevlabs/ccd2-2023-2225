@@ -5,71 +5,73 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-25T14:49:26Z
+last_run: 2026-06-26T14:52:00Z
 sources:
-  # T1-02 — RE-DETECTED (commented on open issue #15). Dossier hash changed again: the Nota n.a.v.
-  #   het verslag (23 jun 2026) + Beslisnota now live as downloadable PDF+DOCX on the TK dossier
-  #   itself (yesterday only in OData 2026D31985/86; officielebekendmakingen was down 19–24 Jun, so
-  #   kst-36924 had not propagated). Same development as #15 — no new issue, append-comment per dedup.
-  #   OData (authoritative) activities: Inbreng verslag 19 mei Uitgevoerd; Rondetafelgesprek 25 jun
-  #   2026 Gepland (TODAY). HTML also lists a Procedurevergadering "2 jul 2026" — UNVERIFIED (not in
-  #   OData under consumentenkrediet; generic onderwerp). Flagged for manual check, not asserted.
+  # T1-02 (TK 36924 dossier) — RE-DETECTED (commented on open issue #15). Dossier hash changed
+  #   again; verified against OData: the Rondetafelgesprek 25 jun 2026 has flipped Gepland → Uitgevoerd
+  #   (held yesterday). No new Kamerstuk, no plenary/vote/stemming in OData. HTML-listed
+  #   Procedurevergadering "2 jul 2026" still NOT in OData under consumentenkrediet — UNVERIFIED, not
+  #   asserted. Same source URL + stage as #15 — append-comment per dedup, no new issue.
   T1-02:
-    last_seen_hash: "sha256:8afaa35cb9dfb5bf46fc3acedaf6b9b0de5f518ee18eb1b4fc603a4fb192df72"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-03 (EK) — hash UNCHANGED from 2026-06-24. Still "in behandeling bij de Tweede Kamer"; no EK
+    last_seen_hash: "sha256:28fd742914a8c5242c2277d73354bf63fc4082b5a7880006a5943a612b73a73b"
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-03 (EK) — hash UNCHANGED from 2026-06-25. Still "in behandeling bij de Tweede Kamer"; no EK
   #   referral yet. Non-substantive.
   T1-03:
     last_seen_hash: "sha256:a87fd1fe35b75aa457562eb9fbea2298f7fe3fcee5b6d4339c0d3863f4a8880f"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-04 (WGK026364, the wet) — hash UNCHANGED from 2026-06-24. Phase still "Tweede Kamer".
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-04 (WGK026364, the wet) — hash UNCHANGED from 2026-06-25. Phase still "Tweede Kamer".
   #   Non-substantive.
   T1-04:
     last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — hash UNCHANGED from 2026-06-24. Phase table
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — hash UNCHANGED from 2026-06-25. Phase table
   #   unchanged (consultatie closed; no RvS / Staatsblad phase). Non-substantive.
   T1-05:
     last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
-    last_seen_at: 2026-06-25T14:49:26Z
+    last_seen_at: 2026-06-26T14:52:00Z
   # T1-06 (internetconsultatie AMvB) — consultation still "Gesloten"; no consultatieverslag. Hash
-  #   rotates PER REQUEST (reactie UUIDs). Non-substantive. Recorded latest.
+  #   rotates PER REQUEST (reactie UUIDs) — changed again, non-substantive. Recorded latest.
   T1-06:
-    last_seen_hash: "sha256:7bfcf3ec37f7479dfb36aecf1d30812fdba0b38165c80632d65dd42855318b11"
-    last_seen_at: 2026-06-25T14:49:26Z
+    last_seen_hash: "sha256:996eaa41c5919f805c275ee0408cb64f1a782a176364e0fdf976d2e868298b09"
+    last_seen_at: 2026-06-26T14:52:00Z
   # T1-07 (AFM CCDII) — TRACKED URL STILL DEAD. .../4-herziene-richtlijn-consumentenkrediet-ccdii
   #   still returns "Pagina niet gevonden" (404 body, HTTP 200). Hash changed (404-template chrome
   #   rotation); content unchanged. Already flagged in #11 (watchlist URL needs updating in
   #   tracker.yaml to the de-prefixed .../herziene-richtlijn-consumentenkrediet-ccdii). No new issue.
   T1-07:
-    last_seen_hash: "sha256:86116b4844ea010eb712c97cea09ba8cb2199cd38737f4259651616a85659ca9"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-08 (EC presscorner inf_26_115) — hash UNCHANGED from 2026-06-24. Still the 30 Jan 2026 letter
-  #   of formal notice; NO escalation (no reasoned opinion / CJEU referral). No issue.
+    last_seen_hash: "sha256:98c6f27c3b2e60fe56c3775e15c19564471fb941489af7fb7e9bb44244a6bb51"
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-08 (EC presscorner inf_26_115) — hash changed (JS-SPA chrome/build-token rotation). og:title
+  #   still "January infringements package"; only inf_26_115 referenced. Still the 30 Jan 2026 letter
+  #   of formal notice; NO escalation (no reasoned opinion / CJEU referral). Non-substantive, no issue.
   T1-08:
-    last_seen_hash: "sha256:6a42f804f2fccb1192411966ee8814ca1c27cb63e1f4b07500354e8748c43790"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — RECOVERED after the 2026-06-19→25 outage.
-  #   Flapped early in the run (HTTP 500 / error page) then stabilised to a valid 51-item feed.
-  #   Content UNCHANGED vs the 2026-06-17 baseline (hash identical) — no new Kamervragen. Timestamp
-  #   advanced; hash retained. Logged recovery to health #9.
+    last_seen_hash: "sha256:d0fe8950db974d2edca997700c715f5f722be4c95ab12888eb7939330d9efd42"
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — HIT (issue #17). Flapped HTTP 500 then
+  #   recovered to valid 53-item feed on retry. Two NEW items dated 26 jun 2026 vs the 51-item baseline:
+  #   ah-1256133 (Uitstel beantwoording — Ceder/Kifid/Klarna incasso) and kv-1256205 (new schriftelijke
+  #   vragen 2026Z14726 on the Nibud "Geldzaken in de praktijk 2026" report; package-level, flagged for
+  #   manual CCD2 check). First substantive change since the 2026-06-17 baseline.
   T1-09:
-    last_seen_hash: "sha256:2e6cc6b9d01b10a3f4c8abfae88e2dbc1e27b0817d843fd951670e922fa93600"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — RECOVERED,
-  #   HTTP 200, content UNCHANGED vs 2026-06-17 baseline. Timestamp advanced; hash retained.
+    last_seen_hash: "sha256:40882332f9c1b2f9db1a06d25a2582a676dcf8afc192d20b8e4df787f43ca91c"
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — recovered
+  #   after HTTP 500 retry; HTTP 200, content UNCHANGED vs 2026-06-17 baseline (hash identical).
+  #   Timestamp advanced; hash retained.
   T1-10:
     last_seen_hash: "sha256:30b2a6c22e85f930eab051045afeb07408a04943aecf8ad92bf1492490f46b3f"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T2-01 (VFN CCD II update) — hash UNCHANGED from 2026-06-24 (still RvS advies summary,
-  #   article:modified_time 2026-06-09). Non-substantive.
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T2-01 (VFN CCD II update) — hash changed but article:modified_time STILL 2026-06-09 (same RvS
+  #   advies summary); change is rotating page chrome/related-items only. Non-substantive. Recorded latest.
   T2-01:
-    last_seen_hash: "sha256:5c7bf91d41e5a82b07d145a8960156da32bdab013111708d7e31379a1b9e82a9"
-    last_seen_at: 2026-06-25T14:49:26Z
+    last_seen_hash: "sha256:2209a6bc3cb53975e2c6452187c344c8b79ce08c8f68cfae0211551ff254eafe"
+    last_seen_at: 2026-06-26T14:52:00Z
   # T2-02 (Betaalvereniging nieuws) — listing hash changed but NO headline/body matched the
   #   CCD2/BNPL/creditcard/uitgestelde-betaling filter (0 keyword hits). Not a hit. Recorded latest.
   T2-02:
-    last_seen_hash: "sha256:eabc2bf825af946aad6233603942bd28710d4d8b283b7fee50653357d0f5dc72"
-    last_seen_at: 2026-06-25T14:49:26Z
-  # T1-01 (EUR-Lex NIM) — AWS WAF challenge again (HTTP 202, awswaf challenge page); still not
-  #   baselined. Logged to health #9.
+    last_seen_hash: "sha256:12b5e528514ee6cfda8ffedcccb14d520b162654f05e60800349f57b4bb2249f"
+    last_seen_at: 2026-06-26T14:52:00Z
+  # T1-01 (EUR-Lex NIM) — UNREACHABLE again: HTTP 000 (reset/timeout) + garbled body (an EP
+  #   Legislative Observatory shell, not the NIM table). Persistent AWS-WAF block. Still not baselined;
+  #   no hash recorded. Logged to health #9.
