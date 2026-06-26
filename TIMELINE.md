@@ -42,6 +42,7 @@
 | 2026-05-21 | **Verslag (36924-6) published** — committee questions | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
 | 2026-06-02 | Latest BNPL Kamervraag answered (lid Ceder) — **Kifid-uitspraak over Klarna-incasso** | [ah-1251487](https://zoek.officielebekendmakingen.nl/ah-1251487.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 | 2026-06-23 | Brief regering — **reactie op commissieverzoek over de implementatie (36924-7)** (not the nota n.a.v. het verslag) | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31983) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-06-26 | Kamervragen filed (lid Hamstra, CDA) on the **Nibud-rapport 'Geldzaken in de praktijk (2026)'** — incl. creditcard/achteraf betalen-schulden & bescherming jongvolwassenen (awaiting answer) | [kv-1256205](https://zoek.officielebekendmakingen.nl/kv-1256205.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 
 ## Expected / forward look (planned, not completed)
 
