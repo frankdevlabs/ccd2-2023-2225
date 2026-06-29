@@ -8,7 +8,7 @@
 | **Transposition deadline** | **20 Nov 2025 — MISSED by the Netherlands** (and 22 other Member States) |
 | **Application date** | **20 Nov 2026** (deferred-debit cards: +6 months) — CCD1 (2008/48/EC) repealed from that date |
 | **EU enforcement** | **Letter of formal notice to NL — 30 Jan 2026** (package [INF/26/115](https://ec.europa.eu/commission/presscorner/detail/en/inf_26_115)); 2-month response window — [details](docs/infringement.md) |
-| **NL status** | Bill **36924** in Tweede Kamer written preparation — **verslag (36924-6) published 21 May 2026**; AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
+| **NL status** | Bill **36924** in Tweede Kamer — written preparation complete: **verslag (36924-6) 21 May 2026 + nota naar aanleiding van het verslag (36924-8) 23 Jun 2026**; awaiting plenary scheduling. AMvB consulted (closed 2 Feb 2026), not finalised — [pipeline](docs/transposition/nl-pipeline.md) |
 | **As of** | **13 June 2026** (research-dossier verification date; the daily tracker will set this to `data/tracker-state.yaml` `last_run`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)); repo overview & navigation in
@@ -22,8 +22,9 @@
 
 CCD2 is **adopted and in force** but the Netherlands **missed the 20 Nov 2025 transposition deadline** and
 received a **Commission letter of formal notice on 30 Jan 2026**; the implementing bill (**36924**) is in
-Tweede Kamer written preparation (verslag 36924-6, 21 May 2026, awaiting the government's *nota naar
-aanleiding van het verslag*), the accompanying AMvB has been consulted but not finalised, and the target is
+Tweede Kamer written preparation (verslag 36924-6, 21 May 2026; the government's *nota naar aanleiding van
+het verslag*, 36924-8, followed on 23 Jun 2026 — awaiting plenary scheduling), the accompanying AMvB has
+been consulted but not finalised, and the target is
 entry into force aligned to the **20 Nov 2026** application date — "under pressure" per the sector.
 
 ## Where things stand
@@ -50,18 +51,18 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 ### B. Netherlands transposition
 
 #### Regering / Ministerie van Financiën — owner of the bill + AMvB
-- **Stage:** Bill submitted to the Tweede Kamer (1 Apr 2026); awaiting government reply to the verslag.
-- **Latest act:** Voorstel van wet + MvT (36924-1/2/3), 1 Apr 2026 — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
+- **Stage:** Bill submitted to the Tweede Kamer (1 Apr 2026); government reply to the verslag delivered (nota, 23 Jun 2026).
+- **Latest act:** Nota naar aanleiding van het verslag (**36924-8, 23 Jun 2026**) — [pipeline](docs/transposition/nl-pipeline.md) · [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31985)
 - **Owner:** Minister van Financiën **E. (Eelco) Heinen**; co-signed by the Staatssecretaris van J&V.
 - **Position:** Brings BNPL / cards / overdrafts under the Wft; new arts 4:34a/4:34b Wft; deferred-debit cards +6 months. Acknowledges the missed deadline (complexity + many Member-State options).
-- **Next:** **Nota naar aanleiding van het verslag** (36924-8+), then plenary scheduling.
+- **Next:** Plenary scheduling (debate + vote), not yet set.
 
 #### Tweede Kamer
 - **Stage:** Schriftelijke voorbereiding (written preparation).
-- **Latest act:** Brief regering — reactie op commissieverzoek over de implementatie (**36924-7, 23 Jun 2026**); the verslag (36924-6, 21 May 2026) still awaits the government's *nota n.a.v. het verslag* — [pipeline](docs/transposition/nl-pipeline.md) · [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails)
+- **Latest act:** Nota naar aanleiding van het verslag (**36924-8, 23 Jun 2026**) — the government's reply to the verslag (36924-6, 21 May 2026); same day as the brief regering reactie op commissieverzoek (36924-7) — [pipeline](docs/transposition/nl-pipeline.md) · [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31985)
 - **Owner:** Vaste commissie voor Financiën.
-- **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May).
-- **Next:** **Rondetafelgesprek 25 Jun 2026** (committee hearing, *Gepland*); procedurevergadering Financiën 18 Jun. Then the **nota naar aanleiding van het verslag** → plenary debate + vote (not yet scheduled).
+- **Position:** Committee questions issued (technische briefing 12 May; inbreng 19 May); answered by the nota 23 Jun.
+- **Next:** Rondetafelgesprek 25 Jun 2026 (committee hearing, *Gepland*), then plenary debate + vote (not yet scheduled).
 
 #### Eerste Kamer
 - **Stage:** Not started ("in behandeling bij de Tweede Kamer").
@@ -88,9 +89,9 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 <!-- KEEP THIS HEADING VERBATIM — the register-document / resolve-tracker-issue skills route new milestones here. -->
 
-- [ ] **Rondetafelgesprek (committee hearing) 25 Jun 2026** + procedurevergadering Financiën 18 Jun → committee scrutiny ahead of the nota.
-- [ ] **Nota naar aanleiding van het verslag** (36924-8+) → status: "TK plenary preparation".
-- [ ] **Tweede Kamer plenary vote** → status: "Adopted by TK".
+- [x] **Nota naar aanleiding van het verslag** (36924-8) — published 23 Jun 2026.
+- [ ] **Rondetafelgesprek (committee hearing) 25 Jun 2026** + procedurevergadering Financiën 18 Jun → committee scrutiny.
+- [ ] **Tweede Kamer plenary debate + vote** (not yet scheduled) → status: "Adopted by TK".
 - [ ] **Eerste Kamer** referral, then vote → status: "EK voorbereiding" / "Adopted".
 - [ ] **Staatsblad** publication of the wet + inwerkingtredingsbesluit → "Published / awaiting entry into force".
 - [ ] **Implementatiebesluit (AMvB)** finalised / published in the Staatsblad → "AMvB finalised".

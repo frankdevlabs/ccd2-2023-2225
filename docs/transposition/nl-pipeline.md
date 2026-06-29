@@ -31,17 +31,22 @@
 | **Verslag (36924-6)** | **21 May 2026** | **Published** |
 | Procedurevergadering (PV Financiën) | 18 Jun 2026 | Gepland (36924 agenda item — confirm) |
 | Brief regering — reactie op commissieverzoek over implementatie (36924-7) | 23 Jun 2026 | Published |
+| **Nota naar aanleiding van het verslag (36924-8)** | **23 Jun 2026** | **Published** |
 | Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Gepland |
-| Nota naar aanleiding van het verslag | — | **Pending** |
 | Plenary debate / TK vote | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
 
-**Current stage:** Tweede Kamer, schriftelijke voorbereiding. The committee's verslag was issued 21 May
-2026; on 23 Jun 2026 the government sent a reply to a committee request on the implementation (36924-7,
-*not* the nota n.a.v. het verslag). The bill still awaits the government's **nota naar aanleiding van het
-verslag**, after which plenary treatment can be scheduled. Not yet voted; not at the Eerste Kamer; not in
-the Staatsblad.
+**Current stage:** Tweede Kamer, schriftelijke voorbereiding completed. The committee's verslag was issued
+21 May 2026; on 23 Jun 2026 the government published both a reply to a committee request on the
+implementation (36924-7) and — the same day — the **nota naar aanleiding van het verslag (36924-8)**, its
+substantive reply to the verslag. With the nota in, the bill is ready for **plenary scheduling** (debate +
+vote), which has not yet been set. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+
+> The nota (DocumentNr 2026D31985) carries a provisional OData Volgnummer -1 / empty Kamerstukdossier link
+> and kst-36924-8 has not yet propagated to officielebekendmakingen.nl as of 29 Jun 2026 — the same lag
+> seen for 36924-7. Authoritative text via the TK gegevensmagazijn / the
+> [search page](https://www.tweedekamer.nl/zoeken?qry=36924&fld_tk_categorie=Kamerstukken&srt=date%3Adesc%3Adate).
 
 ## Missed deadline / target
 

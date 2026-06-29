@@ -80,6 +80,20 @@ The entry point is the `/tracker-issue` command (or invoke this skill directly).
      If a claimed date is not in the feed, **do not assert it** — drop it or record it as "unverified".
      Procedurevergaderingen carry a generic Onderwerp (won't match the bill title) — confirm those from the
      agenda PDF or mark the dossier as an "agenda item — unverified".
+   - **Document existence — dossier-link absence ≠ non-existence.** When checking whether a *document*
+     (kamerstuk) exists, query the OData `Document` feed by **subject**, not by dossier link:
+     ```
+     gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document
+       ?$filter=year(Datum) eq <yr> and contains(tolower(Onderwerp),'consumentenkrediet')
+       &$orderby=Datum desc&$select=Volgnummer,Soort,DocumentNummer,Datum,Onderwerp
+     ```
+     A freshly-published document carries `Volgnummer -1` and an **empty `Kamerstukdossier` link** until
+     its dossier metadata is assigned later, so `Kamerstukdossier/any(k:k/Nummer eq 36924)` silently omits
+     it. Such a document is still real — do **not** conclude "misdetection / does not exist" from the
+     dossier-link query (this is exactly the false negative that wrongly dismissed issue #15: the nota
+     n.a.v. het verslag, 23 Jun 2026 / DocumentNr 2026D31985). When in doubt, list the search page
+     `tweedekamer.nl/zoeken?qry=36924&fld_tk_categorie=Kamerstukken&srt=date%3Adesc%3Adate` — it shows
+     recent documents that the dossier *detail* page hides behind an extra click.
 
 3. **Run the matching playbook** (below) to determine the concrete edits.
 

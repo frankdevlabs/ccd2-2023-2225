@@ -100,8 +100,8 @@ documents:
     url: https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails
     access: public-via-national-parliament
     notes: >-
-      Committee questions. The current stage as of 13 Jun 2026 — awaiting the government's nota naar
-      aanleiding van het verslag.
+      Committee questions. The government replied with the nota naar aanleiding van het verslag
+      (36924-8) on 23 Jun 2026.
 
   - id: 36924-7
     title: "Brief regering — Reactie op verzoek commissie over de implementatie van de herziene richtlijn consumentenkrediet"
@@ -111,10 +111,28 @@ documents:
     access: public-via-national-parliament
     notes: >-
       Government reply (Minister van Financiën) to a committee request on the CCD II implementation.
-      NOT the nota naar aanleiding van het verslag (still pending). The official Staten-Generaal
-      publication (kst-36924-7) had not yet propagated to officielebekendmakingen.nl as of 24 Jun 2026
-      (the site was down 19–24 Jun); the authoritative text is available via the Tweede Kamer
-      gegevensmagazijn (DocumentNr 2026D31983). Surfaced by the 2026-06-24 completeness audit.
+      A separate, narrower document from the nota naar aanleiding van het verslag (36924-8, same day).
+      The official Staten-Generaal publication (kst-36924-7) had not yet propagated to
+      officielebekendmakingen.nl as of 24 Jun 2026 (the site was down 19–24 Jun); the authoritative text
+      is available via the Tweede Kamer gegevensmagazijn (DocumentNr 2026D31983). Surfaced by the
+      2026-06-24 completeness audit.
+
+  - id: 36924-8
+    title: "Nota naar aanleiding van het verslag (Implementatiewet herziene richtlijn consumentenkrediet)"
+    body: "Ministerie van Financiën"
+    date: 2026-06-23
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D31985
+    access: public-via-national-parliament
+    notes: >-
+      The government's substantive reply to the committee's verslag (36924-6) — the milestone that clears
+      the bill for plenary scheduling. DocumentNr 2026D31985 (DOCX); accompanied by a Beslisnota
+      (DocumentNr 2026D31986, PDF). Volgnummer is provisional: as of 29 Jun 2026 the document carries
+      OData Volgnummer -1 with an empty Kamerstukdossier link and kst-36924-8 has not yet propagated to
+      officielebekendmakingen.nl — the same propagation lag seen for 36924-7. The structured TK Document
+      feed filtered by dossier number therefore omits it; it is found via the by-Onderwerp query
+      (contains(tolower(Onderwerp),'consumentenkrediet')) or the tweedekamer.nl search page. Originally
+      flagged by the daily tracker on 24 Jun 2026 (issue #15) and wrongly dismissed as a misdetection;
+      corrected here.
 
   # --- NL transposition: the Implementatiebesluit (AMvB) -------------------
   - id: AMvB-WGK026387
