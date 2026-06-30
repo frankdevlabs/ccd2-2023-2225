@@ -5,78 +5,73 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-06-29T14:48:28Z
+last_run: 2026-06-30T14:48:17Z
 sources:
-  # T1-01 (EUR-Lex NIM) — FIRST SUCCESSFUL FETCH (previously persistent AWS-WAF block, never baselined;
-  #   see health #9). HTTP 200, real NIM table this time (title "Directive - EU - 2023/2225 ... CCD2").
-  #   Netherlands row: "Number of measures: 0" — NL has communicated NO national transposition measure
-  #   yet, consistent with the open infringement (30 Jan 2026 letter of formal notice). First poll →
-  #   baseline silently per state rule; NO issue. Watch for the NL row going 0 → ≥1 (transposition
-  #   (partially) communicated; bears on the infringement step).
+  # T1-01 (EUR-Lex NIM) — UNREACHABLE this run: AWS-WAF challenge again (2,035-byte awswaf page, no
+  #   title/NIM table). The 2026-06-29 success was a one-off; block is intermittent. Hash NOT updated —
+  #   kept 2026-06-29 baseline. Logged to health #9. Watch for NL row going 0 → ≥1 once fetchable.
   T1-01:
     last_seen_hash: "sha256:e51e128790b0f1b8568eb13501385918e39c627cc682c73cd4cc9fb5e0fa7610"
     last_seen_at: 2026-06-29T14:48:28Z
-  # T1-02 (TK 36924 dossier) — hash changed vs 2026-06-26, but VERIFIED non-substantive against OData:
+  # T1-02 (TK 36924 dossier) — hash changed vs 2026-06-29, but VERIFIED non-substantive against OData:
   #   no new Document and no new Activiteit since last run. Latest doc still 2026D32797 (Position paper
-  #   NVVK, 25 jun) / 2026D32217 (ICS, 24 jun); nota n.a.v. het verslag 2026D31985 (23 jun) already
-  #   integrated. Latest activity still Rondetafelgesprek 25 jun (Uitgevoerd). NO new Kamerstuk, NO
-  #   plenary debate / stemming in OData. Issue #15 (the nota stage) is now CLOSED/integrated (commit
-  #   cd09ad5). HTML-listed Procedurevergadering "2 jul 2026" still NOT in OData — UNVERIFIED, not
-  #   asserted. Change is dossier chrome / recent-docs collapse rotation. No issue.
+  #   NVVK, 25 jun) / 2026D32217 (ICS, 24 jun). Latest activity still Rondetafelgesprek 25 jun
+  #   (Uitgevoerd); inbreng verslag 19 mei. NO new Kamerstuk, NO plenary debate/stemming in OData.
+  #   Change is dossier chrome / recent-docs collapse rotation. No issue.
   T1-02:
-    last_seen_hash: "sha256:60a8b343ad5497bb441fa177d1be921fb0c5ecc6e16cac114a199191ff126ce9"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-03 (EK) — hash UNCHANGED from 2026-06-26. Still "in behandeling bij de Tweede Kamer"; no EK
-  #   referral yet. Non-substantive.
+    last_seen_hash: "sha256:cfc200b13f0b738fb2ceaedaae9ab389bf8e18bde4bbb5a588997dcb0de6cca7"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-03 (EK) — hash changed (chrome) but content unchanged: still "in behandeling bij de Tweede Kamer"
+  #   (ingediend 1 april 2026); no EK referral yet. Non-substantive.
   T1-03:
-    last_seen_hash: "sha256:a87fd1fe35b75aa457562eb9fbea2298f7fe3fcee5b6d4339c0d3863f4a8880f"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-04 (WGK026364, the wet) — hash UNCHANGED from 2026-06-26. Phase still "Tweede Kamer".
-  #   Non-substantive.
+    last_seen_hash: "sha256:b6cefb0dda91c1b2470f6478dc22979c3b14ea56357ee2c83fb3f57804724426"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-04 (WGK026364, the wet) — hash changed (chrome) but phase still "Tweede Kamer"
+  #   (Staatsblad 0, Bekrachtiging 0). Non-substantive.
   T1-04:
-    last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — hash UNCHANGED from 2026-06-26. Phase table
-  #   unchanged (consultatie closed; no RvS / Staatsblad phase). Non-substantive.
+    last_seen_hash: "sha256:82f0d3823b4bc9973b5c16a20435757105a4bc52401fe9e9824482b33d9ef0df"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — hash changed (chrome) but phase table unchanged
+  #   (consultatie closed; no RvS / Staatsblad phase; Staatsblad 0). Non-substantive.
   T1-05:
-    last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
-    last_seen_at: 2026-06-29T14:48:28Z
+    last_seen_hash: "sha256:0c6bdf40bd81fb839d3d8001165c8585308c814428bb62e3b45b902f2c3ac208"
+    last_seen_at: 2026-06-30T14:48:17Z
   # T1-06 (internetconsultatie AMvB) — consultation still "Gesloten"; no consultatieverslag. Hash
   #   rotates PER REQUEST (reactie UUIDs) — changed again, non-substantive. Recorded latest.
   T1-06:
-    last_seen_hash: "sha256:17e7f5680e47d104fafff62c376ddae62a888a2579679037adacb97686cfd5e5"
-    last_seen_at: 2026-06-29T14:48:28Z
+    last_seen_hash: "sha256:54c36914292cd5b289bec8e1ce3b0416e6739942bbb72ae5b1a6d3be8b8a59ff"
+    last_seen_at: 2026-06-30T14:48:17Z
   # T1-07 (AFM CCDII) — TRACKED URL STILL DEAD. .../4-herziene-richtlijn-consumentenkrediet-ccdii
   #   still returns "Pagina niet gevonden" (404 body, HTTP 200). Hash changed (404-template chrome
   #   rotation); content unchanged. Already flagged in #11 (watchlist URL needs updating in
   #   tracker.yaml to the de-prefixed .../herziene-richtlijn-consumentenkrediet-ccdii). No new issue.
   T1-07:
-    last_seen_hash: "sha256:6ee313d6f762bf5d01b58bc86b18ddd3130b8f5cf22b7908d86480360d53514d"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-08 (EC presscorner inf_26_115) — hash changed (JS-SPA chrome/build-token rotation). og:title
-  #   still "January infringements package"; only inf_26_115 referenced. Still the 30 Jan 2026 letter
-  #   of formal notice; NO escalation (no reasoned opinion / CJEU referral). Non-substantive, no issue.
+    last_seen_hash: "sha256:2a91325baeb2fe6b3c728126b5379e5e1faec8800fbd4ec883296c27ebd144f6"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-08 (EC presscorner inf_26_115) — hash changed (JS-SPA chrome/build-token rotation). Still the
+  #   30 Jan 2026 letter of formal notice; NO escalation (no reasoned opinion / CJEU referral).
+  #   Non-substantive, no issue.
   T1-08:
-    last_seen_hash: "sha256:6a42f804f2fccb1192411966ee8814ca1c27cb63e1f4b07500354e8748c43790"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — hash UNCHANGED from 2026-06-26. Same 53-item
-  #   feed; no new items since ah-1256133 / kv-1256205 (26 jun, issue #17). Non-substantive.
+    last_seen_hash: "sha256:797b420d2dd32295670efbea3965eac658e808c5f12f1112fe97a9ce518f04bc"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — HIT. New top item ah-1256626 (29 jun 2026):
+  #   government answer (Aanhangsel) to vragen 2026Z11803 over TikTok Shop / impulsaankopen jongeren —
+  #   BNPL/achteraf-betalen conduct CCD2 brings into scope. Feed now 54 items. Issue #19 opened.
   T1-09:
-    last_seen_hash: "sha256:40882332f9c1b2f9db1a06d25a2582a676dcf8afc192d20b8e4df787f43ca91c"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — hash UNCHANGED
-  #   from 2026-06-26 (= 2026-06-17 baseline). No new kv-tk on special-category / social-network /
-  #   scoring data in credit. Non-substantive.
+    last_seen_hash: "sha256:b8286a5af4ec7cef4a117a46070d015831fb2812e734f19d3c904bee21d53d0f"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — same new top
+  #   item ah-1256626 (29 jun) surfaced here too; covered by issue #19 (no duplicate issue). 21 items.
   T1-10:
-    last_seen_hash: "sha256:30b2a6c22e85f930eab051045afeb07408a04943aecf8ad92bf1492490f46b3f"
-    last_seen_at: 2026-06-29T14:48:28Z
-  # T2-01 (VFN CCD II update) — hash changed but article:modified_time STILL 2026-06-09 (same RvS
-  #   advies summary); change is rotating page chrome/related-items only. Non-substantive. Recorded latest.
+    last_seen_hash: "sha256:0c05cb3c227fe411cf661aa0b7516aa4daff90a37ed0ec3075dbf88e2858c00f"
+    last_seen_at: 2026-06-30T14:48:17Z
+  # T2-01 (VFN CCD II update) — hash changed but content is the same RvS-advies summary; change is
+  #   rotating page chrome/related-items only. Non-substantive. Recorded latest.
   T2-01:
-    last_seen_hash: "sha256:5c7bf91d41e5a82b07d145a8960156da32bdab013111708d7e31379a1b9e82a9"
-    last_seen_at: 2026-06-29T14:48:28Z
+    last_seen_hash: "sha256:4167666696de070ca25f9797cd3c295b1fc5c1893790fd0404d071c645e2a3fa"
+    last_seen_at: 2026-06-30T14:48:17Z
   # T2-02 (Betaalvereniging nieuws) — listing hash changed but NO headline/body matched the
   #   CCD2/BNPL/creditcard/uitgestelde-betaling filter (0 keyword hits). Not a hit. Recorded latest.
   T2-02:
-    last_seen_hash: "sha256:7ea7254ec0434eeb0fc3c0ab642a6779a8cc1d1dca7f4aeb72a97861f5aa1472"
-    last_seen_at: 2026-06-29T14:48:28Z
+    last_seen_hash: "sha256:42587a7d6f7d3d91a73494dd3e3fd0759a1165afc795f52031ace718bdfb2ebb"
+    last_seen_at: 2026-06-30T14:48:17Z
