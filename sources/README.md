@@ -58,3 +58,4 @@
 | `ah-tk-20252026-1015` | 'Koop nu, baal later': Klarna-incassotrajecten (Inge van Dijk, Hamstra; Ceder) | 2026-02-03 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1015.html) |
 | `ah-tk-20252026-1198` | Financiële risico's van achteraf betalen voor jongeren (Inge van Dijk, Hamstra) | 2026-03-02 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-1198.html) |
 | `ah-1251487` | Kifid-uitspraak incassodienstverlening Klarna (Ceder) | 2026-06-02 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-1251487.html) |
+| `ah-1256626` | Impulsaankopen jongeren in de TikTok Shop — eerste antwoord dat CCDII + implementatiewet 36924 expliciet noemt (Inge van Dijk, Zwinkels, Hamstra) | 2026-06-29 | Tweede Kamer | [officielebekendmakingen](https://zoek.officielebekendmakingen.nl/ah-1256626.html) |
