@@ -43,6 +43,7 @@
 | 2026-06-02 | Latest BNPL Kamervraag answered (lid Ceder) — **Kifid-uitspraak over Klarna-incasso** | [ah-1251487](https://zoek.officielebekendmakingen.nl/ah-1251487.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 | 2026-06-23 | Brief regering — **reactie op commissieverzoek over de implementatie (36924-7)** | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31983) · [pipeline](docs/transposition/nl-pipeline.md) |
 | 2026-06-23 | **Nota naar aanleiding van het verslag (36924-8)** — government's substantive reply to the verslag; written preparation complete | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31985) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-06-29 | BNPL Kamervraag answered (leden Inge van Dijk, Zwinkels, Hamstra) — **impulsaankopen jongeren TikTok Shop**; first answer to **explicitly cite CCDII + implementatiewet 36924** (achteraf betalen = krediet; minderjarigenverbod, leeftijdsverificatie, vergunningplicht, AFM) | [ah-1256626](https://zoek.officielebekendmakingen.nl/ah-1256626.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 
 ## Expected / forward look (planned, not completed)
 
