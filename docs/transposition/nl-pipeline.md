@@ -18,7 +18,7 @@
 
 ## Status table (parliamentary stages)
 
-| Stage | Date | Status (24 Jun 2026) |
+| Stage | Date | Status (7 Jul 2026) |
 |---|---|---|
 | Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
 | Ministerraad → Raad van State | 31 Oct 2025 | Completed |
@@ -32,16 +32,20 @@
 | Procedurevergadering (PV Financiën) | 18 Jun 2026 | Gepland (36924 agenda item — confirm) |
 | Brief regering — reactie op commissieverzoek over implementatie (36924-7) | 23 Jun 2026 | Published |
 | **Nota naar aanleiding van het verslag (36924-8)** | **23 Jun 2026** | **Published** |
-| Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Gepland |
-| Plenary debate / TK vote | — | Not scheduled |
+| Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Uitgevoerd |
+| Convocatie wetgevingsoverleg (2026D35223) | 3 Jul 2026 | Published |
+| **Wetgevingsoverleg (WGO)** | **28 Sep 2026** | **Gepland** |
+| Plenary vote (TK) | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
 
 **Current stage:** Tweede Kamer, schriftelijke voorbereiding completed. The committee's verslag was issued
 21 May 2026; on 23 Jun 2026 the government published both a reply to a committee request on the
 implementation (36924-7) and — the same day — the **nota naar aanleiding van het verslag (36924-8)**, its
-substantive reply to the verslag. With the nota in, the bill is ready for **plenary scheduling** (debate +
-vote), which has not yet been set. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+substantive reply to the verslag. The committee held a **rondetafelgesprek** on 25 Jun 2026 (*Uitgevoerd*),
+and on 3 Jul 2026 published a **convocatie** (2026D35223) scheduling a **wetgevingsoverleg** — the committee
+legislative debate on the bill — for **28 Sep 2026** (*Gepland*, TK Activiteit feed). Not yet voted; not at
+the Eerste Kamer; not in the Staatsblad.
 
 > The nota (DocumentNr 2026D31985) carries a provisional OData Volgnummer -1 / empty Kamerstukdossier link
 > and kst-36924-8 has not yet propagated to officielebekendmakingen.nl as of 29 Jun 2026 — the same lag
