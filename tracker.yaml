@@ -143,7 +143,7 @@ watchlist:
       label: "EUR-Lex NIM — national transposition measures (CELEX 32023L2225)"
       url: "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225"
       affects: [STATUS.md, TIMELINE.md, docs/infringement.md]
-      notes: "Watches which Member States have communicated transposition. A new NL measure here = transposition (partially) complete."
+      notes: "Watches which Member States have communicated transposition. A new NL measure here = transposition (partially) complete. EUR-Lex legal-content intermittently serves an AWS-WAF challenge (HTTP 202, ~2KB awswaf page) to plain curl — on a challenge, refetch via ~/law-tracker/lib/fetch_blocked_doc.py (browser tier solves it; verified 2026-07-08) before treating the source as unreachable."
     T1-02:
       tier: T1
       kind: institutional
