@@ -97,6 +97,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - [ ] **Staatsblad** publication of the wet + inwerkingtredingsbesluit → "Published / awaiting entry into force".
 - [ ] **Implementatiebesluit (AMvB)** finalised / published in the Staatsblad → "AMvB finalised".
 - [ ] EU: a **reasoned opinion** or escalation after the 30 Jan 2026 letter of formal notice → "EU infringement escalated".
+- [ ] **NL NIM measure count 0 → ≥1** on the [EUR-Lex NIM page](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) — the first communicated Dutch transposition measure begins to close the underlying breach (as of **9 Jul 2026: NL still 0**; 15 of 27 MS have communicated ≥1 — [infringement](docs/infringement.md)).
 - [ ] **Entry into force aligned to 20 Nov 2026**, with a separate 6-month-later switch-on for deferred-debit cards.
 
 ## What changed in the latest text vs earlier reporting

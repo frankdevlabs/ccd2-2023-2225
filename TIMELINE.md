@@ -47,6 +47,7 @@
 | 2026-06-26 | Kamervragen filed (lid Hamstra, CDA) on the **Nibud-rapport 'Geldzaken in de praktijk (2026)'** — incl. creditcard/achteraf betalen-schulden & bescherming jongvolwassenen (awaiting answer) | [kv-1256205](https://zoek.officielebekendmakingen.nl/kv-1256205.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 | 2026-06-29 | BNPL Kamervraag answered (leden Inge van Dijk, Zwinkels, Hamstra) — **impulsaankopen jongeren TikTok Shop**; first answer to **explicitly cite CCDII + implementatiewet 36924** (achteraf betalen = krediet; minderjarigenverbod, leeftijdsverificatie, vergunningplicht, AFM) | [ah-1256626](https://zoek.officielebekendmakingen.nl/ah-1256626.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
 | 2026-07-03 | **Convocatie wetgevingsoverleg (2026D35223)** published — schedules the WGO on the bill for 28 Sep 2026 | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-07-09 | **NIM snapshot** — **15 of 27 Member States** have now communicated ≥1 CCD2 transposition measure; **the Netherlands is still at 0** (one of 12 MS at zero) — infringement context, NL laggard | [NIM](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) · [infringement](docs/infringement.md) |
 
 ## Expected / forward look (planned, not completed)
 
