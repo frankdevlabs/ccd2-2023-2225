@@ -5,25 +5,26 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-09T14:49:56Z
+last_run: 2026-07-10T16:46:30Z
 sources:
-  # T1-01 (EUR-Lex NIM) — HIT. curl still blocked (AWS-WAF challenge, 2,035-byte awswaf page, HTTP
-  #   202); refetched via browser tier (fetch_blocked_doc.py, 459KB). NIM table changed vs 2026-06-29
-  #   baseline: ~15 of 27 MS rows now show ≥1 communicated national measure (counts 1..32) against the
-  #   20/11/2025 deadline. NETHERLANDS row still "Number of measures: 0" — the NL 0→≥1 signal has NOT
-  #   fired; NL now stands out as a laggard (infringement-relevant, cf T1-08 LFN 30 Jan 2026). Issue
-  #   #23 opened. Hash updated to the browser-tier normalized body.
+  # T1-01 (EUR-Lex NIM) — HIT but RE-DETECTION of open #23. curl still blocked (AWS-WAF challenge,
+  #   2,035-byte awswaf page, HTTP 202); refetched via browser tier (fetch_blocked_doc.py, 466KB).
+  #   Normalized body hash changed vs 2026-07-09, but SUBSTANCE unchanged: Netherlands row still
+  #   "Number of measures: 0" (NL 0→≥1 signal NOT fired); ~15 of 27 MS still show ≥1 measure
+  #   (counts 1..32, max 32). One measure now dated 2026-07-03 (belongs to the row before NL, not NL).
+  #   No infringement change (T1-08 unchanged). Appended re-detection comment to open #23; no new
+  #   issue. Hash updated to the browser-tier normalized body.
   T1-01:
-    last_seen_hash: "sha256:e2507f3c3f9908e543c05d98d6d6dc791c8d1807147bcecdb7ce550f8ba9eaac"
-    last_seen_at: 2026-07-09T14:49:56Z
+    last_seen_hash: "sha256:d797a936145ee75369e63fbe48dc3a3afb38f15945f2aa48aed596491642908a"
+    last_seen_at: 2026-07-10T16:46:30Z
   # T1-02 (TK 36924 dossier) — hash changed but VERIFIED non-substantive. OData Document feed: newest
   #   is still 2026D35223 "Convocatie wetgevingsoverleg" (3 jul, Volgnummer -1) — already reported in
   #   #21 (closed). OData Activiteit feed: only future item is Wetgevingsoverleg 2026-09-28 (Status
   #   Gepland) — also already in #21. No new document, no new activity. HTML change is page chrome.
   #   Hash updated.
   T1-02:
-    last_seen_hash: "sha256:fe93dbd353cfe89f070404a8a447a6bbecb35cfd17855008bf4f58cec2d7a742"
-    last_seen_at: 2026-07-09T14:49:56Z
+    last_seen_hash: "sha256:9aa0f99278b54f7e6c83abc535af6c152199d6cfe2f1da9bf55c55cd57a22cd4"
+    last_seen_at: 2026-07-10T16:46:30Z
   # T1-03 (EK) — UNCHANGED vs 2026-07-02 (hash identical). Still "in behandeling bij de Tweede Kamer"
   #   (ingediend 1 april 2026); no EK referral yet.
   T1-03:
@@ -41,15 +42,15 @@ sources:
   # T1-06 (internetconsultatie AMvB) — consultation still "Gesloten"; no consultatieverslag. Hash
   #   rotates PER REQUEST (reactie UUIDs) — changed again, non-substantive. Recorded latest.
   T1-06:
-    last_seen_hash: "sha256:aaa50f4e8d3fac27056fd1ef5f272c28cebe4fafa8a105e3ca0fc4931761f40a"
-    last_seen_at: 2026-07-09T14:49:56Z
+    last_seen_hash: "sha256:6627a5f527d13c48207d41c6e13679a1eb05d9fc5a72cb17e7534c0a257bfe0f"
+    last_seen_at: 2026-07-10T16:46:30Z
   # T1-07 (AFM CCDII) — TRACKED URL STILL DEAD. .../4-herziene-richtlijn-consumentenkrediet-ccdii
   #   still returns "Pagina niet gevonden" (404 body, HTTP 200). Hash changed (404-template chrome
   #   rotation); content unchanged. Already flagged in #11 (watchlist URL needs updating in
   #   tracker.yaml to the de-prefixed .../herziene-richtlijn-consumentenkrediet-ccdii). No new issue.
   T1-07:
-    last_seen_hash: "sha256:99bf7d92ee35d44ec7fa987eeda128b3a80a55465b631a2f8d188d253b44255a"
-    last_seen_at: 2026-07-09T14:49:56Z
+    last_seen_hash: "sha256:0834e14c1b80639ecb951bd61e7568720a4f2be117f928625d4940b81c233b46"
+    last_seen_at: 2026-07-10T16:46:30Z
   # T1-08 (EC presscorner inf_26_115) — UNCHANGED vs 2026-07-07 (hash identical). twitter:title still
   #   "January infringements package: key decisions" (= the 30 Jan 2026 letter of formal notice
   #   package). NO escalation (no reasoned opinion / CJEU referral).
@@ -57,12 +58,14 @@ sources:
     last_seen_hash: "sha256:6a42f804f2fccb1192411966ee8814ca1c27cb63e1f4b07500354e8748c43790"
     last_seen_at: 2026-07-07T14:48:55Z
   # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — UNCHANGED vs 2026-07-02 (hash identical).
-  #   54 items; top item still ah-1256626 (29 jun). No new schriftelijke vragen / Aanhangsel answer.
+  #   Feed 500'd on first fetch (overheid.nl error page); one retry after 10s backoff → 200 / 54
+  #   items; top item still ah-1256626 (29 jun). No new schriftelijke vragen / Aanhangsel answer.
   T1-09:
     last_seen_hash: "sha256:b8286a5af4ec7cef4a117a46070d015831fb2812e734f19d3c904bee21d53d0f"
     last_seen_at: 2026-07-02T15:00:00Z
   # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — UNCHANGED
-  #   vs 2026-07-02 (hash identical). 21 items; no new item. No issue.
+  #   vs 2026-07-02 (hash identical). Feed 500'd on first fetch; retry after backoff → 200 / 21
+  #   items; no new item. No issue.
   T1-10:
     last_seen_hash: "sha256:0c05cb3c227fe411cf661aa0b7516aa4daff90a37ed0ec3075dbf88e2858c00f"
     last_seen_at: 2026-07-02T15:00:00Z
@@ -72,8 +75,9 @@ sources:
   T2-01:
     last_seen_hash: "sha256:6b5bc7067dd0199b911ff7523c554c664ca4a8b2a2711cf81c2a4313870eb44d"
     last_seen_at: 2026-07-09T14:49:56Z
-  # T2-02 (Betaalvereniging nieuws) — listing hash changed but NO headline/article link matched the
-  #   CCD2/BNPL/creditcard/uitgestelde-betaling filter. Not a hit. Recorded latest.
+  # T2-02 (Betaalvereniging nieuws) — listing hash changed but NO headline matched the
+  #   CCD2/BNPL/creditcard/uitgestelde-betaling filter (new items: DNB-symposium, BIC-lijst,
+  #   reizigers/betaalkaart stats). Not a hit. Recorded latest.
   T2-02:
-    last_seen_hash: "sha256:4139a93e23185f13127eee3d3c27d08c95d8201f5ee1f3bd1afb0a554dc26210"
-    last_seen_at: 2026-07-09T14:49:56Z
+    last_seen_hash: "sha256:977d255665f1cde9a741d4e20fda90be24671b291c4cecf32c9e5d9b7f285b93"
+    last_seen_at: 2026-07-10T16:46:30Z
