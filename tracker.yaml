@@ -183,6 +183,9 @@ watchlist:
       label: "AFM — CCDII sector page"
       url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii"
       affects: [docs/transposition/supervision-afm.md, STATUS.md]
+      notes: >-
+        Canonical URL since AFM's Jun 2026 restructure (dropped the `4-` prefix — health issues #11/#25;
+        the old URL soft-404s/flaps, do not revert). prompt-ccd2.md synced 20 Jul 2026.
     T1-08:
       tier: T1
       kind: institutional
@@ -221,6 +224,18 @@ watchlist:
         registration, trading in kredietgegevens). A NEW kv-tk-… on special-category / social-network data
         in credit scoring is a genuine hit → route to docs/provisions/creditworthiness.md. Ignore items
         that only incidentally pair the words (e.g. emancipatie/digitalisering).
+    T1-11:
+      tier: T1
+      kind: institutional
+      label: "AFM — CCDII: drie doorlopende verplichtingen"
+      url: "https://www.afm.nl/nl-nl/sector/kredietaanbieders/ccdii--doorlopende-verplichtingen"
+      affects: [docs/transposition/supervision-afm.md, docs/provisions/creditworthiness.md, STATUS.md]
+      notes: >-
+        AFM sub-page added in the Jun 2026 restructure (surfaced via health issue #11, added as a
+        watched source 20 Jul 2026): the three doorlopende verplichtingen under CCDII — verantwoorde
+        kredietverlening (kredietwaardigheidstoets, Wft 4:34a), leeftijdsverificatie (ban on credit to
+        minors) and preventief beheer. Route kredietwaardigheid-norm hits to
+        docs/provisions/creditworthiness.md.
     # --- Tier 2: sector / NGO / law firm -----------------------------------
     T2-01:
       tier: T2
