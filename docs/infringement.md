@@ -30,11 +30,23 @@ A new step here flips the STATUS "EU enforcement" row. The daily tracker watches
 corner (T1-08) and the EUR-Lex NIM page (T1-01) — a communicated NL transposition measure on the NIM page
 would close the underlying breach.
 
-## Member States that transposed on time
+## Transposition progress across the EU — NIM snapshot (as of 9 Jul 2026)
 
-Several Member States transposed by the deadline (e.g. **Denmark** — Lov nr. 1322 of 20 November 2025;
-**Malta** — Financial Institutions Act (Consumer Credit) Regulations 2025), visible on the
-[EUR-Lex NIM page](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225).
+The [EUR-Lex NIM page](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) records, per
+Member State, the national implementing measures communicated to the Commission. As of **9 Jul 2026**,
+**15 of 27 Member States have communicated at least one measure** against the 20/11/2025 deadline — e.g.
+Hungary (32), Czechia (25), Finland (24), Slovakia (12), Sweden (10), Ireland (8), Estonia (7),
+Lithuania (7), France (4), Denmark (2), Austria (2), Germany, Italy, Malta and Slovenia (1 each).
+
+**The Netherlands is still at "Number of measures: 0"** — one of **12 Member States** with no communicated
+measure (with Belgium, Bulgaria, Greece, Spain, Croatia, Cyprus, Latvia, Luxembourg, Poland, Portugal and
+Romania). NL therefore remains a laggard as roughly half the Union has begun to communicate transposition,
+which sharpens the position under the 30 Jan 2026 letter of formal notice. The NL-specific event to watch
+is the count going **0 → ≥1**, which would begin to close the underlying breach.
+
+> **Bot-blocking note.** EUR-Lex serves an AWS-WAF challenge to a plain `curl`/WebFetch from this host;
+> the snapshot above was read via `fetch_blocked_doc.py` (curl-impersonate tier). Verify against the live
+> NIM page before relying on the per-country counts.
 
 > **Dossier correction:** an earlier understanding that "no formal EU infringement step against NL could
 > be confirmed" is **refuted** — the letter of formal notice was sent on 30 Jan 2026.
