@@ -11,6 +11,16 @@
   **cannot be granted before the rules are finalised**.
 - AFM is a non-voting member of the European supervisory college for Klarna.
 - New supervisory tooling in the bill: **product-intervention powers** (art 1:77q Wft).
+- **Licensing / registration hooks (AFM sector page, Jul 2026).** AFM now names the specific Wft duties the
+  newly in-scope providers and intermediaries must check:
+  - **Art 2:60 Wft** — vergunningplicht for providers of deferred-payment services ("buy now, pay later"),
+    deferred-debit cards, and hire/lease with an option to buy.
+  - **Art 2:81 Wft** — registratieplicht for **large intermediaries** in short-term BNPL credit (jointly
+    with the providers of that credit).
+  - **Art 2:80 Wft** — vergunningplicht for intermediaries in newly-supervised credit forms that fall under
+    no exception/exemption/registration duty.
+  - AFM will let credit providers **register their deferred-payment intermediaries**; process, conditions and
+    costs to follow later in 2026.
 
 ## AFM CCDII supervisory expectations (sector page)
 
@@ -35,6 +45,15 @@ https://www.afm.nl/nl-nl/sector/kredietaanbieders/ccdii--doorlopende-verplichtin
    consumer's financial position from verified information, and refuse if not suitable ("de
    kredietverstrekker verstrekt geen krediet als dat niet passend is"). For **doorlopend krediet** the
    provider must run an **update policy** to monitor that the credit remains appropriate.
+   The **Jul 2026** page sharpens the proportional norm for short-term credit:
+   - if **BKR** shows an **existing arrears** ("bestaande achterstand"), **no credit is provided**;
+   - the financial-position assessment **may not rest solely on the consumer's credit history**, and **all
+     information gathered must be verified** (e.g. income/assets);
+   - AFM wants the sector to make **joint acceptance-policy agreements** to avoid a "**race to the bottom**",
+     and treats lending that deviates from those agreements as a possible indication of irresponsible
+     lending;
+   - the current **Gedragscode BNPL** consumer-protection measures are expected to be retained — consulting
+     the central **curatele-/bewindregister** and **blocking service on arrears**.
 2. **Age verification** — "aan de hand van een **betrouwbare bron, zoals iDIN**".
 3. **Preventive management / early signalling** — detect consumers in difficulty and refer them to debt
    assistance; AFM will update its **"Consumenten en Incassotrajecten"** guidance.
