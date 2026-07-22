@@ -24,6 +24,12 @@
 - **AMvB (BGfo):** abolishes the **€1,000 verification threshold** (open verification norm, art 113) and
   removes the **€250 BKR-consultation threshold** so BKR is consulted for every agreement (art 114);
   annual re-assessment for revolving credit. — [AMvB](../transposition/implementatiebesluit.md)
+- **AFM proportionele invulling (sector page, Jul 2026):** for short-term credit (repayment ≤ 3 months) AFM
+  expects age verification **and** a BKR check — refusing credit if BKR shows existing arrears — plus an
+  assessment of the consumer's financial position that is **not based solely on credit history** and where
+  **all information gathered is verified**, refusing if not passend. The norm stays open (VFN
+  leennormenmethodiek); AFM wants joint sector acceptance-policy agreements to avoid a "race to the bottom".
+  — [supervision-afm.md](../transposition/supervision-afm.md#three-ongoing-obligations-drie-doorlopende-verplichtingen)
 
 ## Sourcing
 Confirmed in the MvT (36924-3); the AMvB threshold detail from the draft Implementatiebesluit + law-firm
