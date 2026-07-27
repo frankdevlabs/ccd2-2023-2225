@@ -5,12 +5,12 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-07-24T14:49:01Z
+last_run: 2026-07-27T14:52:11Z
 sources:
-  # T1-01 (EUR-Lex NIM) — curl WAF-blocked (HTTP 202, 2KB awswaf); refetched via browser tier
-  #   (fetch_blocked_doc.py, 466KB). Netherlands row STILL "Transposition deadline(s): 0 / Number of
-  #   measures: 0" (NL 0→≥1 NOT fired); latest measure row still Austria (20/11/…). T1-08 unchanged, so
-  #   no infringement escalation. No substantive change. (Hash recomputed under this run's normalizer.)
+  # T1-01 (EUR-Lex NIM) — UNREACHABLE this run. curl → AWS-WAF challenge (HTTP 202, 2KB awswaf) as
+  #   usual, but the browser-tier fallback (fetch_blocked_doc.py) FAILED twice with
+  #   "apiRequestContext.get: Timeout 60000ms exceeded". Hash NOT updated (kept 2026-07-24 baseline).
+  #   Logged to Source-health issue #28. Not a 14-day auto-pause (browser tier succeeded 2026-07-24).
   T1-01:
     last_seen_hash: "sha256:5f4073ae0669af118bfd9aca8d1e348514ad42a51f14df2684191a8df6a857a1"
     last_seen_at: 2026-07-24T14:49:01Z
@@ -20,72 +20,69 @@ sources:
   #   Wetgevingsoverleg 2026-09-28 10:00 (Gepland) — all already reported (closed #21). No new document,
   #   no new activity since last run. HTML change is page chrome. Hash updated.
   T1-02:
-    last_seen_hash: "sha256:31e40e67334fb1c947a6512768c456a2a567f1edea2611e6c341b56178027aa3"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:d9c2e402340b20a181fb25c3b016b6ba67846d214f7ba00f5b3a753ecb62e8b9"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-03 (EK) — still "Het voorstel is in behandeling bij de Tweede Kamer" (ingediend 1 april 2026);
-  #   no EK referral yet. Document list mirrors TK (nota n.a.v. verslag 29 jun, brief 23 jun, verslag
-  #   21 mei). No substantive change. (Hash recomputed under this run's normalizer.)
+  #   no EK referral yet. No substantive change; hash updated.
   T1-03:
-    last_seen_hash: "sha256:45b2ed49aa959118066c1445decc874a6cebd59e87cb2fa093c4b3d14d99583e"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:178fd50ecc8e1d3dd9a823107c0e9ad7bc5a90543c622e615e753e22f97094ec"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-04 (WGK026364, the wet) — Mijlpalen: latest dated milestone still Tweede Kamer "Verslag"
-  #   21-05-2026. No newer milestone. No substantive change. (Hash recomputed under this run's normalizer.)
+  #   21-05-2026. No newer milestone. Non-substantive; hash updated.
   T1-04:
-    last_seen_hash: "sha256:82f0d3823b4bc9973b5c16a20435757105a4bc52401fe9e9824482b33d9ef0df"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:6536814a2313d0f6f610f8d7b66d0909ed80230a63b42bb8f611545a87107517"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — Mijlpalen table's last DATED milestone still
-  #   Internetconsultatie (eind) 02-02-2026; huidige stap still Voorbereiding. (The Voortgang widget's
-  #   "Afgeronde stap: Raad van State / Bekendmaking" is generic step-template chrome, no date — not a
-  #   real completed milestone.) No substantive change. (Hash recomputed under this run's normalizer.)
+  #   Internetconsultatie (eind) 02-02-2026; huidige stap still Voorbereiding. Non-substantive; hash updated.
   T1-05:
-    last_seen_hash: "sha256:0c6bdf40bd81fb839d3d8001165c8585308c814428bb62e3b45b902f2c3ac208"
-    last_seen_at: 2026-07-24T14:49:01Z
-  # T1-06 (internetconsultatie AMvB) — still "Consultatie gesloten"; no consultatieverslag ("Reacties
-  #   worden gepubliceerd tijdens de loop van de consultatie" — none yet). Hash rotates PER REQUEST
-  #   (reactie UUIDs). Non-substantive. Recorded latest.
+    last_seen_hash: "sha256:ff2004cebb129b817bdbb4a48874fbb18f7a9777ddf0bad3f979c9141392da33"
+    last_seen_at: 2026-07-27T14:52:11Z
+  # T1-06 (internetconsultatie AMvB) — still "Consultatie gesloten"; no consultatieverslag (still the
+  #   "Reacties worden gepubliceerd tijdens de loop van de consultatie" boilerplate). Hash rotates PER
+  #   REQUEST (reactie UUIDs). Non-substantive. Recorded latest.
   T1-06:
-    last_seen_hash: "sha256:d4af48d911b986682186095b913b63934cb006ba7ad4c4f7f58de0c1e7556497"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:81759fb71ef598094ad008db9d9d60b0a2b8de146ded1efa14079027a7a5bec2"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-07 (AFM CCDII overview) — visible headings identical to HIT #26 ("Herziene richtlijn
   #   consumentenkrediet CCDII" / "Nieuw aan de CCDII" / "Vergunning aanvragen kan nu al"). Hash rotates
   #   PER REQUEST (social-media SVG cache query params — normalization gap, not content). No new hit.
   #   Recorded latest.
   T1-07:
-    last_seen_hash: "sha256:be044a999859c005ba84abae8d3be2e2b9580590a170dcfb20439f0624841bba"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:eff741c7798cee45095f506ca958a4b989eed7ac7c4ab2aa36a17391f75b8185"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-08 (EC presscorner inf_26_115) — og:title still "January infringements package: key decisions"
   #   (= the 30 Jan 2026 letter of formal notice package), still inf_26_115. NO escalation (no reasoned
-  #   opinion / CJEU referral). No substantive change. (Hash recomputed under this run's normalizer.)
+  #   opinion / CJEU referral). Non-substantive; hash updated.
   T1-08:
-    last_seen_hash: "sha256:797b420d2dd32295670efbea3965eac658e808c5f12f1112fe97a9ce518f04bc"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:6a42f804f2fccb1192411966ee8814ca1c27cb63e1f4b07500354e8748c43790"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — newest item UNCHANGED: still ah-1256626
   #   (29 Jun 2026), next ah-1256133 / kv-tk-2026Z14726 (26 Jun) also already seen. No new schriftelijke
-  #   vragen / Aanhangsel answer. No issue. Hash updated.
+  #   vragen / Aanhangsel answer. (Feed 500'd on first fetch; recovered on retry.) No issue. Hash updated.
   T1-09:
-    last_seen_hash: "sha256:b8286a5af4ec7cef4a117a46070d015831fb2812e734f19d3c904bee21d53d0f"
-    last_seen_at: 2026-07-24T14:49:01Z
-  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — newest item
-  #   UNCHANGED: still ah-1256626 (29 Jun 2026), then ah-tk-20242025-2685 (09 Jul 2025) and older
-  #   historical items. No new item. No issue. Hash updated.
+    last_seen_hash: "sha256:01b48f16093067f577fff2a29fef29f3a196eed80f5e088e74f07c7b790bd44c"
+    last_seen_at: 2026-07-27T14:52:11Z
+  # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — hash IDENTICAL
+  #   to prior run (newest still ah-1256626, 29 Jun 2026). No new item. No issue. last_seen_at refreshed.
   T1-10:
     last_seen_hash: "sha256:0c05cb3c227fe411cf661aa0b7516aa4daff90a37ed0ec3075dbf88e2858c00f"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_at: 2026-07-27T14:52:11Z
   # T1-11 (AFM "CCDII: drie doorlopende verplichtingen") — visible headings unchanged ("CCDII: drie
   #   doorlopende verplichtingen" / "Nieuwe normen voor verantwoorde kredietverlening en proportionele
   #   invulling"). Same PER-REQUEST rotation as T1-07 (social-media SVG cache params). No hit. Recorded
   #   latest.
   T1-11:
-    last_seen_hash: "sha256:5ffcaba619baaade97057c816b3942380605aa850cb8f7a328b3e353585787c7"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:e1ca8c89816ecd73ee663817c27938c6d780a0221b7c33178933c4177ac69130"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T2-01 (VFN CCD II update) — article still datePublished 2026-03-02, dateModified 2026-06-09. No new
-  #   CCD II update. No substantive change. (Hash recomputed under this run's normalizer.)
+  #   CCD II update. Non-substantive; hash updated.
   T2-01:
-    last_seen_hash: "sha256:c482ca36b88c3ac631f22c3486f4ab5ac819546dfa609b92cbf3734823d03fbe"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:dd67a43f8f4d0bb3b457f1180da76937f09b65e5a66e26cf628930bdefb29f40"
+    last_seen_at: 2026-07-27T14:52:11Z
   # T2-02 (Betaalvereniging nieuws) — listing hash changed (new headlines incl. "Volgende fase migratie
-  #   iDEAL naar Wero begint in oktober", "Minder uitgaven aan reizen drukken online bestedingen") but NO
-  #   headline matched the CCD2/BNPL/creditcard/uitgestelde-betaling filter. Not a hit. Recorded latest.
+  #   iDEAL naar Wero begint in oktober", "Minder uitgaven aan reizen drukken online bestedingen",
+  #   "Betaaljournaal 38", "Digitale weerbaarheid en AI") but NO headline matched the
+  #   CCD2/BNPL/creditcard/uitgestelde-betaling filter. Not a hit. Recorded latest.
   T2-02:
-    last_seen_hash: "sha256:994be55e990e768c30f485cd889127cdceb5387c7829893e942390856de7e5e1"
-    last_seen_at: 2026-07-24T14:49:01Z
+    last_seen_hash: "sha256:8310b31d7754c26815884d1e2c6048d516361727ef6faba6130361b3b347ae76"
+    last_seen_at: 2026-07-27T14:52:11Z
