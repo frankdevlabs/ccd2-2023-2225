@@ -134,6 +134,51 @@ documents:
       flagged by the daily tracker on 24 Jun 2026 (issue #15) and wrongly dismissed as a misdetection;
       corrected here.
 
+  - id: 36924-rapporteurs-verzoek
+    title: "Informatieverzoek van de rapporteurs (leden Van Eijk en Ceder) over het implementatietraject"
+    body: "Tweede Kamer"
+    date: 2026-09-10
+    url: https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails
+    access: public-via-national-parliament
+    notes: >-
+      Rapporteurs op het wetsvoorstel — de leden Van Eijk (VVD) en Ceder (ChristenUnie) — vragen de
+      minister om informatie over het implementatietraject, ter voorbereiding op het wetgevingsoverleg van
+      28 Sep 2026. Voorstel van de rapporteurs DocumentNr 2026D42448; brief commissie aan de minister
+      DocumentNr 2026D42468 (beide 10 Sep 2026). Answered by the minister on 22 Sep 2026
+      (36924-rapporteurs-reactie).
+
+  - id: 36924-rapporteurs-reactie
+    title: "Brief regering — Reactie op het verzoek van de rapporteurs op het wetsvoorstel"
+    body: "Ministerie van Financiën"
+    date: 2026-09-22
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D45354
+    access: public-via-national-parliament
+    notes: >-
+      Minister van Financiën antwoordt op het informatieverzoek van de rapporteurs (Van Eijk/Ceder,
+      10 Sep 2026) over het implementatietraject. DocumentNr 2026D45354; vergezeld van een beslisnota
+      (DocumentNr 2026D45356). Preparation for the wetgevingsoverleg 28 Sep 2026.
+
+  - id: 36924-9
+    title: "Nota van wijziging (Implementatiewet herziene richtlijn consumentenkrediet)"
+    body: "Ministerie van Financiën"
+    date: 2026-09-23
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D44483
+    access: public-via-national-parliament
+    notes: >-
+      Government amendment to the bill (kamerstuk 36924, nr. 9; DOCX DocumentNr 2026D44483), filed ahead of
+      the wetgevingsoverleg of 28 Sep 2026 and co-signed for the Staatssecretaris van J&V. Seven items
+      (A–G): (A) adds the CCD2 art 3(3) continuous-service exception to limb (a) of the Wft 1:1 "krediet"
+      definition; (B/C) drops the bill's Wft 1:16 changes and inserts a new **Wft 1:16a** on cross-border /
+      online consumer credit (country-of-destination rule; CCD2 art 37); (D/E) creates a **registration
+      regime for large (non-SME) brokers in goederenkrediet** — new **Wft 2:81 fifth lid** + consequential
+      Wft 1:107 (CCD2 art 37(3)(a)); (F) extends the ban on special-category / social-network data in the
+      creditworthiness test to the bemiddelaar — **Wft 4:34a** (CCD2 art 19(5)); (G) extends **Wft 4:34c**
+      to the bemiddelaar (CCD2 art 15). Accompanied by beslisnota's (DocumentNr 2026D44485, 18 Sep 2026).
+      The government's beslisnota labels it the "tweede nota van wijziging"; OData Soort and the document
+      body read simply "Nota van wijziging" (nr. 9 — the only NvW in the dossier). Operative text confirmed
+      from the TK gegevensmagazijn DOCX; the extract slices under extracts/transposition-nl/ are pending a
+      re-transcription (see docs/triage/2026-09-24-issue-35.md).
+
   # --- NL transposition: the Implementatiebesluit (AMvB) -------------------
   - id: AMvB-WGK026387
     title: "Implementatiebesluit herziene richtlijn consumentenkrediet (AMvB) — internetconsultatie"

@@ -25,6 +25,9 @@
 | `36924-6` | Verslag (vaste commissie voor Financiën) | 2026-05-21 | Tweede Kamer | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
 | `36924-7` | Brief regering — Reactie op verzoek commissie over de implementatie | 2026-06-23 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31983) |
 | `36924-8` | Nota naar aanleiding van het verslag | 2026-06-23 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D31985) |
+| `36924-rapporteurs-verzoek` | Informatieverzoek rapporteurs (Van Eijk, Ceder) over het implementatietraject | 2026-09-10 | Tweede Kamer | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) |
+| `36924-rapporteurs-reactie` | Brief regering — Reactie op het verzoek van de rapporteurs | 2026-09-22 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D45354) |
+| `36924-9` | Nota van wijziging | 2026-09-23 | Ministerie van Financiën | [TK download](https://www.tweedekamer.nl/downloads/document?id=2026D44483) |
 
 ## NL transposition — the Implementatiebesluit (AMvB)
 
