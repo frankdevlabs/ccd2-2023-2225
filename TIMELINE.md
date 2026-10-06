@@ -50,14 +50,15 @@
 | 2026-07-09 | **NIM snapshot** — **15 of 27 Member States** have now communicated ≥1 CCD2 transposition measure; **the Netherlands is still at 0** (one of 12 MS at zero) — infringement context, NL laggard | [NIM](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) · [infringement](docs/infringement.md) |
 | 2026-07-22 | **AFM updates both CCDII guidance pages** — the overview page now names the Wft licensing hooks (**2:60** vergunningplicht for BNPL/deferred-debit/lease-with-option, **2:81** registratieplicht for large short-term-BNPL intermediaries, **2:80** vergunningplicht for other new-form intermediaries) and announces an intermediary-registration facility; the doorlopende-verplichtingen page materially expands the *proportionele invulling* (BKR arrears → refuse credit; assessment not solely on credit history and **all** gathered information verified; joint acceptance-policy agreements against a "race to the bottom"; BNPL-gedragscode measures retained) | [supervision](docs/transposition/supervision-afm.md) · [creditworthiness](docs/provisions/creditworthiness.md) · [triage](docs/triage/2026-07-22-issue-26.md) |
 | 2026-07-28 | Kamervragen filed (lid Bolhuis, PRO) on the **Nibud-rapport 'Geldzaken in de praktijk 2026'** / rising financial distress — vraag 6 names **Buy Now Pay Later via social media** among jongvolwassenen as a driver (awaiting answer; NL position not yet stated) | [kv-1264230](https://zoek.officielebekendmakingen.nl/kv-1264230.html) · [Kamervragen table](docs/transposition/nl-pipeline.md#parliamentary-scrutiny--kamervragen-bnpl--achteraf-betalen) |
+| 2026-09-28 | **Wetgevingsoverleg** (10:00–16:30) — committee legislative debate on the bill — held (*Uitgevoerd*, TK Activiteit feed; convocatie 2026D35223) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
+| 2026-10-06 | **Tweede Kamer plenary adoption — bill 36924 aangenomen** (stemmingen 15:00; zaak 2026Z07028). Two moties voted the same day: motie-Hoogeveen (2026Z20224, invoking the art 2(5) exemption of the directive) and motie-Bushoff (2026Z20234, nationally evaluating the directive's exemptions) — motie outcomes not yet in the OData feed | [EK dossier](https://www.eerstekamer.nl/wetsvoorstel/36924_implementatiewet_herziene) · [pipeline](docs/transposition/nl-pipeline.md) |
 
 ## Expected / forward look (planned, not completed)
 
 | Date | Event | Source |
 |---|---|---|
-| 2026-09-28 | **Wetgevingsoverleg** (10:00) — committee legislative debate on the bill — *Gepland* (TK Activiteit feed; convocatie 2026D35223) | [TK dossier](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?qry=wetsvoorstel%3A36924&cfg=wetsvoorsteldetails) · [pipeline](docs/transposition/nl-pipeline.md) |
-| — | Tweede Kamer plenary vote | not scheduled |
-| — | Eerste Kamer referral + vote | not started |
+| 2026-10-13 | **Eerste Kamer — commissie Financiën (FIN) bespreekt de procedure** (handling procedure for the bill) | [EK dossier](https://www.eerstekamer.nl/wetsvoorstel/36924_implementatiewet_herziene) · [pipeline](docs/transposition/nl-pipeline.md) |
+| — | Eerste Kamer written preparation + plenary vote | in behandeling (since 6 Oct 2026) |
 | — | Staatsblad publication of the wet + the Implementatiebesluit (AMvB) | not done |
 | 2026-11-20 | **Application of CCD2 / target entry into force** of the Dutch act; CCD1 repealed | [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2023/2225/oj) |
 | ~2027-05-20 | Deferred-debit cards (creditcards) switch on **6 months** after the act's entry into force (Wft 1:20(4)) | [provision](docs/provisions/deferred-debit-cards.md) |
