@@ -18,7 +18,7 @@
 
 ## Status table (parliamentary stages)
 
-| Stage | Date | Status (7 Jul 2026) |
+| Stage | Date | Status (24 Sep 2026) |
 |---|---|---|
 | Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
 | Ministerraad → Raad van State | 31 Oct 2025 | Completed |
@@ -34,18 +34,38 @@
 | **Nota naar aanleiding van het verslag (36924-8)** | **23 Jun 2026** | **Published** |
 | Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Uitgevoerd |
 | Convocatie wetgevingsoverleg (2026D35223) | 3 Jul 2026 | Published |
+| Informatieverzoek rapporteurs (Van Eijk, Ceder) over het implementatietraject | 10 Sep 2026 | Published |
+| Brief regering — reactie op het verzoek van de rapporteurs (2026D45354) | 22 Sep 2026 | Published |
+| **Nota van wijziging (36924-9)** | **23 Sep 2026** | **Published** |
+| Amendement-Flach — leeftijdsgrens voor het verkrijgen van krediet (36924-10) | 24 Sep 2026 | Ingediend |
 | **Wetgevingsoverleg (WGO)** | **28 Sep 2026** | **Gepland** |
 | Plenary vote (TK) | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
 
-**Current stage:** Tweede Kamer, schriftelijke voorbereiding completed. The committee's verslag was issued
-21 May 2026; on 23 Jun 2026 the government published both a reply to a committee request on the
-implementation (36924-7) and — the same day — the **nota naar aanleiding van het verslag (36924-8)**, its
-substantive reply to the verslag. The committee held a **rondetafelgesprek** on 25 Jun 2026 (*Uitgevoerd*),
-and on 3 Jul 2026 published a **convocatie** (2026D35223) scheduling a **wetgevingsoverleg** — the committee
-legislative debate on the bill — for **28 Sep 2026** (*Gepland*, TK Activiteit feed). Not yet voted; not at
-the Eerste Kamer; not in the Staatsblad.
+**Current stage:** Tweede Kamer, on the eve of the **wetgevingsoverleg of 28 Sep 2026**. The committee's
+verslag was issued 21 May 2026; on 23 Jun 2026 the government published both a reply to a committee request
+on the implementation (36924-7) and — the same day — the **nota naar aanleiding van het verslag (36924-8)**,
+its substantive reply to the verslag. The committee held a **rondetafelgesprek** on 25 Jun 2026
+(*Uitgevoerd*) and on 3 Jul 2026 published a **convocatie** (2026D35223) scheduling the WGO. In September, in
+the run-up to the WGO: the **rapporteurs** (leden Van Eijk (VVD) en Ceder (ChristenUnie)) filed an
+**informatieverzoek** over the implementation traject (10 Sep 2026), which the minister answered on
+22 Sep 2026 (2026D45354); the government then filed a **nota van wijziging (36924-9, 23 Sep 2026)** amending
+the operative text (see below); and on 24 Sep 2026 the lid Flach tabled an **amendement (36924-10)** on the
+credit age-limit. Not yet voted; not at the Eerste Kamer; not in the Staatsblad.
+
+> **Nota van wijziging (36924-9, 23 Sep 2026).** Seven government amendments (A–G), each implementing a
+> specific CCD2 article: (A) the CCD2 art 3(3) continuous-service exception is added to limb (a) of the
+> Wft 1:1 "krediet" definition; (B/C) the bill's Wft 1:16 changes are dropped and a **new Wft 1:16a** is
+> inserted on cross-border / online consumer credit (country-of-destination rule; CCD2 art 37); (D/E) a
+> **registration regime for large (non-SME) brokers in goederenkrediet** is created — a new **Wft 2:81
+> fifth lid** + consequential Wft 1:107 (CCD2 art 37(3)(a), which bars a full exemption for large
+> enterprises — e.g. big telecom/webshops selling phones on credit); (F) the ban on special-category /
+> social-network data in the creditworthiness test is extended to the **bemiddelaar** — Wft 4:34a (CCD2
+> art 19(5)); (G) Wft 4:34c is extended to the bemiddelaar (CCD2 art 15). Operative text verified from the
+> TK gegevensmagazijn DOCX (DocumentNr 2026D44483). The `extracts/transposition-nl/36924_artikel-I-wft.md`
+> slices (anchors `wft-1-1`, `wft-1-16` (+ new `wft-1-16a`), `wft-1-107`, `wft-2-81`, `wft-4-34a`,
+> `wft-4-34c`) are **pending re-transcription** against this NvW.
 
 > The nota (DocumentNr 2026D31985) carries a provisional OData Volgnummer -1 / empty Kamerstukdossier link
 > and kst-36924-8 has not yet propagated to officielebekendmakingen.nl as of 29 Jun 2026 — the same lag
