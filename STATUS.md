@@ -96,7 +96,7 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - [ ] **Eerste Kamer** referral, then vote → status: "EK voorbereiding" / "Adopted".
 - [ ] **Staatsblad** publication of the wet + inwerkingtredingsbesluit → "Published / awaiting entry into force".
 - [ ] **Implementatiebesluit (AMvB)** finalised / published in the Staatsblad → "AMvB finalised".
-- [ ] **Answers (Aanhangsel) to the pending BNPL Kamervragen** — kv-1256205 (Hamstra, 26 Jun) and kv-1264230 (Bolhuis, 28 Jul; vraag 6 = BNPL via social media) → the government's substantive position on BNPL-driven youth debt.
+- [ ] **Answers (Aanhangsel) to the pending BNPL Kamervragen** — kv-1256205 (Hamstra, 26 Jun), kv-1264230 (Bolhuis, 28 Jul; vraag 6 = BNPL via social media) and kv-1265622 (Bolhuis, 18 Aug; vraag 9 = online gokken/BNPL → jongeren-schulden & bijstandsinstroom) → the government's substantive position on BNPL-driven youth debt.
 - [ ] EU: a **reasoned opinion** or escalation after the 30 Jan 2026 letter of formal notice → "EU infringement escalated".
 - [ ] **NL NIM measure count 0 → ≥1** on the [EUR-Lex NIM page](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) — the first communicated Dutch transposition measure begins to close the underlying breach (as of **9 Jul 2026: NL still 0**; 15 of 27 MS have communicated ≥1 — [infringement](docs/infringement.md)).
 - [ ] **Entry into force aligned to 20 Nov 2026**, with a separate 6-month-later switch-on for deferred-debit cards.
