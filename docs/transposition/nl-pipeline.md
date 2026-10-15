@@ -18,7 +18,7 @@
 
 ## Status table (parliamentary stages)
 
-| Stage | Date | Status (7 Jul 2026) |
+| Stage | Date | Status (6 Oct 2026) |
 |---|---|---|
 | Internetconsultatie (bill) | 15 Apr – 13 May 2025 | Completed |
 | Ministerraad → Raad van State | 31 Oct 2025 | Completed |
@@ -34,18 +34,20 @@
 | **Nota naar aanleiding van het verslag (36924-8)** | **23 Jun 2026** | **Published** |
 | Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Uitgevoerd |
 | Convocatie wetgevingsoverleg (2026D35223) | 3 Jul 2026 | Published |
-| **Wetgevingsoverleg (WGO)** | **28 Sep 2026** | **Gepland** |
-| Plenary vote (TK) | — | Not scheduled |
-| Eerste Kamer referral / vote | — | Not started |
+| **Wetgevingsoverleg (WGO)** | **28 Sep 2026** | **Uitgevoerd** |
+| **Plenary vote (TK)** | **6 Oct 2026** | **Aangenomen** |
+| Eerste Kamer — commissie FIN procedurebespreking | 13 Oct 2026 | In behandeling (Gepland) |
+| Eerste Kamer written preparation / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
 
-**Current stage:** Tweede Kamer, schriftelijke voorbereiding completed. The committee's verslag was issued
-21 May 2026; on 23 Jun 2026 the government published both a reply to a committee request on the
-implementation (36924-7) and — the same day — the **nota naar aanleiding van het verslag (36924-8)**, its
-substantive reply to the verslag. The committee held a **rondetafelgesprek** on 25 Jun 2026 (*Uitgevoerd*),
-and on 3 Jul 2026 published a **convocatie** (2026D35223) scheduling a **wetgevingsoverleg** — the committee
-legislative debate on the bill — for **28 Sep 2026** (*Gepland*, TK Activiteit feed). Not yet voted; not at
-the Eerste Kamer; not in the Staatsblad.
+**Current stage:** **Tweede Kamer complete — bill aangenomen; now at the Eerste Kamer.** After the
+schriftelijke voorbereiding (verslag 36924-6, 21 May 2026; nota naar aanleiding van het verslag 36924-8,
+23 Jun 2026; rondetafelgesprek 25 Jun 2026), the committee held the **wetgevingsoverleg on 28 Sep 2026**
+(*Uitgevoerd*), and the Tweede Kamer **adopted the bill in the plenary stemming of 6 Oct 2026** (zaak
+2026Z07028; two moties — Hoogeveen on invoking the art 2(5) exemption, Bushoff on nationally evaluating the
+directive's exemptions — were voted the same day, outcomes not yet in the OData feed). The file has moved to
+the **Eerste Kamer**, where **commissie Financiën (FIN) bespreekt de procedure on 13 Oct 2026**. No EK
+documents published yet; not in the Staatsblad.
 
 > The nota (DocumentNr 2026D31985) carries a provisional OData Volgnummer -1 / empty Kamerstukdossier link
 > and kst-36924-8 has not yet propagated to officielebekendmakingen.nl as of 29 Jun 2026 — the same lag
