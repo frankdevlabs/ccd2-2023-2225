@@ -13,8 +13,9 @@
 - **Internetconsultatie:** opened **22 December 2025**, closed **2 February 2026** —
   [internetconsultatie](https://www.internetconsultatie.nl/implementatiebesluitrichtlijnconsumentenkrediet/b1)
   (accompanied by a separate consultation on the provisiegebod for consumer credit).
-- **Status (13 Jun 2026):** not yet finalised / not in the Staatsblad. Not required to be laid before the
-  Tweede Kamer.
+- **Status (16 Oct 2026):** **adviesaanvraag aanhangig bij de Raad van State** — the Voortgang advanced from
+  *Voorbereiding* to the Raad van State stage on 16 Oct 2026; the RvS advies has **not yet** been issued, and
+  the AMvB is not yet in the Staatsblad. Not required to be laid before the Tweede Kamer.
 
 ## Key contents
 
