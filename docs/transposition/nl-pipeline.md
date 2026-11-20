@@ -81,10 +81,12 @@ and Klarna's collection practices. They are tracked automatically via watchlist 
 | 2026-06-26 *(ingezonden; nog niet beantwoord)* | Nibud-rapport 'Geldzaken in de praktijk (2026)' — o.a. creditcard / achteraf betalen-schulden & bescherming jongvolwassenen (Hamstra) | [`kv-1256205`](https://zoek.officielebekendmakingen.nl/kv-1256205.html) (vr. 2026Z14726) |
 | 2026-06-29 | Impulsaankopen jongeren in de TikTok Shop (Inge van Dijk, Zwinkels, Hamstra) — **first answer to explicitly cite CCDII + implementatiewet 36924** (vr. 7-9: achteraf betalen = krediet; minderjarigenverbod, leeftijdsverificatie, vergunningplicht, AFM) | [`ah-1256626`](https://zoek.officielebekendmakingen.nl/ah-1256626.html) |
 | 2026-07-28 *(ingezonden; nog niet beantwoord)* | Nibud 'Geldzaken in de praktijk 2026' / stijgend aantal mensen financieel in de problemen — vraag 6: online reclametargeting, gerichte verkoop & **Buy Now Pay Later constructies via social media** onder jongvolwassenen (Bolhuis, PRO; aan min. SZW en Werk & Participatie) | [`kv-1264230`](https://zoek.officielebekendmakingen.nl/kv-1264230.html) (vr. 2026Z16542) |
+| 2026-09-21 | Stijgend aantal jongeren in de bijstand (NRC) (Bolhuis, PRO; antwoord min. Werk & Participatie) — vraag 9 over jongerenschulden door online gokken / BNPL; **second answer to explicitly cite CCDII + implementatiewet 36924** (BNPL onder consumentenkrediet: kredietwaardigheidstoets, minderjarigenverbod, leeftijdsverificatie, kostenregulering; verantwoordelijkheid CCDII = MinFin + stas J&V) | [`ah-1269728`](https://zoek.officielebekendmakingen.nl/ah-1269728.html) (vr. 2026Z16985) |
 
 > The CCD2 link is mostly **thematic** — these questions predate/run alongside the bill and the answers do
-> not necessarily cite the richtlijn (the 29 Jun 2026 answer is the exception: it cites CCDII and
-> implementatiewet 36924 by number). Verify the answer text before relying on a specific government position.
+> not necessarily cite the richtlijn (the 29 Jun 2026 and 21 Sep 2026 answers are the exceptions: they cite
+> CCDII and implementatiewet 36924 by number). Verify the answer text before relying on a specific
+> government position.
 
 > **Dossier note:** the verslag (36924-6, 21 May 2026) places the bill one stage further than an earlier
 > "still at inbreng/verslag" understanding — the next trigger is the nota naar aanleiding van het verslag.
