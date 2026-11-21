@@ -8,7 +8,11 @@
   https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii
 - Ahead of the act's adoption, AFM has decided to **accept licence applications** from credit providers so
   assessments can be done in time before **20 Nov 2026** — applicants bear the cost/risk, and licences
-  **cannot be granted before the rules are finalised**.
+  **cannot be granted before the rules are finalised**. By **Nov 2026** (~2 weeks before entry into force)
+  this invitation is formalised on the sector page in a dedicated section **"Vergunning aanvragen kan nu
+  al"**: *"De AFM heeft na contact met de markt besloten om vooruitlopend op de vaststelling en publicatie
+  van de implementatiewet, open te staan voor de ontvangst van vergunningaanvragen van aanbieders van
+  krediet onder de nieuwe regelgeving."*
 - AFM is a non-voting member of the European supervisory college for Klarna.
 - New supervisory tooling in the bill: **product-intervention powers** (art 1:77q Wft).
 - **Licensing / registration hooks (AFM sector page, Jul 2026).** AFM now names the specific Wft duties the
