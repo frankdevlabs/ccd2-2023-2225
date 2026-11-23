@@ -58,6 +58,41 @@ https://www.afm.nl/nl-nl/sector/kredietaanbieders/ccdii--doorlopende-verplichtin
 3. **Preventive management / early signalling** — detect consumers in difficulty and refer them to debt
    assistance; AFM will update its **"Consumenten en Incassotrajecten"** guidance.
 
+## AFM scope interpretation of uitstel van betaling (20 Nov 2026)
+
+On **20 Nov 2026** AFM published its **interpretation of when "uitstel van betaling" falls under the new
+credit rules** (annex to the minister's 23 Nov 2026 toezeggingen letter, 2026D60190/2026D60191 —
+[pipeline](nl-pipeline.md)), fulfilling the toezegging at the 28 Sep 2026 wetgevingsoverleg and moties
+Van Eijk/Schonis/Ceder and Bushoff. It takes the form of a **stappenplan**:
+
+1. **Doorlopende dienstverlening / doorlopende levering of the same goods is _not_ credit** (art 3(3) CCD2)
+   — gas/water/electricity, insurance with monthly premiums, internet/TV/telephone, OV- and
+   parking-subscriptions and pay-after-use. **Economic-substance test:** form *and* purpose are weighed, so
+   one-off costs may **not be "hidden" in a service subscription** (e.g. solar-panel installation or a heat
+   pump billed as a multi-year monthly "service" fee is credit).
+2. **Platforms always in scope** — an online marketplace offering both own and third-party products (new
+   **BW 7:57(1)(ab)**) that offers deferred payment always provides credit; it cannot use the exceptions.
+3. **Business-model tiers for the ≤50-day / ≤14-day exception** (new Wft 1:20 / BW 7:58(2)):
+   - **physical shops + small/medium online** suppliers: deferral exempt if **≤50 days** from delivery, **no
+     interest/costs** (only reasonable statutory collection costs), and **no third party** involved;
+   - **large online, non-platform** suppliers: stricter — **≤14 days**, no interest/costs, no third party,
+     **and the claim may not be sold** to a third party (not even within the same group).
+4. **Factoring vs third-party BNPL.** Selling the receivable (factoring) does **not** make the deferral
+   credit; but a BNPL third party at whom the **consumer** chooses the deferral does. AFM assesses the whole
+   construction — with whom the consumer contracts, who is entitled to payment, and how payment/communication
+   are arranged — so merely buying receivables is not automatically exempt factoring.
+
+AFM will update the interpretation if case-law develops (the CJEU ultimately decides); responsibility for
+self-assessment stays with the firm (`ondernemersloket@afm.nl`).
+
+**Enforcement coulance.** With entry into force now expected **begin 2027** (the 20 Nov 2026 target was
+missed), the minister confirmed AFM will apply a **coulanceperiode** in prioritising supervision directly
+after inwerkingtreding — **no full postponement** of supervision, but weighted by how **foreseeable** each
+norm was (rules flowing straight from the directive, age verification and the late-payment-cost cap were
+long foreseeable; genuinely new/unclear norms get more leeway, and firms that could not obtain a licence in
+time are helped to a "redelijke oplossing" if they act promptly). AFM will address this in its **AFM Agenda
+2027** (Jan 2027). AFM already takes licence applications in advance.
+
 ## BNPL market (AFM Marktupdate 2025, June 2025)
 
 - In 2024 the four providers (**Billink, in3, Klarna, Riverty**) processed "**53 miljoen
