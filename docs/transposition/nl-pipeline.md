@@ -35,6 +35,7 @@
 | Rondetafelgesprek (committee hearing) | 25 Jun 2026 | Uitgevoerd |
 | Convocatie wetgevingsoverleg (2026D35223) | 3 Jul 2026 | Published |
 | **Wetgevingsoverleg (WGO)** | **28 Sep 2026** | **Gepland** |
+| Brief regering — toezeggingen WGO + AFM interpretatie bijlage (2026D60190–60192) | 23 Nov 2026 | Published |
 | Plenary vote (TK) | — | Not scheduled |
 | Eerste Kamer referral / vote | — | Not started |
 | Staatsblad publication / inwerkingtreding | — | Not done |
@@ -88,3 +89,14 @@ and Klarna's collection practices. They are tracked automatically via watchlist 
 
 > **Dossier note:** the verslag (36924-6, 21 May 2026) places the bill one stage further than an earlier
 > "still at inbreng/verslag" understanding — the next trigger is the nota naar aanleiding van het verslag.
+
+> **Post-WGO follow-up (23 Nov 2026).** In a *brief regering* honouring toezeggingen from the 28 Sep 2026
+> wetgevingsoverleg (2026D60190, min. Fin. Heinen mede namens StasJ&V), the minister confirms the **Tweede
+> Kamer adopted the bill on 6 Oct 2026**, that **AFM published its scope interpretation of *uitstel van
+> betaling* on 20 Nov 2026** (bijlage 2026D60191 — see [`supervision-afm.md`](supervision-afm.md#afm-scope-interpretation-of-uitstel-van-betaling-20-nov-2026)),
+> that AFM will apply a **coulanceperiode** in enforcement, and that **entry into force is now expected
+> "begin 2027"** — slipping the 20 Nov 2026 application-date target. Other toezeggingen: age as a risk
+> factor in the leennormen (motie Bushoff); monitoring 18–21 BNPL use (motie Ceder); a wet evaluation three
+> years after entry into force (kabinetsreactie ~2030); the incasso-toezichthouders *samenwerkingsprotocol*
+> published in the Staatscourant. *(The 28 Sep WGO and 6 Oct TK adoption are integrated via the separate
+> triage plans for issues #37/#39; this note records only what the 23 Nov documents add.)*

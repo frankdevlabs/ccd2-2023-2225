@@ -20,10 +20,23 @@
 - MKB intermediaries with credit-broking as an ancillary activity are exempt; large suppliers brokering
   short-term BNPL face a lighter **registration** regime (art 2:81 Wft).
 
+## AFM scope interpretation (20 Nov 2026)
+AFM's **interpretation "gangbare betaal- en facturatievormen"** (20 Nov 2026 — supervisor stappenplan,
+annex to the 23 Nov 2026 toezeggingen letter) is now the authoritative reading of the exception boundary —
+see [`../transposition/supervision-afm.md`](../transposition/supervision-afm.md#afm-scope-interpretation-of-uitstel-van-betaling-20-nov-2026):
+- **Continuous services / continuous delivery of the same goods are _not_ credit** (art 3(3) CCD2), but an
+  **economic-substance test** stops one-off costs being "hidden" in a service subscription.
+- **Platforms always fall under the credit rules** (new BW 7:57(1)(ab)) and cannot use the exception.
+- The **≤50-day** tier is for physical shops + small/medium online suppliers; **large online non-platform**
+  suppliers get a stricter **≤14-day** tier *and* may not sell the claim (not even within the group).
+- **Factoring** (selling the receivable) is not credit; a **third-party BNPL** deferral the consumer chooses
+  is — AFM weighs the whole construction, so buying receivables is not automatically exempt.
+
 ## Sourcing
-MvT (36924-3) for the core scope changes; the 50-day exception, intermediary regimes and platform nuance
-are drawn from law-firm briefings (Loyens & Loeff, CMS, BarentsKrans) — *secondary, verify against the
-Staatsblad text*.
+MvT (36924-3) for the core scope changes. The 50-/14-day exception, platform and factoring boundaries are
+now confirmed by the **AFM interpretation (20 Nov 2026)** — primary supervisor guidance — superseding the
+earlier reliance on law-firm briefings (Loyens & Loeff, CMS, BarentsKrans). Verify operative wording against
+the Staatsblad text once published.
 
 Related: [deferred-debit cards](deferred-debit-cards.md) · [creditworthiness](creditworthiness.md) ·
 [what-changed](../what-changed.md).

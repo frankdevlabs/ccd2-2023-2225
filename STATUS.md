@@ -80,10 +80,10 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 
 #### AFM — supervisor
 - **Stage:** Preparing supervision; accepting early licence applications and publishing CCDII conduct expectations ahead of 20 Nov 2026.
-- **Latest act:** Updated CCDII sector-page guidance (both pages refreshed Jul 2026) — overview page now names the Wft licensing/registration hooks (art 2:60 vergunning for BNPL/deferred-debit cards/lease-with-option; art 2:81 registratie for large short-term-BNPL intermediaries; art 2:80 vergunning for other new intermediaries) + an intermediary-registration facility; the "drie doorlopende verplichtingen" sub-page sharpens proportionele invulling for short-term credit (≤3 mths: age + BKR check — refuse on existing BKR arrears; assessment not solely on credit history + verify all information; joint acceptance policy to avoid a "race to the bottom"; retain BNPL gedragscode measures) alongside age verification (iDIN) and early signalling — [AFM context](docs/transposition/supervision-afm.md) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii)
+- **Latest act:** **Scope interpretation "gangbare betaal- en facturatievormen" published 20 Nov 2026** (annex to the minister's 23 Nov 2026 toezeggingen letter) — a stappenplan on when *uitstel van betaling* is credit: continuous-service carve-out (art 3(3) CCD2) with an economic-substance test; **platforms always in scope** (BW 7:57(1)(ab)); the **≤50-day** exception for physical shops + small/medium online vs a stricter **≤14-day** tier (no claim sale) for large online non-platform suppliers; **factoring vs third-party BNPL** boundary. Earlier (Jul 2026) it refreshed both CCDII sector pages — Wft licensing/registration hooks (art 2:60/2:81/2:80) + an intermediary-registration facility, and sharpened the proportionele invulling for short-term credit — [AFM context](docs/transposition/supervision-afm.md#afm-scope-interpretation-of-uitstel-van-betaling-20-nov-2026) · [AFM CCDII page](https://www.afm.nl/nl-nl/sector/kredietaanbieders/herziene-richtlijn-consumentenkrediet-ccdii)
 - **Owner:** AFM (conduct supervisor).
 - **Position:** Supports lowering the €250 BKR threshold and statutory age verification; treats creditworthiness as an open norm to be specified via sector methodology; licences cannot be granted before the rules are finalised.
-- **Next:** Process licence applications so assessments are done before 20 Nov 2026.
+- **Next:** Apply a post-inwerkingtreding **coulanceperiode** (weighted by foreseeability — no full postponement; detailed in the AFM Agenda 2027, Jan 2027); process licence applications ahead of the entry into force now expected **begin 2027**.
 
 ## Next milestones to watch
 
@@ -97,9 +97,10 @@ entry into force aligned to the **20 Nov 2026** application date — "under pres
 - [ ] **Staatsblad** publication of the wet + inwerkingtredingsbesluit → "Published / awaiting entry into force".
 - [ ] **Implementatiebesluit (AMvB)** finalised / published in the Staatsblad → "AMvB finalised".
 - [ ] **Answers (Aanhangsel) to the pending BNPL Kamervragen** — kv-1256205 (Hamstra, 26 Jun) and kv-1264230 (Bolhuis, 28 Jul; vraag 6 = BNPL via social media) → the government's substantive position on BNPL-driven youth debt.
+- [x] **AFM scope interpretation** ("gangbare betaal- en facturatievormen") — published 20 Nov 2026 (stappenplan on when *uitstel van betaling* is credit) — [supervision](docs/transposition/supervision-afm.md#afm-scope-interpretation-of-uitstel-van-betaling-20-nov-2026).
 - [ ] EU: a **reasoned opinion** or escalation after the 30 Jan 2026 letter of formal notice → "EU infringement escalated".
 - [ ] **NL NIM measure count 0 → ≥1** on the [EUR-Lex NIM page](https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32023L2225) — the first communicated Dutch transposition measure begins to close the underlying breach (as of **9 Jul 2026: NL still 0**; 15 of 27 MS have communicated ≥1 — [infringement](docs/infringement.md)).
-- [ ] **Entry into force aligned to 20 Nov 2026**, with a separate 6-month-later switch-on for deferred-debit cards.
+- [ ] **Entry into force now expected begin 2027** (the 20 Nov 2026 application-date target was missed — min. Fin. brief 23 Nov 2026), with a separate 6-month-later switch-on for deferred-debit cards; AFM applies an enforcement coulanceperiode in the interim.
 
 ## What changed in the latest text vs earlier reporting
 
