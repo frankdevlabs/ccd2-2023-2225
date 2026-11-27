@@ -5,97 +5,97 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: 2026-11-26T15:49:21Z
+last_run: 2026-11-27T15:47:47Z
 sources:
-  # T1-01 (EUR-Lex NIM) — RECOVERED. curl got the AWS-WAF challenge (HTTP 202, ~2KB) again, but the
-  #   browser-tier fallback fetch_blocked_doc.py succeeded (exit 0, 532 KB). Normalized hash CHANGED
-  #   (prior 76e32d from 2026-11-24), but the Netherlands row still reads "Transposition deadline(s): 0
-  #   / Number of measures: 0" — NO NL national-measure communicated. Change is EUR-Lex page/other-MS
-  #   churn (e.g. Austria row). No transposition signal, no hit. Hash + last_seen_at updated.
+  # T1-01 (EUR-Lex NIM) — curl got the AWS-WAF challenge again (HTTP 202, ~2KB); browser-tier
+  #   fetch_blocked_doc.py recovered it (exit 0, 533 KB). Normalized hash CHANGED (prior 43711a from
+  #   2026-11-26), but the Netherlands row STILL reads "Transposition deadline(s): 0 / Number of
+  #   measures: 0" — NO NL national-measure communicated. Change is EUR-Lex/other-MS churn (Austria row
+  #   etc). No transposition signal, no hit. Hash + last_seen_at updated.
   T1-01:
-    last_seen_hash: "sha256:43711a14b940990226f7be6abbf2dc123e0d53933b3bedd5e06b16e58762e871"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:eb9f8e39ed60a199c128964be3425714a98dfcf069047def360ac5a729981681"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-02 (TK 36924 dossier) — HTTP 200. Normalized hash CHANGED but NO new document: TK OData `Document`
   #   feed (subject=consumentenkrediet, 2026, desc) top three are still the 2026-11-23 docs (2026D60190
   #   Brief regering "Toezeggingen uit het wetgevingsoverleg"; 2026D60192 Beslisnota; 2026D60191 Bijlage
-  #   "Interpretatie ...") — already captured by issue #50. Nothing dated 2026-11-24/25/26. Latest
+  #   "Interpretatie ...") — already captured by issue #50. Nothing dated 2026-11-24..27. Latest
   #   Activiteit still the 28-09-2026 Wetgevingsoverleg. Collapsed-list/template churn, not a new
   #   document. No hit. Hash + last_seen_at updated.
   T1-02:
-    last_seen_hash: "sha256:fd96b47091f689cd3891162b9f5148ab5ee7163ecd56be966b9573234e88cd70"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:75b564f458ba0819e48304c7d7feccb05552420549c908067f6663431e15cf3b"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-03 (EK) — normalized hash CHANGED but substantively IDENTICAL to prior run: latest dated item is
-  #   still "23 november 2026 — nota naar aanleiding van het verslag (EK, C met bijlagen) ontvangen;
-  #   bespreekt op 1 december 2026 de nadere procedure." Already tracked by OPEN issue #39 (re-detection
-  #   comment appended 2026-11-25). No new procedural step today — markup churn only. No hit. Hash +
-  #   last_seen_at updated.
+  #   still "23 november 2026 — de nota naar aanleiding van het verslag (EK, C met bijlagen) ontvangen en
+  #   bespreekt op 1 december 2026 de nadere procedure." Already tracked by OPEN issue #39. No new
+  #   procedural step today — markup churn only. No hit. Hash + last_seen_at updated.
   T1-03:
-    last_seen_hash: "sha256:280777a29366e350e6cac06c9874ef91719a8ce4021618908bed9c7435730af9"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:bf2ed87a7347467139a1fa80d54ea81d221307773620cd10b82c78638fb8b23a"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-04 (WGK026364, the wet) — normalized hash CHANGED but milestones UNCHANGED: "Huidige stap: Eerste
-  #   Kamer", last dated milestone still 06-10-2026 "Wetsvoorstel aangenomen door Tweede Kamer" /
-  #   "Plenaire behandeling Tweede Kamer"; Eerste Kamer step carries no dated milestone yet. Page-markup
-  #   churn, not a new milestone. No hit. Hash + last_seen_at updated.
+  #   Kamer", last dated TK milestone still 06-10-2026 "Wetsvoorstel aangenomen door Tweede Kamer" /
+  #   "Plenaire behandeling Tweede Kamer"; the Eerste Kamer step carries no dated milestone yet.
+  #   Page-markup churn, not a new milestone. No hit. Hash + last_seen_at updated.
   T1-04:
-    last_seen_hash: "sha256:73a55e0b0bf1bc1dd0451e8b8c5809a3b5c8a2e45e6269200f9fc2eeb2c42732"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:350fca9b01605532ec89f67ce557a446e7a5b857f673e27f6ea3d51dd224e7f3"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-05 (WGK026387, the Implementatiebesluit/AMvB) — normalized hash CHANGED but milestones UNCHANGED:
   #   still "Huidige stap: Raad van State", last dated milestone 16-10-2026 "Adviesaanvraag aanhangig bij
   #   Raad van State" (issue #42); "Advies Raad van State uitgebracht" still undated. Markup churn. No
   #   hit. Hash + last_seen_at updated.
   T1-05:
-    last_seen_hash: "sha256:5100a1120fa97c431585be075cde9d6b66bd2faa534581e2b2db86d00e584da7"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:87774129e2c92319a743f1d5b88d69d3f0134bf1ad90d81375e409e57a3d60bd"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-06 (internetconsultatie AMvB) — hash CHANGED (reactie-UUID per-request rotation) but still "Status
   #   Gesloten" (consultatie closed 02-02-2026), "Reacties op deze consultatie 25", NO consultatieverslag/
   #   Resultaat. Watched signal has not landed. Non-substantive. No hit. Hash + last_seen_at updated.
   T1-06:
-    last_seen_hash: "sha256:9c201acafd82be3973ecaa78fe6e3925af2377742534aa1d07f9f23381f08a74"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:82ed93ccb44683d613b783c6c5633a35469e693d4aa5018fed89761d663d94ed"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-07 (AFM CCDII overview) — normalized hash CHANGED but body text IDENTICAL in substance: still "De
   #   datum van inwerkingtreding is nog niet bekend" + licence-applications-open (art. 2:60/2:80 Wft) —
   #   captured by OPEN issue #44. Confirms AFM pages churn hashes per-request without content change. No
   #   hit. Hash + last_seen_at updated.
   T1-07:
-    last_seen_hash: "sha256:6f35cbcf0a225e8c552e98ba3e8a8feecbf073257c7e277999b3187ad5ff28a1"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:c7acfd54726d5c40fac2bc8193589d1c8a70744d98da27ab46929a4bb16ce28d"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-08 (EC presscorner inf_26_115) — normalized hash CHANGED but page is the standing "Press corner |
-  #   European Commission" item (52 KB, valid); no reasoned-opinion / CJEU-referral / escalation text.
+  #   European Commission" item (~50 KB, valid); no reasoned-opinion / CJEU-referral / escalation text.
   #   EC presscorner churns analytics/nonces per request. No infringement escalation. No hit. Hash +
   #   last_seen_at updated.
   T1-08:
-    last_seen_hash: "sha256:67321f15e7fbf6a69b986f147c544dcdd47d6d5ba45fa6a4bdee37f80d9e03a5"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:93847ef1f7a4647d5dca31b040e18a53012de7fe1e8b1837ab3a2d58b5ea671f"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-09 (officielebekendmakingen Kamervragen BNPL RSS) — HTTP 200. Normalized hash UNCHANGED (control:
   #   matches prior run byte-for-byte, confirming normalization integrity). Top item still ah-1269728
   #   (21 sep 2026, Bolhuis — issue #48). No new Kamervraag. No hit. last_seen_at updated.
   T1-09:
     last_seen_hash: "sha256:b7c32910b291ac89d136e5e4d04fd418c552502115805ba2d4ee057397a1dba8"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-10 (officielebekendmakingen Kamervragen kredietwaardigheid×persoonsgegevens RSS) — HTTP 200.
   #   Normalized hash UNCHANGED (control: matches prior run). Top item still ah-1281744 (24 nov 2026,
-  #   omnibus regeldruk answer — out of CCD2 scope, dismissed last run). No new in-scope Kamervraag. No
+  #   omnibus regeldruk answer — out of CCD2 scope, dismissed earlier). No new in-scope Kamervraag. No
   #   hit. last_seen_at updated.
   T1-10:
     last_seen_hash: "sha256:572139daf2e63cbe852a4d06300e331e52bddaf19e27228e2801f694754cfcd1"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_at: 2026-11-27T15:47:47Z
   # T1-11 (AFM "CCDII: drie doorlopende verplichtingen") — normalized hash CHANGED but no new dated event
   #   or obligation: still the three doorlopende verplichtingen (verantwoorde kredietverlening /
-  #   leeftijdsverificatie / preventief beheer); the "in november 2026 in werking treedt" framing tracks
-  #   the standing 20-11-2026 transpositiedeadline, not a new announcement. Same AFM per-request churn as
+  #   leeftijdsverificatie / preventief beheer); the "november 2026 in werking treedt" framing tracks the
+  #   standing 20-11-2026 transpositiedeadline, not a new announcement. Same AFM per-request churn as
   #   T1-07. Folded into OPEN issue #44. No hit. Hash + last_seen_at updated.
   T1-11:
-    last_seen_hash: "sha256:796e7f091ff8e2a18c144e1ef53e513e1ef518a728253c00eafc5973aa73fb07"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:0a80240bee331cfd65ea33e43401180ae47302e13e33d82b530b257dbb645665"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T2-01 (VFN CCD II update) — normalized hash CHANGED but still the one dated article "maart 2, 2026 —
-  #   Raad van State adviseert over implementatie CCD II" (positief dictum B) plus static headings. No
-  #   new article. Markup churn. No hit. Hash + last_seen_at updated.
+  #   Raad van State adviseert over implementatie CCD II" (positief dictum B) plus static headings; the
+  #   "20 november 2026" string is only the transpositiedeadline referenced inside that article's body,
+  #   not a new post. Markup churn. No hit. Hash + last_seen_at updated.
   T2-01:
-    last_seen_hash: "sha256:dac70e8b4067a7c4ec27d98fbcbddd457ed0fc09acfabbb1147c692919a6050d"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:da01b47450692df1da432ed9dcfd354a91ed1105ee86cfbe7c3514648916c25b"
+    last_seen_at: 2026-11-27T15:47:47Z
   # T2-02 (Betaalvereniging nieuws) — HTTP 200. Listing hash CHANGED but NO headline matched the
-  #   CCD2/BNPL/creditcard/uitgestelde-betaling/Klarna/achteraf-betalen filter. Not a hit. Hash +
-  #   last_seen_at updated.
+  #   CCD2/BNPL/creditcard/uitgestelde-betaling/Klarna/achteraf-betalen filter (top items: Ledencongres
+  #   2030, AI/klant, SEPA BIC-lijst, etc). Not a hit. Hash + last_seen_at updated.
   T2-02:
-    last_seen_hash: "sha256:5cd42c7fa8dc15cff5987ef459b2fabed85ac9b676f2a80c18fb066667307206"
-    last_seen_at: 2026-11-26T15:49:21Z
+    last_seen_hash: "sha256:42af814269adf4b38718185f69d658fcf4e978dee020f6d79d43dade4a5bc3c9"
+    last_seen_at: 2026-11-27T15:47:47Z
